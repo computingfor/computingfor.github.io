@@ -40,9 +40,9 @@ and making critical decisions that impact yourself and others.
 [David Evans](http://www.cs.virginia.edu/evans)
 
 I've been teaching at UVA for nearly 24 years and wanted to teach a
-course like this for many year, but this is my first time teaching
+course like this for many years, but this is my first time teaching
 this course. I've taught a [wide variety of other
-courses](https://www.cs.virginia.edu/evans/courses/).
+courses](https://www.cs.virginia.edu/evans/courses/), ranging from [theoretical computer science](https://uvatoc.github.io/) and [operating systems](https://www.rust-class.org/) to [biological computing](https://computingbiology.github.io/) and [generative AI](http://llmrisks.github.io/).
 
 ## Meetings
 
