@@ -35,3 +35,21 @@ lives. Understanding enough about how computing systems work and how
 they are built and deployed is essential for being an informed citizen
 and making critical decisions that impact yourself and others.
 
+## Teacher
+
+[David Evans](http://www.cs.virginia.edu/evans)
+
+I've been teaching at UVA for nearly 24 years and wanted to teach a
+course like this for many year, but this is my first time teaching
+this course. I've taught a [wide variety of other
+courses](https://www.cs.virginia.edu/evans/courses/).
+
+## Meetings
+
+Tuesdays and Thursdays, 11:00am-12:15pm in Olsson Hall 009
+
+## More Information
+
+More information will be posted soon, but feel free to email me (<a
+href="mailto:evans@virginia.edu">evans@virginia.edu</a>) with any
+questions. 
