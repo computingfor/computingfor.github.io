@@ -6,40 +6,28 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classes</title>
       <link>https://computingfor.github.io/classes/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/classes/</guid>
       <description>Materials from class will be posted here.</description>
     </item>
-    
     <item>
       <title>Syllabus</title>
       <link>https://computingfor.github.io/syllabus/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/syllabus/</guid>
-      <description>This is under development and incomplete. The actual course syllabus will be posted before the frist class on January 18.
-Until then, you are welcome to read this, but everything is subject to change! UVA CS1010 Spring 2024
-Computing for Future Leaders and Citizens
-Course Goals This course has two main objectives:
-Provide you with an understanding of computing that will help you better understand the world today and tomorrow.</description>
+      <description>This is under development and incomplete. The actual course syllabus will be posted before the frist class on January 18.&#xA;Until then, you are welcome to read this, but everything is subject to change! UVA CS1010 Spring 2024&#xA;Computing for Future Leaders and Citizens&#xA;Course Goals This course has two main objectives:&#xA;Provide you with an understanding of computing that will help you better understand the world today and tomorrow.</description>
     </item>
-    
     <item>
       <title>Welcome to cs1010!</title>
       <link>https://computingfor.github.io/post/welcome/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/welcome/</guid>
-      <description>Welcome to cs1010!
-This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.
-Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).
-More material will be posted here as the beginning of the semester approaches.</description>
+      <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
     </item>
-    
   </channel>
 </rss>
