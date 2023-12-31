@@ -1,0 +1,13 @@
+{{ define "head" }}
+
+{{ end }}
+{{ define "title" }}
+  {{ .Title }} | {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<article class="container mt-4 post">
+    <center><h1>{{ .Title }}</h1></center>
+    
+    {{ .Content }}
+</article>
+{{ end }}

@@ -3,7 +3,7 @@
 ###
 
 GITHUB_PAGES_BRANCH=gh-pages
-THEME = silhouette-hugo
+THEME = csfor
 
 MARKDOWN = python3 -m markdown
 
