@@ -1,0 +1,27 @@
+baseURL = 'https://computingfor.github.io/'
+languageCode = 'en-us'
+title = 'cs1010: Computing for Future Leaders'
+theme = "silhouette-hugo"
+
+canonifyurls = true
+paginate = 3
+
+pygmentsUseClasses=true
+
+#disqusShortname = ""
+#googleAnalytics = ""
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+[params]
+author = ""
+shortTitle = "cs1010: Computing for ..."
+introDescription = "cs1010: Computing for Future Leaders and Citizens"
+fullTitle = "cs1010: Computing for Future Leaders and Citizens"
+university = "University of Virginia"
+semester = "Spring 2024"
+
+[social]
+
