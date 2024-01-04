@@ -55,12 +55,28 @@ I also appreciate that this should mean that it is a _low stress course without 
 
 **On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the articls, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
 
-**Quizzes.**
+**Quizzes.** There will be short quizzes, some in class (not necessarily announced in advance) and some done outside of class. Most quizzes will be graded primarily based on reasonable evidence of effort, and the main value of the answers will be to inform and enhance what we do in class. 
 
-**Homeworks.**
+**Projects.** There will be six or seven projects during the semester (due approximately every two weeks) that include answering questions (based on readings and classes) and doing activities to learn about and demonstrate knowledge of computing systems. Projects will combine developing foundational understanding with learning practical skills and building awareness of issues that impact users of computing systems.
 
-**Project.**
+The details and topics of the projects will evolve during the semester, but the initial plan is below:
 
-## More Information
+- **Project 1: Information** - how do computers store data and how is that data communicated between computers and between computers and humans.
 
-More information will be posted soon, but feel free to email me (<a href="mailto:evans@virginia.edu">evans@virginia.edu</a>) with any questions. 
+- **Project 2: Search** - how do search engines (like Google) work, and why are they sometimes so good (but sometimes very bad) at finding what we are looking for? 
+
+- **Project 3: Logic and Computing** - how do we make computers do what we want? 
+
+- **Project 4: Interaction** - how do computers communicate and interoperate? (including using APIs to control and access computing services)
+
+- **Project 5: Machine Learning** - computing systems that learn from data
+
+- **Project 6: Generative AI** - how to generative AI tools work, and how should we use them?
+
+- **Project 7: Open Curiousity** - learn or do something interesting with something you are curious about. The topic for this project will be largely open and up to students to decide.
+
+**Exams.** There will be exams in class on [TODO] and [TODO].
+
+**Final Exam.** There won't be a required final exam, but there will be an opportunity for students who are not satisfied with their provisional grade to take an oral exam to demonstrate that they have learned enough in the class to justify a higher grade.
+
+
