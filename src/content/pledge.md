@@ -2,7 +2,7 @@
 author="David Evans"
 date= "2024-01-05"
 linktitle="pledge"
-title="pledge"
+title="Course Pledge"
 +++
 
 ## Honor Expectations
