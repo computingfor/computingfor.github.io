@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>pledge</title>
+      <link>https://computingfor.github.io/pledge/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/pledge/</guid>
+      <description>Honor Expectations As a student at the University of Virginia, you are trusted to be honorable and expected to behave in ways that merit that trust. We take advantage of this trust to provide a better learning environment for everyone. In particular, students in cs1010 are expected to follow these rules throughout the course:&#xA;I will not lie, cheat or steal. If I am unsure whether something would be considered lying, cheating or stealing, I will ask before doing it.</description>
+    </item>
+    <item>
       <title>Classes</title>
       <link>https://computingfor.github.io/classes/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
