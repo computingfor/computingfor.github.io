@@ -8,7 +8,7 @@ body {
     padding-top: 42px;
 
     display: flex;
-    min-height: 100vh;
+    min-height: 100dvh;
     flex-direction: column;
 }
 
@@ -20,6 +20,11 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     word-wrap: break-word;
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
 }
 
 hr {

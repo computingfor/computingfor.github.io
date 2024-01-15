@@ -30,6 +30,8 @@ This course is loosely inspired by Richard Muller's [_Physics for Future Preside
 
 Today's world leaders still need to understand physics, of course, but the need to understand computing is at least as essential. Whether you aspire to create a buisness, teach in middle school, become a doctor, or nearly any other future occupation including just being a functioning citizen in the modern world, computers will have a dramatic impact on your lives. Understanding enough about how computing systems work and how they are built and deployed is essential for being an informed citizen and making critical decisions that impact yourself and others.
 
+**Prerequisites:** None! This course does not have any required prerequisites. I expect students are able to read and write well in English, and be comfortable with mathematics that you probably saw first in middle school (we'll use a basic operations, a little algebra, exponentiation, logic, and sets, but will review any topics that might be unfamiliar). No previous computing experience is expected, other than expecting that everyone has used computers to some extent (which if you registered for this course you must have!) and that you are curious about how the computing systems you use work, and about how computers impact you and society.
+
 ### Meetings
 
 Tuesdays and Thursdays, 11:00am-12:15pm in Olsson Hall 009.
@@ -40,6 +42,7 @@ Tuesdays and Thursdays, 11:00am-12:15pm in Olsson Hall 009.
 
 I've been teaching at UVA for nearly 24 years and wanted to teach a course like this for many years, but this is my first time teaching this course. I've taught a [wide variety of other courses](https://www.cs.virginia.edu/evans/courses/), ranging from [theoretical computer science](https://uvatoc.github.io/) and [operating systems](https://www.rust-class.org/) to [biological computing](https://computingbiology.github.io/) and [generative AI](http://llmrisks.github.io/).
 
+My office hours will be posted on the [course calendar](/schedule).
 
 ### Course Approach
 
@@ -55,12 +58,61 @@ I also appreciate that this should mean that it is a _low stress course without 
 
 **On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the articls, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
 
-**Quizzes.**
+**Quizzes.** There will be short quizzes, some in class (not necessarily announced in advance) and some done outside of class. Most quizzes will be graded primarily based on reasonable evidence of effort, and the main value of the answers will be to inform and enhance what we do in class. 
 
-**Homeworks.**
+**Projects.** There will be six or seven projects during the semester (due approximately every two weeks) that include answering questions (based on readings and classes) and doing activities to learn about and demonstrate knowledge of computing systems. Projects will combine developing foundational understanding with learning practical skills and building awareness of issues that impact users of computing systems.
 
-**Project.**
+The details and topics of the projects will evolve during the semester, but the initial plan is below:
 
-## More Information
+- **Project 1: Information** - how do computers store data and how is that data communicated between computers and between computers and humans.
 
-More information will be posted soon, but feel free to email me (<a href="mailto:evans@virginia.edu">evans@virginia.edu</a>) with any questions. 
+- **Project 2: Search** - how do search engines (like Google) work, and why are they sometimes so good (but sometimes very bad) at finding what we are looking for? 
+
+- **Project 3: Logic and Computing** - how do we make computers do what we want? 
+
+- **Project 4: Interaction** - how do computers communicate and interoperate? (including using APIs to control and access computing services)
+
+- **Project 5: Machine Learning** - computing systems that learn from data
+
+- **Project 6: Generative AI** - how to generative AI tools work, and how should we use them?
+
+- **Project 7: Open Curiousity** - learn or do something interesting with something you are curious about. The topic for this project will be largely open and up to students to decide.
+
+**Exams.** There will be exams in class on [TODO] and [TODO].
+
+**Final Exam.** There won't be a required final exam, but there will be an opportunity for students who are not satisfied with their provisional grade to take an oral exam to demonstrate that they have learned enough in the class to justify a higher grade.
+
+# Honor Expectations
+
+We believe strongly in the value of a community of trust, and expect all of the students in this class to contribute to strengthening and enhancing that community.
+
+The course will be better for everyone if everyone can assume everyone else is trustworthy. The course staff starts with the assumption that all students at the university deserve to be trusted. 
+
+To ensure that expectations are clear to everyone, all students are required to read, understand, and adhere to the [course pledge](/pledge): [https://computingfor.github.io/pledge](https://computingfor.github.io/pledge).
+
+**Collaboration and Resource Use Policy:** We believe it is important for students to learn by thinking about problems on their own, so it is expected that each student studies the provided materials and attempts to solve the problems on their own. After that, you are welcome to also discuss
+problems on the problem sets with students and others.
+ 
+The collaboration and resource use policy will be described on each assignment document. We aim to make the language describing the policy as clear and unambiguous as possible, but if anything is ever unclear about the stated policy for an assignment, please clarify with the instructor. The penalty for policy violations will be considered on a case-by-case basis, with a penalty commensurate the severity of the offense. In most cases, you will be encouraged to use any resources you want (including generative AI tools, which will sometimes be explicitly mentioned), so long as you document all resources you used beyond the course materials and how you used them.
+
+# Additional Information
+
+This is similar to information that applies to most classes at UVA.
+
+**Special Circumstances:** The University of Virginia strives to provide accessibility to all students. If you require an accommodation to fully access this course, please contact the Student Disability Access Center (SDAC) at (434) 243-5180 or `sdac@virginia.edu`. If you are unsure if you require an accommodation, or to learn more about their services, you may contact the SDAC at the number above or by visiting their website [https://studenthealth.virginia.edu/sdac](https://studenthealth.virginia.edu/sdac)
+
+**Accommodations:** It is the University's long-standing policy and practice to reasonably accommodate students so that they do not experience an adverse academic consequence when serious personal issues conflict with academic requirements. Although University policy only recognizes religious accomodations, the course instructor believes they are many other valid reasons for accomdations that are at least as justifiable as ones for religious observance and consider family obligations, personal crises, and extraordinary opportunities to all be potentially valid reasons for accomodations.  Students who wish to request accommodations should submit their request to Prof. Evans as far in advance as possible.
+
+If you have questions or concerns about the University policy on academic accommodations for religious observance or religious beliefs, visit [https://eocr.virginia.edu/accommodations-religious-observance](https://eocr.virginia.edu/accommodations-religious-observance) or contact the University's Office for Equal Opportunity and Civil Rights (EOCR) at `UVAEOCR@virginia.edu` or 434-924-3200.
+
+**Safe Environment:** The University of Virginia is dedicated to providing a safe and equitable learning environment for all students. To that end, it is vital that you know two values that we and the University hold as critically important:
+
+  1. Power-based personal violence will not be tolerated. 
+  2. Everyone has a responsibility to do their part to maintain a safe community on grounds (including in virtual environments).
+
+If you or someone you know has been affected by power-based personal violence, more information can be found on the UVA Sexual Violence website that describes reporting options and resources available: [https://www.virginia.edu/sexualviolence](https://www.virginia.edu/sexualviolence).
+   
+As your professor and as a human, know that I each care about you and your well-being and stand ready to provide support and resources as much as I can. As a faculty member, I am classified as a _responsible employee_, which means that I am required by University policy and federal law to report what you tell us to the University's Title IX Coordinator. The Title IX Coordinator's job is to ensure that the reporting student receives the resources and support that they need, while also reviewing the information presented to determine whether further action is necessary to ensure survivor safety and the safety of the University community. If you would rather keep this information confidential, there are Confidential Employees you can talk to on Grounds (see
+[https://eocr.virginia.edu/chart-confidential-resources](https://eocr.virginia.edu/chart-confidential-resources)). The worst possible situation would be for you or your friend to remain silent when there are so many here willing and able to help.
+
+**Well-being:** If you are feeling overwhelmed, stressed, or isolated, there are many individuals here who are ready and wanting to help. The Student Health Center offers Counseling and Psychological Services (CAPS) for all UVA students. Call 434-243-5150 (or 434-972-7004 for after hours and weekend crisis assistance) to get started and schedule an appointment. If you prefer to speak anonymously and confidentially over the phone, Madison House provides a HELP Line at any hour of any day: 434-295-8255.
