@@ -242,3 +242,15 @@ blockquote::before {
    padding: 12px;
    font-weight: 600;
 }
+
+.grades {
+    margin-bottom: 10px;
+    tr:nth-child(even) { 
+        background-color: #eeedea; 
+    } 
+}
+
+.grades th {
+    background-color:#88e6b4;
+    text-align: center;
+}    

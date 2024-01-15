@@ -46,11 +46,11 @@ My office hours will be posted on the [course calendar](/schedule).
 
 ### Course Approach
 
-I realize this is not a required class for anyone, and that it doesn't count toward satisfying any vexing degree requirements, so hopefully that means everyone here is taking the course because they want to!
+I realize this is not a required class for anyone, and that it doesn't count toward satisfying any vexing degree requirements, so hopefully that means everyone here is taking the course because they are curious abou the things we will cover in this course and want to become more empored computing users and citizens. 
 
 I also appreciate that this should mean that it is a _low stress course without excessive workload_. I aim to make the course satisfy that expectation, while being as worthwhile and fulfilling as possible. To that end, the course is designed with the expectation that much of the learning in the course will happen during class time, and I will do my best to make classes as engaging as possible. Success of this depends a lot on students in the class coming to class with a good attitude, open mind, and willingness to participate fully.
 
-### Assignments and Activities
+## Assignments and Activities
 
 **Class Meetings.** Students are expected to attend and participate actively in all class meetings. I won't take attendance for the sake of taking attendance, but there will often be activities such as quizzes and group discussions in class where students will be recorded. Of course, there are sometimes good reasons students are not able to make it to class, and if a student with a justifiable reason for missing class isn't able to participate occasionally, I won't hold it against you, but it is your responsibility to let me know. If you are unable to come to class, you should submit the [Missing Class Form](https://forms.gle/Y4gRBfXoqZbc4iJa7). 
 
@@ -78,11 +78,39 @@ The details and topics of the projects will evolve during the semester, but the 
 
 - **Project 7: Open Curiousity** - learn or do something interesting with something you are curious about. The topic for this project will be largely open and up to students to decide.
 
-**Exams.** There will be exams in class on [TODO] and [TODO].
+**Exams.** There will be exams in class on **Thursday, 27 February** and **Tuesday, 9 April**.
 
 **Final Exam.** There won't be a required final exam, but there will be an opportunity for students who are not satisfied with their provisional grade to take an oral exam to demonstrate that they have learned enough in the class to justify a higher grade.
 
-# Honor Expectations
+**Grading.** I encourage students to spend your energy focusing on what you are learning, instead of worrying about your grade. That said, I understand students are often stressed about grading and
+understandably want to know how grades will be determined.  I aim to grade in a way that is useful (provides students with accurate measure of how well they understood what they should), motivating (encourages the desired behaviors, including a reasonable amount of effort), fair (assigns higher grades to more deserving students), robust (arbitrary small perturbations do not have a material impact on someone's grade), and low stress (for both students and me).
+
+For this reason, we choose not to prescribe a singular mathematical formula for quantitatively assigning letter grades but do provide a formula that can be used to compute a _lower bound_ on the grade you
+receive in the course:
+
+<center>
+<table class="grades" style="width:50%;">
+<thead>
+<tr>
+<th width="60%" style="text-align:center;">Item</th>
+<th width="40%" style="text-align:center;">Standard Weighting</th>
+<tbody>
+<tr><td>Projects</td><td style="text-align:center;"><b>30%</b></td></tr>
+<tr><td>Exam 1</td><td style="text-align:center;"><b>10%</b></td>
+<tr><td>Exam 2</td><td style="text-align:center;"><b>15%</b></td>
+<tr><td>Quizzes (about 6 throughout the semester)</td><td style="text-align:center;"><b>15%</b></td></tr>
+<tr><td>On-Line Discussion / News Articles</td><td style="text-align:center;"><b>15%</b></td></tr>
+<tr><td>In-Class Contribution</td><td style="text-align:center;"><b>15%</b></td></tr>
+</tbody>
+</table>
+</center>
+
+With the exception of cases of academic dishonesty or inappropriate behavior, we guarantee that you will a grade that is not below the grade that would result from computing your score using the percentages in the table, where your score for each item is the ratio of the score you received to the target score for that item, and the grading scale is based on the standard decades (e.g., 0.87 = B+, 0.9 = A-, 0.93 = A).
+
+This is a _minimum_ grade, though, and we generally want to assign a grade that reflects the best possible interpretation of all you have done during the semester. This means we consider your performance throughout the course, and in cases where performance varries across the different assignments or will examine grades using a variety of different methods that weights different aspects differently and
+rewards performance improvements, but also allows consistent performance to make up for one slip-up.
+
+## Honor Expectations
 
 We believe strongly in the value of a community of trust, and expect all of the students in this class to contribute to strengthening and enhancing that community.
 
@@ -95,7 +123,7 @@ problems on the problem sets with students and others.
  
 The collaboration and resource use policy will be described on each assignment document. We aim to make the language describing the policy as clear and unambiguous as possible, but if anything is ever unclear about the stated policy for an assignment, please clarify with the instructor. The penalty for policy violations will be considered on a case-by-case basis, with a penalty commensurate the severity of the offense. In most cases, you will be encouraged to use any resources you want (including generative AI tools, which will sometimes be explicitly mentioned), so long as you document all resources you used beyond the course materials and how you used them.
 
-# Additional Information
+## Additional Information
 
 This is similar to information that applies to most classes at UVA.
 

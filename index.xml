@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starting this week</title>
+      <link>https://computingfor.github.io/post/start/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/start/</guid>
+      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.</description>
+    </item>
     <item>
       <title>Course Pledge</title>
       <link>https://computingfor.github.io/pledge/</link>
