@@ -8,7 +8,7 @@ title="Syllabus"
 <center>
 
 <div class="yellownote">
-This is under development and incomplete. The actual course syllabus will be posted before the frist class on January 18.<br> Until then, you are welcome to read this, but everything is subject to change!
+This is under development and incomplete. The actual course syllabus will be posted before the first class on January 18.<br> Until then, you are welcome to read this, but everything is subject to change!
 </div>
 
 
