@@ -47,7 +47,7 @@ I also appreciate that this should mean that it is a _low stress course without 
 
 ## Assignments and Activities
 
-The **Course Calendar** will be maintained in Canvas to keep track of deadlines for assignments. Students are encouraged to subscribe to the course calendar [using this link](https://canvas.its.virginia.edu/feeds/calendars/user_B6RZ9nTXGxRvW8gTHIUYrqhCLKFZ9lghom8iupcR.ics).
+The **Course Calendar** will be maintained in Canvas to keep track of deadlines for assignments. Students are encouraged to subscribe to the course calendar using this URL: [https://canvas.its.virginia.edu/feeds/calendars/user_B6RZ9nTXGxRvW8gTHIUYrqhCLKFZ9lghom8iupcR.ics](https://canvas.its.virginia.edu/feeds/calendars/user_B6RZ9nTXGxRvW8gTHIUYrqhCLKFZ9lghom8iupcR.ics).
 
 **Class Meetings.** Students are expected to attend and participate actively in all class meetings. I won't take attendance for the sake of taking attendance, but there will often be activities such as quizzes and group discussions in class where students will be recorded. Of course, there are sometimes good reasons students are not able to make it to class, and if a student with a justifiable reason for missing class isn't able to participate occasionally, I won't hold it against you, but it is your responsibility to let me know. If you are unable to come to class, you should submit the [Missing Class Form](https://forms.gle/Y4gRBfXoqZbc4iJa7). 
 
