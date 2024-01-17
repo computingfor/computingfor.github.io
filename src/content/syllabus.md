@@ -7,11 +7,6 @@ title="Syllabus"
 
 <center>
 
-<div class="yellownote">
-This is under development and incomplete. The actual course syllabus will be posted before the first class on January 18.<br> Until then, you are welcome to read this, but everything is subject to change!
-</div>
-
-
 **UVA CS1010 Spring 2024**  
 _Computing for Future Leaders and Citizens_
 </center>
@@ -56,7 +51,7 @@ I also appreciate that this should mean that it is a _low stress course without 
 
 **Readings.** There is no textbook for the course. There will be a variety of readings (and occasionally viewings or listenings) assigned. Some reading assignments will be intended as preparation or postreflection for material we discuss in class. Others will be needed to answer questions well on homeworks.  I will limit required readings to openly available materials (and favor materials available under [Creative Commons](https://creativecommons.org/) licenses, but will also include copyrighted materials under academic fair use), although there may occasionally be recommended optional materials that are not openly available.
 
-**On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the articls, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
+**On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the article, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
 
 **Quizzes.** There will be short quizzes, some in class (not necessarily announced in advance) and some done outside of class. Most quizzes will be graded primarily based on reasonable evidence of effort, and the main value of the answers will be to inform and enhance what we do in class. 
 
