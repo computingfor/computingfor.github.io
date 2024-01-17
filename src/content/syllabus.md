@@ -42,7 +42,7 @@ Tuesdays and Thursdays, 11:00am-12:15pm in Olsson Hall 009.
 
 I've been teaching at UVA for nearly 24 years and wanted to teach a course like this for many years, but this is my first time teaching this course. I've taught a [wide variety of other courses](https://www.cs.virginia.edu/evans/courses/), ranging from [theoretical computer science](https://uvatoc.github.io/) and [operating systems](https://www.rust-class.org/) to [biological computing](https://computingbiology.github.io/) and [generative AI](http://llmrisks.github.io/).
 
-My office hours will be posted on the [course calendar](/schedule).
+My office hours are **Mondays, 1:30-2:30pm** in Rice 507. I am also usually available right after class. If you want to schedule another time to meet with me, use [http://davidevans.youcanbook.me/](http://davidevans.youcanbook.me/). 
 
 ### Course Approach
 
@@ -72,9 +72,9 @@ The details and topics of the projects will evolve during the semester, but the 
 
 - **Project 4: Interaction** - how do computers communicate and interoperate? (including using APIs to control and access computing services)
 
-- **Project 5: Machine Learning** - computing systems that learn from data
+- **Project 5: Security and Privacy** - security and privacy risks on the Internet, methods for protecting users and data
 
-- **Project 6: Generative AI** - how to generative AI tools work, and how should we use them?
+- **Project 6: Machine Learning and Generative AI** - computing systems that learn from data, how to generative AI tools work, and how should we use them?
 
 - **Project 7: Open Curiousity** - learn or do something interesting with something you are curious about. The topic for this project will be largely open and up to students to decide.
 
