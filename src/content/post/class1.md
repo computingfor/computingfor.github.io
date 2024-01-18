@@ -10,7 +10,7 @@ slug = "class1"
 
 Before **8:59pm Friday (Jan 19)**, read the syllabus and submit the [Beginning of Course Survey](https://forms.gle/utUG4RQF6UBMzNTz5).
 
-Sometime next week (but earlier is better), contribute to the [Computing in the News Week 1](https://canvas.its.virginia.edu/courses/93745/gradebook/speed_grader?assignment_id=451955) discussion. 
+Sometime next week (but earlier is better), contribute to the [Computing in the News Week 1](https://canvas.its.virginia.edu/courses/93745/discussion_topics/350788) discussion. 
 
 ### Slides
 
