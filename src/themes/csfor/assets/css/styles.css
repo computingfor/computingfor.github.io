@@ -80,6 +80,11 @@ footer,
     flex-shrink: 0;
 }
 
+.date-style {
+    color: var(--darkbg);
+    font-weight: 300;
+}
+
 .sidebar .badge-secondary {
     color: #847b79;
     background-color: #eeedea;

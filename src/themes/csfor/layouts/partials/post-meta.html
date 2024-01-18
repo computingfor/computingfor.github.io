@@ -1,7 +1,4 @@
 <div class="mb-3">
-    <small>
-
-        | <i class="far fa-calendar-alt"></i>&nbsp;{{- .Date.Format "Jan 2, 2006" -}}&nbsp;
-        | <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href='/tags/{{ (replace $e "#" "%23") | urlize }}/'>{{ $e | urlize }}</a>{{ end }}
-    </small>
+        <i class="date-style"></i>&nbsp;{{- .Date.Format "2 Jan 2006" -}}&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}<a href='/tags/{{ (replace $e "#" "%23") | urlize }}/'>{{ $e | urlize }}</a>{{ end }}
 </div>
