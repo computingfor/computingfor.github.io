@@ -14,4 +14,12 @@ Sometime next week (but earlier is better), contribute to the [Computing in the 
 
 ### Slides
 
-The slides are here: [Class 1: Introduction](https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&dl=0)
+The slides are here: [Class 1: Introduction](https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&dl=0).
+
+- Course Objectives
+- _Why do we need to understand computing?_
+- Expectations
+- What are we curious about
+- Who am I and why am I teaching this course
+- Introducting Digital vs. Analog
+
