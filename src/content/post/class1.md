@@ -1,7 +1,7 @@
 +++
 date = "18 Jan 2024"
 draft = false
-title = "Class 1: "
+title = "Class 1: Introduction"
 author = "David Evans"
 slug = "class1"
 +++
