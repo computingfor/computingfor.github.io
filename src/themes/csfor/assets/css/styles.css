@@ -259,3 +259,21 @@ blockquote::before {
     background-color:#88e6b4;
     text-align: center;
 }    
+
+.question {
+    background-color: #dca5e2;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+}
+
+.answer {
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}

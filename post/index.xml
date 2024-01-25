@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</title>
+      <link>https://computingfor.github.io/post/class3/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class3/</guid>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+    </item>
     <item>
       <title>Class 2: The Digital Abstraction</title>
       <link>https://computingfor.github.io/post/class2/</link>
