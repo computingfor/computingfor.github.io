@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</title>
+        <title>Class 4: Continuous Binary Representations</title>
 	<link rel="shortcut icon" href="https://computingfor.github.io/images/uva.png">  
         <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
@@ -27,9 +27,8 @@
 
 
 <meta name="description" content="Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.
-Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.
-16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:
-WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.">
+Slides The slides are here: Class 4: Continuous Binary Representations.
+Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) ">
 
 
     
@@ -67,15 +66,15 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
         <div class="main">
             
 <div class="container mt-4 post">
-    <h1>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</h1>
+    <h1>Class 4: Continuous Binary Representations</h1>
     <div class="mb-3">
-        <i class="date-style"></i>&nbsp;25 Jan 2024&nbsp;
+        <i class="date-style"></i>&nbsp;30 Jan 2024&nbsp;
         <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
 </div>
 
 
     <div class="share-icons d-flex justify-content-center d-print-none">
-        <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&text=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes&tw_p=tweetbutton" class="p-2" title="Share on Twitter" target="_blank" rel="nofollow">
+        <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&text=Class%204%3a%20Continuous%20Binary%20Representations&tw_p=tweetbutton" class="p-2" title="Share on Twitter" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -85,7 +84,7 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
     <div class="fa-inverse text-center"><small>Tweet</small></div>
 </a>
 
-<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&t=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes" class="p-2" title="Share on Facebook" target="_blank" rel="nofollow">
+<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&t=Class%204%3a%20Continuous%20Binary%20Representations" class="p-2" title="Share on Facebook" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -95,7 +94,7 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
     <div class="fa-inverse text-center"><small>Share</small></div>
 </a>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&title=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes&source=mattbutton.com" class="p-2" title="Share on LinkedIn" target="_blank" rel="nofollow">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&title=Class%204%3a%20Continuous%20Binary%20Representations&source=mattbutton.com" class="p-2" title="Share on LinkedIn" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -120,27 +119,17 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
         <h3 id="charge">Charge</h3>
 <p><a href="https://computingfor.github.io/docs/project1.pdf">Project 1</a> is due at the beginning of class on <strong>Thursday, 1 February 2024</strong>.</p>
 <h3 id="slides">Slides</h3>
-<p>The slides are here: <a href="https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&amp;dl=0">Apple is Lossy, but Microsoft has bigger Megabytes</a>.</p>
+<p>The slides are here: <a href="https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&amp;dl=0">Class 4: Continuous Binary Representations</a>.</p>
 <ul>
-<li>16 bits</li>
-<li>What&rsquo;s a &ldquo;MB&rdquo;?</li>
-<li>Data Compression</li>
-<li>Why Binary?</li>
+<li>Project 1 Questions</li>
+<li>Continuous Binary Representations</li>
+<li>Encryption</li>
+<li>Leaking DRAM (Cold Boot Attacks)</li>
 </ul>
-<h3 id="songs">Songs</h3>
-<p>Here are the different versions of [<em>Wildest Dreams</em>]:</p>
-<ul>
-<li><a href="https://www.dropbox.com/scl/fi/jh4acfaitfbsvn38wxfia/09-Wildest-Dreams.wav?rlkey=njsbwdixckw7ooo7r15q4lob7&amp;dl=0">WAV file</a> - 38,891,789 bytes</li>
-<li><a href="https://www.dropbox.com/scl/fi/eus55ua6kfbechr09pp1n/09-Wildest-Dreams.mp3?rlkey=hday0os8bkpn8jr45hau9p7b4&amp;dl=0">High Qualify mp3</a> - 7,351,137 bytes</li>
-<li><a href="https://www.dropbox.com/scl/fi/eus55ua6kfbechr09pp1n/09-Wildest-Dreams.mp3?rlkey=hday0os8bkpn8jr45hau9p7b4&amp;dl=0">128 kbps mp3</a> - 3,528,681 bytes</li>
-<li><a href="https://www.dropbox.com/scl/fi/c3nl0z1gfxt44pcxi4d8d/09-Wildest-Dreams-lq64kpbs.mp3?rlkey=sv8c4lttf5bashyvlxkwwu7ni&amp;dl=0">64 kbps mp3</a> - 1,764,475 bytes</li>
-<li><a href="https://www.dropbox.com/scl/fi/mfz79okta77a4xpovvdir/09-Wildest-Dreams-lq32kpbs.mp3?rlkey=mutn58mbtzeoa4167mlsefobu&amp;dl=0">32 kbps mp3</a> - 882,477 bytes</li>
-</ul>
-<p>I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.7 MB file and the larger files.</p>
 
 
         <div class="share-icons d-flex justify-content-center d-print-none">
-            <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&text=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes&tw_p=tweetbutton" class="p-2" title="Share on Twitter" target="_blank" rel="nofollow">
+            <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&text=Class%204%3a%20Continuous%20Binary%20Representations&tw_p=tweetbutton" class="p-2" title="Share on Twitter" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -150,7 +139,7 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
     <div class="fa-inverse text-center"><small>Tweet</small></div>
 </a>
 
-<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&t=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes" class="p-2" title="Share on Facebook" target="_blank" rel="nofollow">
+<a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&t=Class%204%3a%20Continuous%20Binary%20Representations" class="p-2" title="Share on Facebook" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -160,7 +149,7 @@ WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,
     <div class="fa-inverse text-center"><small>Share</small></div>
 </a>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass3%2f&title=Class%203%3a%20Apple%20is%20Lossy%2c%20but%20Microsoft%20has%20bigger%20Megabytes&source=mattbutton.com" class="p-2" title="Share on LinkedIn" target="_blank" rel="nofollow">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fcomputingfor.github.io%2fpost%2fclass4%2f&title=Class%204%3a%20Continuous%20Binary%20Representations&source=mattbutton.com" class="p-2" title="Share on LinkedIn" target="_blank" rel="nofollow">
     <div>
         <span class="fa-stack">
             <i class="fas fa-circle fa-stack-2x"></i>
