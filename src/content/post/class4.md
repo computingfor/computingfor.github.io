@@ -10,7 +10,7 @@ slug = "class4"
 
 [Project 1](/docs/project1.pdf) is due at the beginning of class on **Thursday, 1 February 2024**.
 
-The news discussions are on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.
+The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.
 
 ### Slides
 
