@@ -8,7 +8,7 @@ slug = "class5"
 
 ### Slides
 
-The slides are here: [Class 5: Computing on Binary Data]().
+The slides are here: [Class 5: Computing on Binary Data](https://www.dropbox.com/scl/fi/x904tmp7136f9nj33fy1z/cs1010-class5.pdf?rlkey=kfpdstldfmoubw725tqutuow8&dl=0).
 
 - Addition Algorithms
 - What is an _algorithm_?
