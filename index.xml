@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 6: Search</title>
+      <link>https://computingfor.github.io/post/class6/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class6/</guid>
+      <description>Slides The slides are here: Class 6: Search.&#xA;Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
+    </item>
     <item>
       <title>Unicode</title>
       <link>https://computingfor.github.io/unicode/</link>
