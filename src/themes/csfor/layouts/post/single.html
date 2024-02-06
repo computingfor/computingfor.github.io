@@ -40,16 +40,8 @@
     <h1>{{ .Title }}</h1>
     {{ partial "post-meta" . }}
 
-    <div class="share-icons d-flex justify-content-center d-print-none">
-        {{ partial "share-icons" . }}
-    </div>
-
     <div class="mt-4 mb-4 main-content">
         {{ .Content }}
-
-        <div class="share-icons d-flex justify-content-center d-print-none">
-            {{ partial "share-icons" . }}
-        </div>
     </div>
 
     {{ template "_internal/disqus.html" . }}

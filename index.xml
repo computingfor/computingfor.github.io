@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Unicode</title>
+      <link>https://computingfor.github.io/unicode/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/unicode/</guid>
+      <description>Some unicode tests:&#xA;ALPHabet!&#xA;鏡&#xA;🤩&#xA;🤪&#xA;🫎&#xA;‮ Apple 1234 ‭ Orange 1234</description>
+    </item>
+    <item>
       <title>Class 5: Computing on Binary Data</title>
       <link>https://computingfor.github.io/post/class5/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
