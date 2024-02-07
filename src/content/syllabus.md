@@ -39,6 +39,8 @@ I've been teaching at UVA for nearly 24 years and wanted to teach a course like 
 
 My office hours are **Mondays, 1:30-2:30pm** in Rice 507. I am also usually available right after class. If you want to schedule another time to meet with me, use [http://davidevans.youcanbook.me/](http://davidevans.youcanbook.me/). 
 
+**Teaching Assistant.** [Beenish Gul](https://www.linkedin.com/in/beenish-gul-477735128/). Office hours are **Wednesdays, 3:00-4:00pm** in Rice 442.
+
 ### Course Approach
 
 I realize this is not a required class for anyone, and that it doesn't count toward satisfying any vexing degree requirements, so hopefully that means everyone here is taking the course because they are curious abou the things we will cover in this course and want to become more empored computing users and citizens. 
