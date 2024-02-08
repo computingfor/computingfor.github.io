@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 7: Finding Needles on the Web</title>
+      <link>https://computingfor.github.io/post/class7/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class7/</guid>
+      <description>Slides The slides are here: Class 7: Finding Needles on the Web.&#xA;ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
+    </item>
     <item>
       <title>Class 6: Search</title>
       <link>https://computingfor.github.io/post/class6/</link>
