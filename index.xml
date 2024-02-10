@@ -99,5 +99,12 @@
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
     </item>
+    <item>
+      <title>Project 2</title>
+      <link>https://computingfor.github.io/project2/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/project2/</guid>
+      <description>Project 2: Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). Getting Started The website you will create will be hosted using github pages. Github pages has several main advantages as a way of hosting a website (and this is what the course website, https://computingfor.</description>
+    </item>
   </channel>
 </rss>

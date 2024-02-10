@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Project 2</title>
+	<link rel="shortcut icon" href="https://computingfor.github.io/images/uva.png">  
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+	        
+        
+        
+        
+
+        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.2f91cf40a68ab8fd1c67080d99c026bf5687695eebf3b676cd0556464114584f.css" integrity="sha256-L5HPQKaKuP0cZwgNmcAmv1aHaV7r87Z2zQVWRkEUWE8="  />
+
+                
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark py-1 top-nav">
+            <div class="container">
+              <a class="navbar-brand pr-2" href="https://computingfor.github.io/">cs1010: Computing for ...</a>
+
+	      <div style="margin-left: 10px; margin-right: 100px;">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+    <a class="nav-link active" href="https://computingfor.github.io/syllabus/">Syllabus</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="https://computingfor.github.io/classes/">Classes</a>
+</li>
+
+                    </ul>
+                </div>
+		</div>
+            </div>
+        </nav>
+
+        
+        
+        <div class="main">
+            
+<article class="container mt-4 post">
+    <center><h1>Project 2</h1></center>
+    
+    <h1 id="project-2-web">Project 2: Web</h1>
+<p>For this project, the main goal is for you to:</p>
+<ol>
+<li>Develop a good basic understanding of how the web works and how search engines find content on the web.</li>
+<li>Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).</li>
+</ol>
+<h2 id="getting-started">Getting Started</h2>
+<p>The website you will create will be hosted using github pages. Github pages has several main advantages as a way of hosting a website (and this is what the course website, <a href="https://computingfor.github.io/">https://computingfor.github.io/</a>, is using. It is <em>free</em>, <a href="https://www.githubstatus.com/history">very reliable</a>, scalable (can support around 100GB per month), and (relatively) easy to set up. The main disadvantage, at least compared to a website you host yourself, is that you are giving up control over your content and the web server to github (which is owned by Microsoft). As with any computing service outside your direct control, there is always a risk that it will change in ways that will be unacceptable to you from shutting down to compromising the privacy of your visitors. But, it is a lot of trouble to try and host your own website, and the economies of scale a service like github can take advantage of allow it to provide a high quality service for free to most users. I trust github my most important websites and most of my work data, since it is part of a large company that has a good reputation for not shutting down services arbitrarily and for respecting user data (and github&rsquo;s <a href="https://en.wikipedia.org/wiki/Nat_Friedman">former CEO grew up in Charlottesville</a> and <a href="https://en.wikipedia.org/wiki/Kevin_Scott_(computer_scientist)">Microsoft&rsquo;s Chief Technology Officer</a> went to UVA, so they must be trustworthy, at least enough for hosting my websites!). You should make your own decision about which companies to trust with your content, but for this assignment we will provide directions for using github pages and expect this is the best option for everyone in the class. If you do prefer to use something else or self-host, check with me — if you want to do something that provides at least as much control over your content as github pages does, it will be acceptable (using a form-based hosting provider like wix or squarespace is not an option, though, since those will provide you little understanding of what is actually going on or ability to actually control your website), but youl will need to figure out more on your own.</p>
+<ol>
+<li>
+<p><strong>Create a github account.</strong> Visit <a href="https://github.com/">https://github.com/</a> and sign up for a free account. Pick your username tastefully — this will be public, and your website will be at <code>_username_.github.io</code> (note that if you do buy a domain name, you can still use github pages to host the site). If you sign up using your <code>@virginia.edu</code> account, you will be able to get an academic account that includes some additional free (for students) services, but it isn&rsquo;t necessary for this assignment.</p>
+</li>
+<li>
+<p><strong>Create a repository.</strong> You should see a green &ldquo;Create repository&rdquo; button to click, or just visit <a href="https://github.com/new">https://github.com/new</a>. To create a website, you must use the name <code>_username_.github.io</code> for your repository. For now, we recommend selecting <code>Public</code> (instead of <code>Private</code>) for this. Be aware that this means that everything you put in the repository will now be visible to anyone on the internet, and once something is on the Internet it cannot ever really be deleted. It is good practice to check the box to <code>Add a README file</code> (you will edit this later). You can skip the <code>Add .gitignore</code> choice. If you don&rsquo;t selected a license, the default copyright laws apply to the content you create in the repository. If you want to allow others to benefit more from your content, you can select a more permissive license (which is not required for this).</p>
+</li>
+<li>
+<p><strong>Visit your website!</strong> Open a web browser to <code>https://_username_.github.io</code>. You should see your website like this:</p>
+</li>
+</ol>
+<center><img src="https://computingfor.github.io/images/mywebsite.png" width=50%></center>
+<p>Congratulations!</p>
+<p>You now have a website — you can share anything you want (subject to github pages&rsquo; <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages">Terms of Service</a>, so please no &ldquo;get-rich-quick schemes, sexually obscene content, and violent or threatening content or activity&rdquo;, but totally fine to run a commercial or politically controversial site this way) with over 5 billion people on the Internet today (as well as billions of future people).</p>
+<h2 id="editing-your-website">Editing your website</h2>
+<p>If you want people to visit your website, of course, you need some more interesting content than just &ldquo;My super cool website!&rdquo;.</p>
+<p>To get started editing the content, you will use the github web interface. Later, you&rsquo;ll see how to edit content more efficiently and powerfully by creating a clone of the repository to be able to edit on your own laptop instead.</p>
+<p>Click &ldquo;Add File&rdquo; and select &ldquo;+ Create new file&rdquo; to create a new file. Enter <code>index.html</code> as the name of the file. By convention, this is the default file that will be displayed by a web browser visiting the webiste.</p>
+<ol start="4">
+<li>**Edit the <code>index.html</code> file to create a simple HTML webpage.</li>
+</ol>
+<p>HTML (HyperText Markup Language) is the core language of the World Wide Web. It provides a way to indicate the structure, style, and content of a webpage.</p>
+<p>Here&rsquo;s an example</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>My Favorite Web Page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Welcome to My Web Page<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  This page is pretty boring now, but just you wait!
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>  
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>(You can just cut-and-paste the text above into the github web editor, but feel free to be more creative.)</p>
+<p>When you are done, click the <code>Commit Changes</code> button (at the top right). It will pop-up a dialog box where you can enter a description of the change, and then click the <code>Commit Changes</code> button.</p>
+<p>Reload the <code>https://_username_.github.io</code> site to see that the content has changed. (Note that it can take several minutes for the changes you make in github to propogate to the website. So, if you still see the old welcome page, wait a few minutes and try reloading it again.)</p>
+<ol start="5">
+<li><strong>Make it fancy.</strong></li>
+</ol>
+<p>The example webpage above has structure tags (<code>&lt;body&gt;</code>, closed by <code>&lt;/body&gt;</code> near the end, which surround the main body content of the page, and <code>&lt;h1&gt;</code> which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">HTML Standard</a> that are supported by all major web browsers.</p>
+
+</article>
+
+        </div>
+
+        <footer class="mt-auto footer d-print-none">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <h5><a href="https://computingfor.github.io/">cs1010: Computing for Future Leaders and Citizens</a></h5>
+University of Virginia </br>
+Spring 2024 </br>
+<br></br>
+
+
+                    </div>
+		    <div class="col-md-4 col-xl-3">
+		      &nbsp;
+		      </div>
+                    <div class="col-md-8 col-xl-5">
+                        Except where noted, all content is released under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license.
+<p></p>
+<a href="https://www.cs.virginia.edu/evans">David Evans</a></br>
+<a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        
+    </body>
+</html>
