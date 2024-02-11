@@ -12,6 +12,14 @@ For this project, the main goal is for you to:
 1. Develop a good basic understanding of how the web works and how search engines find content on the web.
 2. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).
 
+
+<div class="yellowbox">
+
+**Collaboration and Resources.** For this assignment, we want everyone to create their own website so you should do the steps, answer the questions, and submit your own answers. If you wish, you may work together with one or two other students, including going through the steps here and helping each other with the questions, so long as everyone is creating their own website and doing everything themself. If you do work with others on this assignment, list them in your submission.
+
+There are no restrictions on the resources you use for this assignment. Feel free to search the web for helpful resources, use your favorite (or least favorite) chatbot, and examine source code from other web pages (which you are actually required to do for one of the problems).
+</div>
+
 This project describes a series of steps you will follow to accomplish the second goal. You will submit your work as a [text box in Canvas](https://canvas.its.virginia.edu/courses/93745/assignments/463304) with your answers to the problems. For most problems, your answer is just a URL that points to something you did. We recommend collecting your answers in a text file as you go through the assignment, and then just pasting those answers into the text edit box in Canvas to submit the assignment. Problems denoted as below where you need to do something that will be submitted:
 
 <div class="problem">
@@ -160,12 +168,12 @@ A single web page is probably not enough to solve all the world's problems, so y
 
 At your repository page (`https://github.com/_username_/_username_.github.io`), click the `+` to `+ Create new file` (or just visit `https://github.com/_username_/_username_.github.io/new/main`). You can select any name you want for the new page, but it should end with a `.html` extension.
 
-Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at `https://_username_.github.io/_pagename_` and `https://_username_.github.io/_pagename_.html`. For example [https://devansuva.github.io/pickles](https://devansuva.github.io/pickles) and [https://devansuva.github.io/pickles.html](https://devansuva.github.io/pickles.html). 
+Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at `https://_username_.github.io/_pagename_` and `https://_username_.github.io/_pagename_.html`. For example, [https://devansuva.github.io/pickles](https://devansuva.github.io/pickles) and [https://devansuva.github.io/pickles.html](https://devansuva.github.io/pickles.html). 
 
 You probably also want to include some pictures on your web site. You can do this by uploading an image file to your repository by selecting the `+` and `Upload Files` (or just visiting `https://github.com/_username_/_username_.github.io/upload/main`) and selecting some images to upload.
 
 Then, you can embed the picture directly in your webage by using an `img` tag. For example (where `pic1.jpg` would be the name of the image you uploaded):
-```
+```html
 <center>
   <a href="/pic1.jpg"><img width="80%" src="/pic1.jpg"></a>
 </center>
@@ -175,7 +183,34 @@ Add at least one, but as many as you want, additional pages and images to your w
 
 **8. Dropping anchors.**
 
-The power of the web comes from the ability to have _hyperlinks_ between objects on the web. Its so central to the web's value that the `H` in `HTML` standard for `Hypertext`. Creating a 
+The power of the web comes from the ability to have _hyperlinks_ between objects on the web. Its so central to the web's value that the `H` in `HTML` standard for `Hypertext`. 
 
+Creating a hyperlink involves finding a URL (Uniform Resource Locator) that identifies the object you want to link to, and then using an `a` tag with the `href` attribute:
+```html
+<a href="URL">this is the link text (or image) to click on</a>
+```
 
+Whatever is between the `<a href=...>` that opens the tag and the `</a>` that closes it will be the clickable link. (There was an example with the image in the previous step!)
+
+Add a link from your `index.html` page to the new pages you created in the previous step, and add links on those pages that go back to the `index.html` page. Since these are links within your site they should be _relative_ links, not complete URLs. For example, add this link on your new page:
+```html
+<a href="index.html">Return to Index</a>
+```
+would produce a link that goes back to the index page.
+
+By using a full URL, you can create a link to any object on the web. For example,
+```html
+<a href="https://poe.com/s/o8XtfVZ7BaoUNwGeERMk">Evidence that Large Language Models are great at telling jokes about pickles</a>
+```
+
+<div class="problem">
+
+**Problem 4.** Add a few internal and external links to your website. Find the commit that you just did, and submit the URL to it (similarly to the last problem, but for the new commit). 
+</div>
+
+At this stage, you have all the tools you need to build a valuable website &mdash; all that's left to do is to create some worthwhile content and the world will beat a path to your door. Actually, that's probably not going to happen &mdash; you need for people to find your website, and the usual way people find website is through search engines.
+
+One way to get your site indexed by google is to have a site that google already indexes include a link to your website. Sometimes people pay scammers to add links to their website (which doesn't usually end well), but you don't need to resort to that! 
+
+Fortunately, the course website is indexed by google (for example, try [https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders](https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders)), and if you post the URL to your website in the [Canvas "Project 2 Link" Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208).
 

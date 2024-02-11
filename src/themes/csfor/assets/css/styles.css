@@ -281,10 +281,19 @@ blockquote::before {
 .problem {
     background-color: #86e2b0;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10px;
     margin-bottom: 20px;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 2px; 
     font-size: large;
 }
+
+.yellowbox {
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #f7f784;
+    margin-bottom: 0px;
+    padding: 20px;
+ }
+ 

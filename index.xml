@@ -6,105 +6,164 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class 7: Finding Needles on the Web</title>
       <link>https://computingfor.github.io/post/class7/</link>
       <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class7/</guid>
-      <description>Slides The slides are here: Class 7: Finding Needles on the Web.&#xA;ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
+      <description>Slides The slides are here: Class 7: Finding Needles on the Web.
+ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
     </item>
+    
     <item>
       <title>Class 6: Search</title>
       <link>https://computingfor.github.io/post/class6/</link>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class6/</guid>
-      <description>Slides The slides are here: Class 6: Search.&#xA;Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
+      <description>Slides The slides are here: Class 6: Search.
+Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
     </item>
+    
     <item>
       <title>Unicode</title>
       <link>https://computingfor.github.io/unicode/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/unicode/</guid>
-      <description>Some unicode tests:&#xA;ALPHabet!&#xA;鏡&#xA;🤩&#xA;🤪&#xA;🫎&#xA;‮ Apple 1234 ‭ Orange 1234</description>
+      <description>Some unicode tests:
+ALPHabet!
+鏡
+🤩
+🤪
+🫎
+‮ Apple 1234 ‭ Orange 1234</description>
     </item>
+    
     <item>
       <title>Class 5: Computing on Binary Data</title>
       <link>https://computingfor.github.io/post/class5/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class5/</guid>
-      <description>Slides The slides are here: Class 5: Computing on Binary Data.&#xA;Addition Algorithms What is an algorithm? Binary Addition Algorithms Multiplcation 0.010101010101010&amp;hellip; </description>
+      <description>Slides The slides are here: Class 5: Computing on Binary Data.
+Addition Algorithms What is an algorithm? Binary Addition Algorithms Multiplcation 0.010101010101010&amp;hellip; </description>
     </item>
+    
     <item>
       <title>Class 4: Continuous Binary Representations</title>
       <link>https://computingfor.github.io/post/class4/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class4/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.&#xA;Slides The slides are here: Class 4: Continuous Binary Representations.&#xA;Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) </description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.
+The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.
+Slides The slides are here: Class 4: Continuous Binary Representations.
+Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) </description>
     </item>
+    
     <item>
       <title>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</title>
       <link>https://computingfor.github.io/post/class3/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class3/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.
+Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.
+16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:
+WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
     </item>
+    
     <item>
       <title>Class 2: The Digital Abstraction</title>
       <link>https://computingfor.github.io/post/class2/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class2/</guid>
-      <description>Charge Project 1 is now posted, and is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 2: The Digital Abstraction.&#xA;Beginning of Course Survey Analog/Digital Digital Music </description>
+      <description>Charge Project 1 is now posted, and is due at the beginning of class on Thursday, 1 February 2024.
+Slides The slides are here: Class 2: The Digital Abstraction.
+Beginning of Course Survey Analog/Digital Digital Music </description>
     </item>
+    
     <item>
       <title>Class 1: Introduction</title>
       <link>https://computingfor.github.io/post/class1/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/class1/</guid>
-      <description>Charge Before 8:59pm Friday (Jan 19), read the syllabus and submit the Beginning of Course Survey.&#xA;Sometime next week (but earlier is better), contribute to the Computing in the News Week 1 discussion.&#xA;Slides The slides are here: Class 1: Introduction.&#xA;Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog </description>
+      <description>Charge Before 8:59pm Friday (Jan 19), read the syllabus and submit the Beginning of Course Survey.
+Sometime next week (but earlier is better), contribute to the Computing in the News Week 1 discussion.
+Slides The slides are here: Class 1: Introduction.
+Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog </description>
     </item>
+    
     <item>
       <title>Starting this week</title>
       <link>https://computingfor.github.io/post/start/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/start/</guid>
-      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.&#xA;If you want to get an early start on the class, please fill out the Beginning of Course Survey (which is due at 6:59pm Friday).</description>
+      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).
+A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.
+If you want to get an early start on the class, please fill out the Beginning of Course Survey (which is due at 6:59pm Friday).</description>
     </item>
+    
     <item>
       <title>Course Pledge</title>
       <link>https://computingfor.github.io/pledge/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/pledge/</guid>
-      <description>Honor Expectations As a student at the University of Virginia, you are trusted to be honorable and expected to behave in ways that merit that trust. We take advantage of this trust to provide a better learning environment for everyone. In particular, students in cs1010 are expected to follow these rules throughout the course:&#xA;I will not lie, cheat or steal. If I am unsure whether something would be considered lying, cheating or stealing, I will ask before doing it.</description>
+      <description>Honor Expectations As a student at the University of Virginia, you are trusted to be honorable and expected to behave in ways that merit that trust. We take advantage of this trust to provide a better learning environment for everyone. In particular, students in cs1010 are expected to follow these rules throughout the course:
+I will not lie, cheat or steal. If I am unsure whether something would be considered lying, cheating or stealing, I will ask before doing it.</description>
     </item>
+    
     <item>
       <title>Classes</title>
       <link>https://computingfor.github.io/classes/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/classes/</guid>
       <description>Materials from class will be posted here.</description>
     </item>
+    
     <item>
       <title>Syllabus</title>
       <link>https://computingfor.github.io/syllabus/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/syllabus/</guid>
-      <description>UVA CS1010 Spring 2024&#xA;Computing for Future Leaders and Citizens&#xA;Course Goals This course has two main objectives:&#xA;Provide you with an understanding of computing that will help you better understand the world today and tomorrow.&#xA;Empower you to use computing better.&#xA;For both of these goals, we will aim to understand how computers work, what computers can and cannot do, the kinds of questions to ask before trusting a computing systems, and the potential risks when computing systems are misused or abused.</description>
+      <description>UVA CS1010 Spring 2024
+Computing for Future Leaders and Citizens
+Course Goals This course has two main objectives:
+Provide you with an understanding of computing that will help you better understand the world today and tomorrow.
+Empower you to use computing better.
+For both of these goals, we will aim to understand how computers work, what computers can and cannot do, the kinds of questions to ask before trusting a computing systems, and the potential risks when computing systems are misused or abused.</description>
     </item>
+    
     <item>
       <title>Welcome to cs1010!</title>
       <link>https://computingfor.github.io/post/welcome/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/post/welcome/</guid>
-      <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
+      <description>Welcome to cs1010!
+This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.
+Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).
+More material will be posted here as the beginning of the semester approaches.</description>
     </item>
+    
     <item>
       <title>Project 2</title>
       <link>https://computingfor.github.io/project2/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://computingfor.github.io/project2/</guid>
-      <description>Project 2: Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). This project describes a series of steps you will follow to accomplish the second goal. You will submit your work as a text box in Canvas with your answers to the problems.</description>
+      <description>Project 2: Web For this project, the main goal is for you to:
+Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). Collaboration and Resources. For this assignment, we want everyone to create their own website so you should do the steps, answer the questions, and submit your own answers.</description>
     </item>
+    
   </channel>
 </rss>

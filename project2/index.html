@@ -13,7 +13,7 @@
         
         
 
-        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.684ce475dfbbb1c46f1c808b5df028164f6e29a11eaf5a0668a8d890cbbf4560.css" integrity="sha256-aEzkdd&#43;7scRvHICLXfAoFk9uKaEer1oGaKjYkMu/RWA="  />
+        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.f75251ba000b0133170fec8c04f9ce03f770f7776ab7f6aff3e85268c0083fcb.css" integrity="sha256-91JRugALATMXD&#43;yMBPnOA/dw93dqt/av8&#43;hSaMAIP8s="  />
 
                 
     </head>
@@ -54,6 +54,10 @@
 <li>Develop a good basic understanding of how the web works and how search engines find content on the web.</li>
 <li>Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).</li>
 </ol>
+<div class="yellowbox">
+<p><strong>Collaboration and Resources.</strong> For this assignment, we want everyone to create their own website so you should do the steps, answer the questions, and submit your own answers. If you wish, you may work together with one or two other students, including going through the steps here and helping each other with the questions, so long as everyone is creating their own website and doing everything themself. If you do work with others on this assignment, list them in your submission.</p>
+<p>There are no restrictions on the resources you use for this assignment. Feel free to search the web for helpful resources, use your favorite (or least favorite) chatbot, and examine source code from other web pages (which you are actually required to do for one of the problems).</p>
+</div>
 <p>This project describes a series of steps you will follow to accomplish the second goal. You will submit your work as a <a href="https://canvas.its.virginia.edu/courses/93745/assignments/463304">text box in Canvas</a> with your answers to the problems. For most problems, your answer is just a URL that points to something you did. We recommend collecting your answers in a text file as you go through the assignment, and then just pasting those answers into the text edit box in Canvas to submit the assignment. Problems denoted as below where you need to do something that will be submitted:</p>
 <div class="problem">
 <p><strong>Problem 0.</strong> This is an example of what a project step that requires you to submit something looks like. For this one, there is nothing to do, its just an example to show you the styling.</p>
@@ -146,15 +150,29 @@
 <p><strong>7. Plentiful pages.</strong></p>
 <p>A single web page is probably not enough to solve all the world&rsquo;s problems, so you&rsquo;ll need to create some more pages.</p>
 <p>At your repository page (<code>https://github.com/_username_/_username_.github.io</code>), click the <code>+</code> to <code>+ Create new file</code> (or just visit <code>https://github.com/_username_/_username_.github.io/new/main</code>). You can select any name you want for the new page, but it should end with a <code>.html</code> extension.</p>
-<p>Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at <code>https://_username_.github.io/_pagename_</code> and <code>https://_username_.github.io/_pagename_.html</code>. For example <a href="https://devansuva.github.io/pickles">https://devansuva.github.io/pickles</a> and <a href="https://devansuva.github.io/pickles.html">https://devansuva.github.io/pickles.html</a>.</p>
+<p>Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at <code>https://_username_.github.io/_pagename_</code> and <code>https://_username_.github.io/_pagename_.html</code>. For example, <a href="https://devansuva.github.io/pickles">https://devansuva.github.io/pickles</a> and <a href="https://devansuva.github.io/pickles.html">https://devansuva.github.io/pickles.html</a>.</p>
 <p>You probably also want to include some pictures on your web site. You can do this by uploading an image file to your repository by selecting the <code>+</code> and <code>Upload Files</code> (or just visiting <code>https://github.com/_username_/_username_.github.io/upload/main</code>) and selecting some images to upload.</p>
 <p>Then, you can embed the picture directly in your webage by using an <code>img</code> tag. For example (where <code>pic1.jpg</code> would be the name of the image you uploaded):</p>
-<pre tabindex="0"><code>&lt;center&gt;
-  &lt;a href=&#34;/pic1.jpg&#34;&gt;&lt;img width=&#34;80%&#34; src=&#34;/pic1.jpg&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;
-</code></pre><p>Add at least one, but as many as you want, additional pages and images to your website (feel free, of course, to play around with other things like embedding videos if you want).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">center</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/pic1.jpg&#34;</span><span class="p">&gt;&lt;</span><span class="nt">img</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;80%&#34;</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;/pic1.jpg&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">center</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Add at least one, but as many as you want, additional pages and images to your website (feel free, of course, to play around with other things like embedding videos if you want).</p>
 <p><strong>8. Dropping anchors.</strong></p>
-<p>The power of the web comes from the ability to have <em>hyperlinks</em> between objects on the web. Its so central to the web&rsquo;s value that the <code>H</code> in <code>HTML</code> standard for <code>Hypertext</code>. Creating a</p>
+<p>The power of the web comes from the ability to have <em>hyperlinks</em> between objects on the web. Its so central to the web&rsquo;s value that the <code>H</code> in <code>HTML</code> standard for <code>Hypertext</code>.</p>
+<p>Creating a hyperlink involves finding a URL (Uniform Resource Locator) that identifies the object you want to link to, and then using an <code>a</code> tag with the <code>href</code> attribute:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;URL&#34;</span><span class="p">&gt;</span>this is the link text (or image) to click on<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Whatever is between the <code>&lt;a href=...&gt;</code> that opens the tag and the <code>&lt;/a&gt;</code> that closes it will be the clickable link. (There was an example with the image in the previous step!)</p>
+<p>Add a link from your <code>index.html</code> page to the new pages you created in the previous step, and add links on those pages that go back to the <code>index.html</code> page. Since these are links within your site they should be <em>relative</em> links, not complete URLs. For example, add this link on your new page:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;index.html&#34;</span><span class="p">&gt;</span>Return to Index<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>would produce a link that goes back to the index page.</p>
+<p>By using a full URL, you can create a link to any object on the web. For example,</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://poe.com/s/o8XtfVZ7BaoUNwGeERMk&#34;</span><span class="p">&gt;</span>Evidence that Large Language Models are great at telling jokes about pickles<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span></code></pre></div><div class="problem">
+<p><strong>Problem 4.</strong> Add a few internal and external links to your website. Find the commit that you just did, and submit the URL to it (similarly to the last problem, but for the new commit).</p>
+</div>
+<p>At this stage, you have all the tools you need to build a valuable website — all that&rsquo;s left to do is to create some worthwhile content and the world will beat a path to your door. Actually, that&rsquo;s probably not going to happen — you need for people to find your website, and the usual way people find website is through search engines.</p>
+<p>One way to get your site indexed by google is to have a site that google already indexes include a link to your website. Sometimes people pay scammers to add links to their website (which doesn&rsquo;t usually end well), but you don&rsquo;t need to resort to that!</p>
+<p>Fortunately, the course website is indexed by google (for example, try <a href="https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders">https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders</a>), and if you post the URL to your website in the <a href="https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208">Canvas &ldquo;Project 2 Link&rdquo; Discussion</a>.</p>
 
 </article>
 
