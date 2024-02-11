@@ -48,9 +48,12 @@ Here's an example
   <title>My Favorite Web Page</title>
 </head>
 <body>
+
   <h1>Welcome to My Web Page</h1>
 
+  <p>
   This page is pretty boring now, but just you wait!
+  </p>
   
 </body>  
 </html>
@@ -63,11 +66,54 @@ Reload the `https://_username_.github.io` site to see that the content has chang
 
 5. **Make it fancy.** 
 
-The example webpage above has structure tags (`<body>`, closed by `</body>` near the end, which surround the main body content of the page, and `<h1>` which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the [HTML Standard](https://html.spec.whatwg.org/multipage/#toc-semantics) that are supported by all major web browsers.
+The example webpage above has structure tags (`<body>`, closed by `</body>` near the end, which surround the main body content of the page, and `<h1>` which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the [HTML Standard](https://html.spec.whatwg.org/multipage/#toc-semantics) that are supported by all major web browsers. You can also add [attributes](https://en.wikipedia.org/wiki/HTML_attribute) to tags to customize their function and appearance.
+
+For example,
+
+```html
+<html>
+<head>
+  <title>My Favorite Web Page</title>
+</head>
+<body style="font-family: Verdana, sans-serif; margin-left: 10%; margin-right: 10%">
+
+  <h1>Welcome to My Web Page</h1>
+
+  <p align="center">
+  This page is pretty boring now, <b>but <font size="+1">just <font size="+2">you <font color="#FF33CC">wait</font>!</font></font></b>
+  </p>
+  
+</body>  
+</html>
+```
+Note: we'll see later that although adding style like this is fun, it isn't usually the _proper_ way of doing things. The problem is it is mixing up the _structure_ and _content_ of the document, with the style of how it should be displayed. If you're making a large website, you want to separate those decisions, and, for example, decide that all headings on the site should appear with a particular style and just need to change this in one place.
+
+For now, don't worry about that and add tags and attributes to make your website more stylish. To see the impact of a change, you'll need to "Commit Changes", and then reload `https://_username_.github.io` in your web browser (which may require a bit of a wait until the changes propagate). 
+
+There are lots of resources you can find on the web that describe HTML tags and attributes. Unfortunately, the search engine rankings are dominated by commercial sites (like [w3schools](https://www.w3schools.com/tags/ref_attributes.asp)) that are good at SEO ("search engine optimization", which is methods to get your content to rank highly in Google's index) but not as good at content. The documents from Mozilla at [https://developer.mozilla.org/](https://developer.mozilla.org/) are the best I know of. You'll also get very helpful answers, and code snippets, to most HTML questions from ChatGPT (e.g., [``html for purple text''](https://poe.com/s/nPVyy4WygFG5h47MWjWp)).
+
+6. **Understanding commitments.** 
+
+Once you've made the edits you want to the web page, go back to the top-level page for your repository in github (`https://github.com/_username_/_username_.github.io`). Near the top right (below the Green `Code` button), you should see a link that has the number of commits to the repository. The number will vary depending on how many times you did `Commit Changes`, but should be something like `5 Commits`. Click on this and you'll see a list of all the commits to the repository:
+
+For example, here's what I see for the example site:
+
+<center>
+<img src="/images/github-commits.png" width=60%>
+</center>
 
 
 
+6. **Becoming a web guru.**
 
+The best way to learn about how to make web content that does what you want, though, is to examine other web pages. By its nature, HTML for the web is essentially ``open source'' since the actual HTML content has to be visible to be displayed by the web browser. This means for any web page you visit in your browser, you can see how they created it (at least the client-visible part &mdash; there is a lot of code running on their server that you can't see that is doing most of the interesting work). To see the HTML that generated a web page, open the page in your browser and then you can see the HTML source for that page by doing:
+
+- If you are using Mozilla **Firefox**, select `Tools | Browser Tools | Page Source` (or just &#x2318;-U).
+- If you are using Google **Chrome**, select from the top menu, `View | Developer | View Source`. 
+- If you're using Safari, Apple seems to have made it [fairly hard](https://discussions.apple.com/thread/252962482?sortBy=best) to see HTML source for some reason, and what you'll need to do will depend on the version you have. But, for web development, we don't recommend using Safari, so better to use one of the other browsers.
+- If you're using some other browser hopefully it has a simple way to view source that you can figure out, but if not, please let us know.
+
+In both Firefox and Chrome, you can also right-click anywhere on the web page (that isn't capturing the click to do something else), and a menu will appear that has `Inspect` at the bottom. If you click on `Inspect` you'll be able to see the element you clicked on and explore the page in a new pane that opens in the right side of the browser. (You can even edit things here, to learn about the effects of different attributes, or to remove annoying elements from web pages, fabricate realistic-looking screenshots, circumvent some paywalls, etc.)
 
 
 

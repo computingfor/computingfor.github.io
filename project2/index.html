@@ -84,9 +84,12 @@
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>My Favorite Web Page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Welcome to My Web Page<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  This page is pretty boring now, but just you wait!
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>  
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -96,7 +99,44 @@
 <ol start="5">
 <li><strong>Make it fancy.</strong></li>
 </ol>
-<p>The example webpage above has structure tags (<code>&lt;body&gt;</code>, closed by <code>&lt;/body&gt;</code> near the end, which surround the main body content of the page, and <code>&lt;h1&gt;</code> which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">HTML Standard</a> that are supported by all major web browsers.</p>
+<p>The example webpage above has structure tags (<code>&lt;body&gt;</code>, closed by <code>&lt;/body&gt;</code> near the end, which surround the main body content of the page, and <code>&lt;h1&gt;</code> which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">HTML Standard</a> that are supported by all major web browsers. You can also add <a href="https://en.wikipedia.org/wiki/HTML_attribute">attributes</a> to tags to customize their function and appearance.</p>
+<p>For example,</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>My Favorite Web Page<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;font-family: Verdana, sans-serif; margin-left: 10%; margin-right: 10%&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Welcome to My Web Page<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  This page is pretty boring now, <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>but <span class="p">&lt;</span><span class="nt">font</span> <span class="na">size</span><span class="o">=</span><span class="s">&#34;+1&#34;</span><span class="p">&gt;</span>just <span class="p">&lt;</span><span class="nt">font</span> <span class="na">size</span><span class="o">=</span><span class="s">&#34;+2&#34;</span><span class="p">&gt;</span>you <span class="p">&lt;</span><span class="nt">font</span> <span class="na">color</span><span class="o">=</span><span class="s">&#34;#FF33CC&#34;</span><span class="p">&gt;</span>wait<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;</span>!<span class="p">&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">font</span><span class="p">&gt;&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>  
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Note: we&rsquo;ll see later that although adding style like this is fun, it isn&rsquo;t usually the <em>proper</em> way of doing things. The problem is it is mixing up the <em>structure</em> and <em>content</em> of the document, with the style of how it should be displayed. If you&rsquo;re making a large website, you want to separate those decisions, and, for example, decide that all headings on the site should appear with a particular style and just need to change this in one place.</p>
+<p>For now, don&rsquo;t worry about that and add tags and attributes to make your website more stylish. To see the impact of a change, you&rsquo;ll need to &ldquo;Commit Changes&rdquo;, and then reload <code>https://_username_.github.io</code> in your web browser (which may require a bit of a wait until the changes propagate).</p>
+<p>There are lots of resources you can find on the web that describe HTML tags and attributes. Unfortunately, the search engine rankings are dominated by commercial sites (like <a href="https://www.w3schools.com/tags/ref_attributes.asp">w3schools</a>) that are good at SEO (&ldquo;search engine optimization&rdquo;, which is methods to get your content to rank highly in Google&rsquo;s index) but not as good at content. The documents from Mozilla at <a href="https://developer.mozilla.org/">https://developer.mozilla.org/</a> are the best I know of. You&rsquo;ll also get very helpful answers, and code snippets, to most HTML questions from ChatGPT (e.g., <a href="https://poe.com/s/nPVyy4WygFG5h47MWjWp">``html for purple text&rsquo;&rsquo;</a>).</p>
+<ol start="6">
+<li><strong>Understanding commitments.</strong></li>
+</ol>
+<p>Once you&rsquo;ve made the edits you want to the web page, go back to the top-level page for your repository in github (<code>https://github.com/_username_/_username_.github.io</code>). Near the top right (below the Green <code>Code</code> button), you should see a link that has the number of commits to the repository. The number will vary depending on how many times you did <code>Commit Changes</code>, but should be something like <code>5 Commits</code>. Click on this and you&rsquo;ll see a list of all the commits to the repository:</p>
+<p>For example, here&rsquo;s what I see for the example site:</p>
+<center>
+<img src="https://computingfor.github.io/images/github-commits.png" width=60%>
+</center>
+<ol start="6">
+<li><strong>Becoming a web guru.</strong></li>
+</ol>
+<p>The best way to learn about how to make web content that does what you want, though, is to examine other web pages. By its nature, HTML for the web is essentially ``open source&rsquo;&rsquo; since the actual HTML content has to be visible to be displayed by the web browser. This means for any web page you visit in your browser, you can see how they created it (at least the client-visible part — there is a lot of code running on their server that you can&rsquo;t see that is doing most of the interesting work). To see the HTML that generated a web page, open the page in your browser and then you can see the HTML source for that page by doing:</p>
+<ul>
+<li>If you are using Mozilla <strong>Firefox</strong>, select <code>Tools | Browser Tools | Page Source</code> (or just ⌘-U).</li>
+<li>If you are using Google <strong>Chrome</strong>, select from the top menu, <code>View | Developer | View Source</code>.</li>
+<li>If you&rsquo;re using Safari, Apple seems to have made it <a href="https://discussions.apple.com/thread/252962482?sortBy=best">fairly hard</a> to see HTML source for some reason, and what you&rsquo;ll need to do will depend on the version you have. But, for web development, we don&rsquo;t recommend using Safari, so better to use one of the other browsers.</li>
+<li>If you&rsquo;re using some other browser hopefully it has a simple way to view source that you can figure out, but if not, please let us know.</li>
+</ul>
+<p>In both Firefox and Chrome, you can also right-click anywhere on the web page (that isn&rsquo;t capturing the click to do something else), and a menu will appear that has <code>Inspect</code> at the bottom. If you click on <code>Inspect</code> you&rsquo;ll be able to see the element you clicked on and explore the page in a new pane that opens in the right side of the browser. (You can even edit things here, to learn about the effects of different attributes, or to remove annoying elements from web pages, fabricate realistic-looking screenshots, circumvent some paywalls, etc.)</p>
 
 </article>
 
