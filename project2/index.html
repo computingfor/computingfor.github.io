@@ -13,7 +13,7 @@
         
         
 
-        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.2f91cf40a68ab8fd1c67080d99c026bf5687695eebf3b676cd0556464114584f.css" integrity="sha256-L5HPQKaKuP0cZwgNmcAmv1aHaV7r87Z2zQVWRkEUWE8="  />
+        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.684ce475dfbbb1c46f1c808b5df028164f6e29a11eaf5a0668a8d890cbbf4560.css" integrity="sha256-aEzkdd&#43;7scRvHICLXfAoFk9uKaEer1oGaKjYkMu/RWA="  />
 
                 
     </head>
@@ -54,29 +54,30 @@
 <li>Develop a good basic understanding of how the web works and how search engines find content on the web.</li>
 <li>Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).</li>
 </ol>
+<p>This project describes a series of steps you will follow to accomplish the second goal. You will submit your work as a <a href="https://canvas.its.virginia.edu/courses/93745/assignments/463304">text box in Canvas</a> with your answers to the problems. For most problems, your answer is just a URL that points to something you did. We recommend collecting your answers in a text file as you go through the assignment, and then just pasting those answers into the text edit box in Canvas to submit the assignment. Problems denoted as below where you need to do something that will be submitted:</p>
+<div class="problem">
+<p><strong>Problem 0.</strong> This is an example of what a project step that requires you to submit something looks like. For this one, there is nothing to do, its just an example to show you the styling.</p>
+</div>
 <h2 id="getting-started">Getting Started</h2>
 <p>The website you will create will be hosted using github pages. Github pages has several main advantages as a way of hosting a website (and this is what the course website, <a href="https://computingfor.github.io/">https://computingfor.github.io/</a>, is using. It is <em>free</em>, <a href="https://www.githubstatus.com/history">very reliable</a>, scalable (can support around 100GB per month), and (relatively) easy to set up. The main disadvantage, at least compared to a website you host yourself, is that you are giving up control over your content and the web server to github (which is owned by Microsoft). As with any computing service outside your direct control, there is always a risk that it will change in ways that will be unacceptable to you from shutting down to compromising the privacy of your visitors. But, it is a lot of trouble to try and host your own website, and the economies of scale a service like github can take advantage of allow it to provide a high quality service for free to most users. I trust github my most important websites and most of my work data, since it is part of a large company that has a good reputation for not shutting down services arbitrarily and for respecting user data (and github&rsquo;s <a href="https://en.wikipedia.org/wiki/Nat_Friedman">former CEO grew up in Charlottesville</a> and <a href="https://en.wikipedia.org/wiki/Kevin_Scott_(computer_scientist)">Microsoft&rsquo;s Chief Technology Officer</a> went to UVA, so they must be trustworthy, at least enough for hosting my websites!). You should make your own decision about which companies to trust with your content, but for this assignment we will provide directions for using github pages and expect this is the best option for everyone in the class. If you do prefer to use something else or self-host, check with me — if you want to do something that provides at least as much control over your content as github pages does, it will be acceptable (using a form-based hosting provider like wix or squarespace is not an option, though, since those will provide you little understanding of what is actually going on or ability to actually control your website), but youl will need to figure out more on your own.</p>
-<ol>
-<li>
-<p><strong>Create a github account.</strong> Visit <a href="https://github.com/">https://github.com/</a> and sign up for a free account. Pick your username tastefully — this will be public, and your website will be at <code>_username_.github.io</code> (note that if you do buy a domain name, you can still use github pages to host the site). If you sign up using your <code>@virginia.edu</code> account, you will be able to get an academic account that includes some additional free (for students) services, but it isn&rsquo;t necessary for this assignment.</p>
-</li>
-<li>
-<p><strong>Create a repository.</strong> You should see a green &ldquo;Create repository&rdquo; button to click, or just visit <a href="https://github.com/new">https://github.com/new</a>. To create a website, you must use the name <code>_username_.github.io</code> for your repository. For now, we recommend selecting <code>Public</code> (instead of <code>Private</code>) for this. Be aware that this means that everything you put in the repository will now be visible to anyone on the internet, and once something is on the Internet it cannot ever really be deleted. It is good practice to check the box to <code>Add a README file</code> (you will edit this later). You can skip the <code>Add .gitignore</code> choice. If you don&rsquo;t selected a license, the default copyright laws apply to the content you create in the repository. If you want to allow others to benefit more from your content, you can select a more permissive license (which is not required for this).</p>
-</li>
-<li>
-<p><strong>Visit your website!</strong> Open a web browser to <code>https://_username_.github.io</code>. You should see your website like this:</p>
-</li>
-</ol>
+<p><strong>1. Create a github account.</strong></p>
+<p>Visit <a href="https://github.com/">https://github.com/</a> and sign up for a free account. Pick your username tastefully — this will be public, and your website will be at <code>_username_.github.io</code> (note that if you do buy a domain name, you can still use github pages to host the site). If you sign up using your <code>@virginia.edu</code> account, you will be able to get an academic account that includes some additional free (for students) services, but it isn&rsquo;t necessary for this assignment.</p>
+<p><strong>2. Create a repository.</strong></p>
+<p>You should see a green &ldquo;Create repository&rdquo; button to click, or just visit <a href="https://github.com/new">https://github.com/new</a>. To create a website, you must use the name <code>_username_.github.io</code> for your repository. For now, we recommend selecting <code>Public</code> (instead of <code>Private</code>) for this. Be aware that this means that everything you put in the repository will now be visible to anyone on the internet, and once something is on the Internet it cannot ever really be deleted. It is good practice to check the box to <code>Add a README file</code> (you will edit this later). You can skip the <code>Add .gitignore</code> choice. If you don&rsquo;t selected a license, the default copyright laws apply to the content you create in the repository. If you want to allow others to benefit more from your content, you can select a more permissive license (which is not required for this).</p>
+<p><strong>3. Visit your website!</strong></p>
+<p>Open a web browser to <code>https://_username_.github.io</code>. You should see your website like this:</p>
 <center><img src="https://computingfor.github.io/images/mywebsite.png" width=50%></center>
-<p>Congratulations!</p>
-<p>You now have a website — you can share anything you want (subject to github pages&rsquo; <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages">Terms of Service</a>, so please no &ldquo;get-rich-quick schemes, sexually obscene content, and violent or threatening content or activity&rdquo;, but totally fine to run a commercial or politically controversial site this way) with over 5 billion people on the Internet today (as well as billions of future people).</p>
+<p><font size="+2">Congratulations!</font></p>
+<p>You now have a website — you can share anything you want (subject to github pages&rsquo; <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#limits-on-use-of-github-pages">Terms of Service</a>, so please no &ldquo;get-rich-quick schemes, sexually obscene content, and violent or threatening content or activity&rdquo;, but totally fine to run a commercial or politically controversial site this way) with all of the over 5 billion people on the Internet today (as well as billions of future people, since your website will hopefully survive for hundreds of years, if not in github pages at least in <a href="https://web.archive.org/web/20240211122152/https://devansuva.github.io/">archive.org</a>).</p>
+<p>Do keep in mind that anything you put on the web lives forever, and can probably be found by future employers, potential romantic partners, your parents, and even someday by your future children and genetic clone intelligences, should such beings come to exist.</p>
+<div class="problem">
+<p><strong>Problem 1.</strong> Copy the URL for your website <code>https://_username_.github.io</code> into the submission form.</p>
+</div>
 <h2 id="editing-your-website">Editing your website</h2>
-<p>If you want people to visit your website, of course, you need some more interesting content than just &ldquo;My super cool website!&rdquo;.</p>
+<p>If you want people to visit your website, of course, you need some more interesting content than just &ldquo;My super cool website!&rdquo; (but do read the note above an don&rsquo;t try to make it <em>too</em> interesting).</p>
 <p>To get started editing the content, you will use the github web interface. Later, you&rsquo;ll see how to edit content more efficiently and powerfully by creating a clone of the repository to be able to edit on your own laptop instead.</p>
 <p>Click &ldquo;Add File&rdquo; and select &ldquo;+ Create new file&rdquo; to create a new file. Enter <code>index.html</code> as the name of the file. By convention, this is the default file that will be displayed by a web browser visiting the webiste.</p>
-<ol start="4">
-<li>**Edit the <code>index.html</code> file to create a simple HTML webpage.</li>
-</ol>
+<p><strong>4. Edit the <code>index.html</code> file to create a simple HTML webpage.</strong></p>
 <p>HTML (HyperText Markup Language) is the core language of the World Wide Web. It provides a way to indicate the structure, style, and content of a webpage.</p>
 <p>Here&rsquo;s an example</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -96,9 +97,7 @@
 </span></span></code></pre></div><p>(You can just cut-and-paste the text above into the github web editor, but feel free to be more creative.)</p>
 <p>When you are done, click the <code>Commit Changes</code> button (at the top right). It will pop-up a dialog box where you can enter a description of the change, and then click the <code>Commit Changes</code> button.</p>
 <p>Reload the <code>https://_username_.github.io</code> site to see that the content has changed. (Note that it can take several minutes for the changes you make in github to propogate to the website. So, if you still see the old welcome page, wait a few minutes and try reloading it again.)</p>
-<ol start="5">
-<li><strong>Make it fancy.</strong></li>
-</ol>
+<p><strong>5. Make it fancy.</strong></p>
 <p>The example webpage above has structure tags (<code>&lt;body&gt;</code>, closed by <code>&lt;/body&gt;</code> near the end, which surround the main body content of the page, and <code>&lt;h1&gt;</code> which indicates a first-level heading) that give suggestions to the client web browser how the page should appear. There are about 100 different tags in the <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">HTML Standard</a> that are supported by all major web browsers. You can also add <a href="https://en.wikipedia.org/wiki/HTML_attribute">attributes</a> to tags to customize their function and appearance.</p>
 <p>For example,</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -126,9 +125,11 @@
 <center>
 <img src="https://computingfor.github.io/images/github-commits.png" width=60%>
 </center>
-<ol start="6">
-<li><strong>Becoming a web guru.</strong></li>
-</ol>
+<p>Git is a <em>version control system</em>, and github provides a convient and public interface to git. This means that it does not just store the current version of a file, but has a way to recreate all previously committed versions so you can see the entire history of how everything in your repository was edited. Each commit is labeled with a hash code that provides a short, unique identifier (that is represented as 7 hexadecimal symbols so looks something like <code>40ef71e</code>) for that version. If you click on one of the commits, you&rsquo;ll be able to see the changes you made (for example <a href="https://github.com/devansuva/devansuva.github.io/commit/40ef71ea77ce6a394b8c7731739a23cf71fc7d20">https://github.com/devansuva/devansuva.github.io/commit/40ef71ea77ce6a394b8c7731739a23cf71fc7d20</a> is the commit where I added some style to the example site, and <a href="https://github.com/devansuva/devansuva.github.io/commit/9e6b5dd1c081a2384739d6754a207388935516e6">https://github.com/devansuva/devansuva.github.io/commit/9e6b5dd1c081a2384739d6754a207388935516e6</a> shows the commit where I fixed an extra <code>&lt;/font&gt;</code> tag).</p>
+<div class="problem">
+<p><strong>Problem 2.</strong> Find the commit where you added style to your webpage in the previous step, and paste the full URL to that commit (it should look similar to the URLs above, and open a page that shows the changes you made in that commit) into the submission form.</p>
+</div>
+<p><strong>6. Becoming a web guru.</strong></p>
 <p>The best way to learn about how to make web content that does what you want, though, is to examine other web pages. By its nature, HTML for the web is essentially ``open source&rsquo;&rsquo; since the actual HTML content has to be visible to be displayed by the web browser. This means for any web page you visit in your browser, you can see how they created it (at least the client-visible part — there is a lot of code running on their server that you can&rsquo;t see that is doing most of the interesting work). To see the HTML that generated a web page, open the page in your browser and then you can see the HTML source for that page by doing:</p>
 <ul>
 <li>If you are using Mozilla <strong>Firefox</strong>, select <code>Tools | Browser Tools | Page Source</code> (or just ⌘-U).</li>
@@ -137,6 +138,10 @@
 <li>If you&rsquo;re using some other browser hopefully it has a simple way to view source that you can figure out, but if not, please let us know.</li>
 </ul>
 <p>In both Firefox and Chrome, you can also right-click anywhere on the web page (that isn&rsquo;t capturing the click to do something else), and a menu will appear that has <code>Inspect</code> at the bottom. If you click on <code>Inspect</code> you&rsquo;ll be able to see the element you clicked on and explore the page in a new pane that opens in the right side of the browser. (You can even edit things here, to learn about the effects of different attributes, or to remove annoying elements from web pages, fabricate realistic-looking screenshots, circumvent some paywalls, etc.)</p>
+<p>Find a web page that has some interesting styling and use the inspection tools to try and understand how they did it. Then, modify your website to take advantage of what you learned (remember to Commit your changes, and see that they have propagated to your website).</p>
+<div class="problem">
+<p><strong>Problem 3.</strong> (a) Provide the URL to the website you learned from and explain what you found on it. (b) Find the commit that you just did, and submit the URL to it (similarly to the last problem, but for the new commit).</p>
+</div>
 
 </article>
 

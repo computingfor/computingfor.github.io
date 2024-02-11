@@ -277,3 +277,14 @@ blockquote::before {
     padding-left: 10px;
     padding-top: 10px;
 }
+
+.problem {
+    background-color: #86e2b0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px; 
+    font-size: large;
+}
