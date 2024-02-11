@@ -154,3 +154,28 @@ Find a web page that has some interesting styling and use the inspection tools t
 </div>
 
 
+**7. Plentiful pages.**
+
+A single web page is probably not enough to solve all the world's problems, so you'll need to create some more pages.
+
+At your repository page (`https://github.com/_username_/_username_.github.io`), click the `+` to `+ Create new file` (or just visit `https://github.com/_username_/_username_.github.io/new/main`). You can select any name you want for the new page, but it should end with a `.html` extension.
+
+Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at `https://_username_.github.io/_pagename_` and `https://_username_.github.io/_pagename_.html`. For example [https://devansuva.github.io/pickles](https://devansuva.github.io/pickles) and [https://devansuva.github.io/pickles.html](https://devansuva.github.io/pickles.html). 
+
+You probably also want to include some pictures on your web site. You can do this by uploading an image file to your repository by selecting the `+` and `Upload Files` (or just visiting `https://github.com/_username_/_username_.github.io/upload/main`) and selecting some images to upload.
+
+Then, you can embed the picture directly in your webage by using an `img` tag. For example (where `pic1.jpg` would be the name of the image you uploaded):
+```
+<center>
+  <a href="/pic1.jpg"><img width="80%" src="/pic1.jpg"></a>
+</center>
+```
+
+Add at least one, but as many as you want, additional pages and images to your website (feel free, of course, to play around with other things like embedding videos if you want).
+
+**8. Dropping anchors.**
+
+The power of the web comes from the ability to have _hyperlinks_ between objects on the web. Its so central to the web's value that the `H` in `HTML` standard for `Hypertext`. Creating a 
+
+
+
