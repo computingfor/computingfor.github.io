@@ -51,13 +51,11 @@ I also appreciate that this should mean that it is a _low stress course without 
 
 The **Course Calendar** will be maintained in Canvas to keep track of deadlines for assignments. Students are encouraged to subscribe to the course calendar using this URL: [https://canvas.its.virginia.edu/feeds/calendars/user_B6RZ9nTXGxRvW8gTHIUYrqhCLKFZ9lghom8iupcR.ics](https://canvas.its.virginia.edu/feeds/calendars/user_B6RZ9nTXGxRvW8gTHIUYrqhCLKFZ9lghom8iupcR.ics).
 
-**Class Meetings.** Students are expected to attend and participate actively in all class meetings. I won't take attendance for the sake of taking attendance, but there will often be activities such as quizzes and group discussions in class where a student's efforts (or abscence) will be noted. Of course, there are sometimes good reasons students are not able to make it to class, and if a student with a justifiable reason for missing class isn't able to participate occasionally, I won't hold it against you, but it is your responsibility to let me know. If you are unable to come to class, you should submit the [Missing Class Form](https://forms.gle/Y4gRBfXoqZbc4iJa7). 
+**Class Meetings.** Students are expected to attend and participate actively in all class meetings. I won't take attendance for the sake of taking attendance, but there will often be activities in class where a student's efforts (or abscence) will be noted. Of course, there are sometimes good reasons students are not able to make it to class, and if a student with a justifiable reason for missing class isn't able to participate occasionally, I won't hold it against you, but it is your responsibility to let me know. If you are unable to come to class, you should submit the [Missing Class Form](https://forms.gle/Y4gRBfXoqZbc4iJa7). 
 
 **Readings.** There is no textbook for the course. There will be a variety of readings (and occasionally viewings or listenings) assigned. Some reading assignments will be intended as preparation or postreflection for material we discuss in class. Others will be needed to answer questions well on homeworks.  I will limit required readings to openly available materials (and favor materials available under [Creative Commons](https://creativecommons.org/) licenses, but will also include copyrighted materials under academic fair use), although there may occasionally be recommended optional materials that are not openly available.
 
 **On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the article, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
-
-**Quizzes.** There will be short quizzes, some in class (not necessarily announced in advance) and some done outside of class. Most quizzes will be graded primarily based on reasonable evidence of effort, and the main value of the answers will be to inform and enhance what we do in class. 
 
 **Projects.** There will be six or seven projects during the semester (due approximately every two weeks) that include answering questions (based on readings and classes) and doing activities to learn about and demonstrate knowledge of computing systems. Projects will combine developing foundational understanding with learning practical skills and building awareness of issues that impact users of computing systems.
 
@@ -94,12 +92,11 @@ receive in the course:
 <th width="60%" style="text-align:center;">Item</th>
 <th width="40%" style="text-align:center;">Standard Weighting</th>
 <tbody>
-<tr><td>Projects</td><td style="text-align:center;"><b>30%</b></td></tr>
+<tr><td>Projects</td><td style="text-align:center;"><b>40%</b></td></tr>
 <tr><td>Exam 1</td><td style="text-align:center;"><b>10%</b></td>
 <tr><td>Exam 2</td><td style="text-align:center;"><b>15%</b></td>
-<tr><td>Quizzes (about 6 throughout the semester)</td><td style="text-align:center;"><b>15%</b></td></tr>
 <tr><td>On-Line Discussion / News Articles</td><td style="text-align:center;"><b>15%</b></td></tr>
-<tr><td>In-Class Contribution</td><td style="text-align:center;"><b>15%</b></td></tr>
+<tr><td>In-Class Contribution</td><td style="text-align:center;"><b>20%</b></td></tr>
 </tbody>
 </table>
 </center>
