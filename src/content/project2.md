@@ -215,6 +215,11 @@ One way to get your site indexed by google is to have a site that google already
 
 Fortunately, the course website is indexed by google (for example, try [https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders](https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders)), and if you post the URL to your website in the [Canvas "Project 2 Link" Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208).
 
+
+<div class="problem">
+
+Post the URL for your website in the [Canvas "Project 2 Link" Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208). (Although Project 2 is not due until )
+
 ## Developing Locally
 
 One drawback of developing your website by editing files using github's web interface like this is that you can't try things out and see if the work without making your changes visible to the world, making a public commit of your edits, and waiting for your edits to propagate to the publicly-visible website. As your site gets bigger and starts to attract millions of visitors, you don't want everyone to see your changes until you have tested them and a ready to make them visible on the public website.
@@ -356,16 +361,14 @@ The next problem will require some investigation on your part to answer well, bu
 
 Finally, an optional search engine challenge!
 
-[Googlewhack](https://en.wikipedia.org/wiki/Googlewhack) is a challenge to find a Google query where the response is a single website. There's even a [twho hour movie](https://www.youtube.com/watch?v=6eOfRvuWIxk) about it. The original goal is to find a query that is just two words, both of which are in the dictionary, where the response is a single webpage.
-
+[Googlewhack](https://en.wikipedia.org/wiki/Googlewhack) is a challenge to find a Google query where the response is a single website. There's even a [two hour movie](https://www.youtube.com/watch?v=6eOfRvuWIxk) about it (which might not be worth watching in its entirety, but does give a historical view of what web searching was like in the early 2000s). The original goal is to find a query that is just two words, both of which are in the dictionary, where the response is a single webpage. (Of course, all the googlewhacks in the movie now appear on [hundreds of websites](https://www.google.com/search?hl=en&q=francophile%20namesakes#ip=1)).
 
 <div class="problem">
 
 **Problem 9.** Find a google query where the response is a single webpage. Bonus if your query is just a sequence of normal words, and double bonus if it is just two words. 
 </div>
 
-(Note: you could potentially modify your own website to set up a winning googlewhack. This would be a legitimate solution, but may still be challenging to do, and depends on getting your page into the index.)
-
+It is also not even clear if finding a googlewhack (as narrowly defined) is even possible today, but hopefully some of you will show that it is. Note that since you now have a website that you control, you could potentially modify your own website to set up a winning googlewhack. This would not be considered cheating, but may still be quite challenging to do, and depends on getting your page into the index. 
 
 
 
