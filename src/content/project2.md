@@ -58,7 +58,7 @@ Do keep in mind that anything you put on the web lives forever, and can probably
 **Problem 1.** Copy the URL for your website `https://_username_.github.io` into the submission form.
 </div>
 
-## Editing your website
+## Creating your website
 
 If you want people to visit your website, of course, you need some more interesting content than just "My super cool website!" (but do read the note above an don't try to make it _too_ interesting).
 
@@ -213,4 +213,32 @@ At this stage, you have all the tools you need to build a valuable website &mdas
 One way to get your site indexed by google is to have a site that google already indexes include a link to your website. Sometimes people pay scammers to add links to their website (which doesn't usually end well), but you don't need to resort to that! 
 
 Fortunately, the course website is indexed by google (for example, try [https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders](https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders)), and if you post the URL to your website in the [Canvas "Project 2 Link" Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208).
+
+## Developing Locally
+
+One drawback of developing your website by editing files using github's web interface like this is that you can't try things out and see if the work without making your changes visible to the world, making a public commit of your edits, and waiting for your edits to propagate to the publicly-visible website. As your site gets bigger and starts to attract millions of visitors, you don't want everyone to see your changes until you have tested them and a ready to make them visible on the public website.
+
+To do this, you need to make a local _clone_ of your git repository. This will allow you to make any edits you want in your local clone, test them on your own machine, and then, when you are ready, push these changes back to the main repository on github.
+
+There are lots of different ways to do this, and to edit files on your local machine. But, to try and make things as similar as possible between MacOS and Windows users, and to give you the experience of using a powerful (but free) editing tool, we will provide instructions for how to do it using Microsoft's [Visual Studio Code](https://code.visualstudio.com/).
+
+Follow the directions at [https://code.visualstudio.com/](https://code.visualstudio.com) to download and install the latest stable version of Visual Studio Code to your machine (this is available for MacOS, Windows, and Linux, which should cover everyone in the class). (If you do this on the machine you want to work on, the website should automatically determine the correct version to download with the big blue button there.)
+
+You can manually connect to your github repository, but if you want things to be easy, also install the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
+
+Follow the directions on [https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github) and Sign In to your github account and then clone your repository (`https://github.com/_username_/_username_.github.io`). 
+
+Once you've done this, you can start editing the code in the Visual Studio Code editor, and make any changes you want. (It is not necessary to read beyond this in the instructions.) You can open your html files in your web browser and test them.
+
+Make some edits to improve your website. In addition to modifying the current files, you can add additional files, make folders, and do anything else you want to change the site locally.
+
+When you are ready, select the git menu on the left size of Visual Studio Code , and "Commit &amp; Push" from the "Commit" menu. Commit by itself would give you a local commit, but the "Push" is what updates the content in your github repository and makes the changes propagate to your publicly-visible website.
+
+<div class="problem">
+
+**Problem 5.** Find the commit that you just did on your github repository site, and submit the URL to it (similarly to the last problem, but for the new commit). If you ran into any issues editing locally or have any questions about what is going on, include them in your answer.
+</div>
+
+
+
 

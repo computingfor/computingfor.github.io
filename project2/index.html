@@ -77,7 +77,7 @@
 <div class="problem">
 <p><strong>Problem 1.</strong> Copy the URL for your website <code>https://_username_.github.io</code> into the submission form.</p>
 </div>
-<h2 id="editing-your-website">Editing your website</h2>
+<h2 id="creating-your-website">Creating your website</h2>
 <p>If you want people to visit your website, of course, you need some more interesting content than just &ldquo;My super cool website!&rdquo; (but do read the note above an don&rsquo;t try to make it <em>too</em> interesting).</p>
 <p>To get started editing the content, you will use the github web interface. Later, you&rsquo;ll see how to edit content more efficiently and powerfully by creating a clone of the repository to be able to edit on your own laptop instead.</p>
 <p>Click &ldquo;Add File&rdquo; and select &ldquo;+ Create new file&rdquo; to create a new file. Enter <code>index.html</code> as the name of the file. By convention, this is the default file that will be displayed by a web browser visiting the webiste.</p>
@@ -173,6 +173,19 @@
 <p>At this stage, you have all the tools you need to build a valuable website — all that&rsquo;s left to do is to create some worthwhile content and the world will beat a path to your door. Actually, that&rsquo;s probably not going to happen — you need for people to find your website, and the usual way people find website is through search engines.</p>
 <p>One way to get your site indexed by google is to have a site that google already indexes include a link to your website. Sometimes people pay scammers to add links to their website (which doesn&rsquo;t usually end well), but you don&rsquo;t need to resort to that!</p>
 <p>Fortunately, the course website is indexed by google (for example, try <a href="https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders">https://www.google.com/search?q=uva+cs1010+computing+for+future+leaders</a>), and if you post the URL to your website in the <a href="https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208">Canvas &ldquo;Project 2 Link&rdquo; Discussion</a>.</p>
+<h2 id="developing-locally">Developing Locally</h2>
+<p>One drawback of developing your website by editing files using github&rsquo;s web interface like this is that you can&rsquo;t try things out and see if the work without making your changes visible to the world, making a public commit of your edits, and waiting for your edits to propagate to the publicly-visible website. As your site gets bigger and starts to attract millions of visitors, you don&rsquo;t want everyone to see your changes until you have tested them and a ready to make them visible on the public website.</p>
+<p>To do this, you need to make a local <em>clone</em> of your git repository. This will allow you to make any edits you want in your local clone, test them on your own machine, and then, when you are ready, push these changes back to the main repository on github.</p>
+<p>There are lots of different ways to do this, and to edit files on your local machine. But, to try and make things as similar as possible between MacOS and Windows users, and to give you the experience of using a powerful (but free) editing tool, we will provide instructions for how to do it using Microsoft&rsquo;s <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</p>
+<p>Follow the directions at <a href="https://code.visualstudio.com">https://code.visualstudio.com/</a> to download and install the latest stable version of Visual Studio Code to your machine (this is available for MacOS, Windows, and Linux, which should cover everyone in the class). (If you do this on the machine you want to work on, the website should automatically determine the correct version to download with the big blue button there.)</p>
+<p>You can manually connect to your github repository, but if you want things to be easy, also install the <a href="https://code.visualstudio.com/docs/sourcecontrol/github">GitHub Pull Requests and Issues</a> extension.</p>
+<p>Follow the directions on <a href="https://code.visualstudio.com/docs/sourcecontrol/github">https://code.visualstudio.com/docs/sourcecontrol/github</a> and Sign In to your github account and then clone your repository (<code>https://github.com/_username_/_username_.github.io</code>).</p>
+<p>Once you&rsquo;ve done this, you can start editing the code in the Visual Studio Code editor, and make any changes you want. (It is not necessary to read beyond this in the instructions.) You can open your html files in your web browser and test them.</p>
+<p>Make some edits to improve your website. In addition to modifying the current files, you can add additional files, make folders, and do anything else you want to change the site locally.</p>
+<p>When you are ready, select the git menu on the left size of Visual Studio Code , and &ldquo;Commit &amp; Push&rdquo; from the &ldquo;Commit&rdquo; menu. Commit by itself would give you a local commit, but the &ldquo;Push&rdquo; is what updates the content in your github repository and makes the changes propagate to your publicly-visible website.</p>
+<div class="problem">
+<p><strong>Problem 5.</strong> Find the commit that you just did on your github repository site, and submit the URL to it (similarly to the last problem, but for the new commit). If you ran into any issues editing locally or have any questions about what is going on, include them in your answer.</p>
+</div>
 
 </article>
 
