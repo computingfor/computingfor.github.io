@@ -5,7 +5,7 @@ linktitle="project2"
 title="Project 2"
 +++
 
-# Project 2: Web
+# Project 2: Building the Web
 
 For this project, the main goal is for you to:
 
@@ -219,7 +219,6 @@ Fortunately, the course website is indexed by google (for example, try [https://
 <div class="problem">
 
 Post the URL for your website in the [Canvas "Project 2 Link" Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/364208). (Although Project 2 is not due until February 23, you should do this step as soon as you can, and not later than Friday, February 19.)
-
 </div>
 
 ## Developing Locally
