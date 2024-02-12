@@ -12,6 +12,7 @@ For this project, the main goal is for you to:
 1. Develop a good basic understanding of how the web works and how search engines find content on the web.
 2. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).
 
+The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website. The [second part](#understanding-web-search-engines) has some short answer questions for you to answer about web search engines. The first part you should do in order, but you can do the second part at any time.
 
 <div class="yellowbox">
 
@@ -222,11 +223,15 @@ To do this, you need to make a local _clone_ of your git repository. This will a
 
 There are lots of different ways to do this, and to edit files on your local machine. But, to try and make things as similar as possible between MacOS and Windows users, and to give you the experience of using a powerful (but free) editing tool, we will provide instructions for how to do it using Microsoft's [Visual Studio Code](https://code.visualstudio.com/).
 
+**9. Set up your Local Editing**
+
 Follow the directions at [https://code.visualstudio.com/](https://code.visualstudio.com) to download and install the latest stable version of Visual Studio Code to your machine (this is available for MacOS, Windows, and Linux, which should cover everyone in the class). (If you do this on the machine you want to work on, the website should automatically determine the correct version to download with the big blue button there.)
 
 You can manually connect to your github repository, but if you want things to be easy, also install the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
 
 Follow the directions on [https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github) and Sign In to your github account and then clone your repository (`https://github.com/_username_/_username_.github.io`). 
+
+**10. Edit your website locally, and push the changes.**
 
 Once you've done this, you can start editing the code in the Visual Studio Code editor, and make any changes you want. (It is not necessary to read beyond this in the instructions.) You can open your html files in your web browser and test them.
 
@@ -238,6 +243,134 @@ When you are ready, select the git menu on the left size of Visual Studio Code ,
 
 **Problem 5.** Find the commit that you just did on your github repository site, and submit the URL to it (similarly to the last problem, but for the new commit). If you ran into any issues editing locally or have any questions about what is going on, include them in your answer.
 </div>
+
+## A Sense of Style 
+
+Hopefully your website already is very stylish from the work you did for Problem 2 and the edits you have done since then. The problem is all of the styling is done within the page content, so has to be done manually everywhere if you want to keep the website stylish and consistent.
+
+[Cascading Style Sheets](https://www.w3.org/TR/CSS/) were invented to solve this problem. They allow you to describe style aspects in a separate file from the structure and content.
+
+**11. Creating your own style.**
+
+Create a new file, `_style_.css` in your local repository. (The `.css` extension should be used, but you can change the name `_style_` to something more descriptive and personal of your choosing.)
+
+To use this in your web pages, add the line
+```html
+<link rel="stylesheet" href="/style.css" type="text/css">
+```
+to each of your `.html` files in the `<head>` section. This instructs the browser to use the linked CSS file.
+
+Now you can modify your `_style_.css` file in a way that changes the style of all of the pages on your site.
+
+The CSS format allows you to specify web elements using a _select_, followed by styling attributes that apply to any element the rendered page that matches the selector.
+
+Here are a few examples (for demonstration purposes only, not recommended style!):
+```css
+h1 {
+  color: blue;
+  background-color: orange;
+  font-size: xx-large;
+}
+```
+This says to make all level one headers (`<h1>`) with ridulously-large blue text on an orange background.
+
+```css
+body {
+  font-family: Verdana, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+```
+
+This is what we should have done instead of 
+```html
+<body style="font-family: Verdana, sans-serif; margin-left: 10%; margin-right: 10%">
+```
+as was done earlier.
+
+Adding this to your style sheet will make all of your chunks paragraph text look better:
+```css
+p {
+    text-wrap: pretty;  
+}
+```
+
+You can also define your own structural styles. For example, the green boxes used to mark problems on this webpage are created using this:
+```css
+.problem {
+    background-color: #86e2b0;
+    margin-left: 5%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px; 
+    font-size: large;
+}
+```
+The `.` means this is selected when an element has the attribute `class="problem"`.  In the HTML for the page, I use
+```html 
+<div class="problem">
+Here's the text of the problem, which will now appear in the green box style defined in the style sheet.
+</div>
+```
+
+<div class="problem">
+
+**Problem 6.** Add some styles to your `_style_.css` file, and use them in your HTML files. When you've got things looking how you want locally, commit and push the changes to your github repository. Find the commit on your github repository site, and submit the URL to it. If you ran into any problems or make any interesting discoveries about how to use style sheets, include them in your answer.
+</div>
+
+Now you're done with the expected web site development for this project. Of course, a website is never really done! We hope you'll find your website useful and fun to work on, and will keep improving and adding to it for the rest of the semester and beyond this course.
+
+<a name="searchenginequestions">
+
+## Understanding Search Engines and the Web
+
+The remaining problems are to check your understanding of how the web works.
+
+<div class="problem">
+
+**Problem 7.** Based on your understanding of how web search engines work (mostly from [Class 7](https://computingfor.github.io/post/class7/)), explain how each of the following would impact the cost (amount of computation work needed) to provide a response to a web query (compared to a short single word query on the current web engine index):
+
+<ol type='a'>
+<li> The amount of content on the web that is included in the web engine index doubles
+<li> The query is one very long word
+<li> The query is many short words, separated by spaces
+<li> The query word is not found on any webpage in the corpus
+</ol>
+
+For each sub-part, a good answer will describe the property of how the search engine works that impacts the cost of responding to the query in a way that depends on the change described in each sub-part.
+</div>
+
+
+The next problem will require some investigation on your part to answer well, but see what you are able to figure out. If you're stuck on ways to try and answer these, post in the Canvas discussion for Project 2.
+
+<div class="problem">
+
+**Problem 8.** The following subquestions are about the `https://_username_.github.io/` website you built for Part 1. For each sub-part, find the best answer you can, and explain what you did to get it.
+<ol type='a'>
+<li> Where (physically) is the machine that is hosting your web site? 
+<li> How long does it take to get a response from your web site?
+<li> How many bits are sent over the Internet when you request `https://_username_.github.io/` in your browser?
+</div>
+
+Finally, an optional search engine challenge!
+
+[Googlewhack](https://en.wikipedia.org/wiki/Googlewhack) is a challenge to find a Google query where the response is a single website. There's even a [twho hour movie](https://www.youtube.com/watch?v=6eOfRvuWIxk) about it. The original goal is to find a query that is just two words, both of which are in the dictionary, where the response is a single webpage.
+
+
+<div class="problem">
+
+**Problem 9.** Find a google query where the response is a single webpage. Bonus if your query is just a sequence of normal words, and double bonus if it is just two words. 
+</div>
+
+(Note: you could potentially modify your own website to set up a winning googlewhack. This would be a legitimate solution, but may still be challenging to do, and depends on getting your page into the index.)
+
+
+
+
+
+
 
 
 
