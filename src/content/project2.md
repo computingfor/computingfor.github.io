@@ -36,15 +36,15 @@ The website you will create will be hosted using github pages. Github pages has 
 
 **1. Create a github account.** 
 
-Visit [https://github.com/](https://github.com/) and sign up for a free account. Pick your username tastefully &mdash; this will be public, and your website will be at <pre>_username_.github.io</ore> (note that if you do buy a domain name, you can still use github pages to host the site). If you sign up using your `@virginia.edu` account, you will be able to get an academic account that includes some additional free (for students) services, but it isn't necessary for this assignment. 
+Visit [https://github.com/](https://github.com/) and sign up for a free account. Pick your username tastefully &mdash; this will be public, and your website will be at <span class="code">_username_.github.io</span> (where <span class="code">_username_</span> is the username your use to create your github account). If you sign up using your `@virginia.edu` account, you will be able to get an academic account that includes some additional free (for students) services, but it isn't necessary for this assignment. 
 
 **2. Create a repository.** 
 
-You should see a green "Create repository" button to click, or just visit [https://github.com/new](https://github.com/new). To create a website, you must use the name <pre>_username_.github.io</pre> for your repository. For now, we recommend selecting `Public` (instead of `Private`) for this. Be aware that this means that everything you put in the repository will now be visible to anyone on the internet, and once something is on the Internet it cannot ever really be deleted. It is good practice to check the box to `Add a README file` (you will edit this later). You can skip the `Add .gitignore` choice. If you don't selected a license, the default copyright laws apply to the content you create in the repository. If you want to allow others to benefit more from your content, you can select a more permissive license (which is not required for this).
+You should see a green "Create repository" button to click, or just visit [https://github.com/new](https://github.com/new). To create a website, you must use the name <span class="code">_username_.github.io</span> for your repository. For now, we recommend selecting `Public` (instead of `Private`) for this. Be aware that this means that everything you put in the repository will now be visible to anyone on the internet, and once something is on the Internet it cannot ever really be deleted. It is good practice to check the box to `Add a README file` (you will edit this later). You can skip the `Add .gitignore` choice. If you don't selected a license, the default copyright laws apply to the content you create in the repository. If you want to allow others to benefit more from your content, you can select a more permissive license (which is not required for this).
 
 **3. Visit your website!** 
 
-Open a web browser to `https://_username_.github.io`. You should see your website like this:
+Open a web browser to <span class="code">https://</span><span class="code">_username_.github.io</span>. You should see your website like this:
 
 <center><img src="/images/mywebsite.png" width=50%></center>
 
@@ -56,7 +56,7 @@ Do keep in mind that anything you put on the web lives forever, and can probably
 
 <div class="problem">
 
-**Problem 1.** Copy the URL for your website `https://_username_.github.io` into the submission form.
+**Problem 1.** Copy the URL for your website <span class="code">https://</span><span class="code">_username_.github.io</span> into the submission form.
 </div>
 
 ## Creating your website
@@ -93,7 +93,7 @@ Here's an example
 
 When you are done, click the `Commit Changes` button (at the top right). It will pop-up a dialog box where you can enter a description of the change, and then click the `Commit Changes` button.
 
-Reload the `https://_username_.github.io` site to see that the content has changed. (Note that it can take several minutes for the changes you make in github to propogate to the website. So, if you still see the old welcome page, wait a few minutes and try reloading it again.)
+Reload the <span class="code">https://</span><span class="code">_username_.github.io</span> site to see that the content has changed. (Note that it can take several minutes for the changes you make in github to propogate to the website. So, if you still see the old welcome page, wait a few minutes and try reloading it again.)
 
 **5. Make it fancy.** 
 
@@ -119,13 +119,13 @@ For example,
 ```
 Note: we'll see later that although adding style like this is fun, it isn't usually the _proper_ way of doing things. The problem is it is mixing up the _structure_ and _content_ of the document, with the style of how it should be displayed. If you're making a large website, you want to separate those decisions, and, for example, decide that all headings on the site should appear with a particular style and just need to change this in one place.
 
-For now, don't worry about that and add tags and attributes to make your website more stylish. To see the impact of a change, you'll need to "Commit Changes", and then reload `https://_username_.github.io` in your web browser (which may require a bit of a wait until the changes propagate). 
+For now, don't worry about that and add tags and attributes to make your website more stylish. To see the impact of a change, you'll need to "Commit Changes", and then reload  <span class="code">https://</span><span class="code">_username_.github.io</span> in your web browser (which may require a bit of a wait until the changes propagate). 
 
 There are lots of resources you can find on the web that describe HTML tags and attributes. Unfortunately, the search engine rankings are dominated by commercial sites (like [w3schools](https://www.w3schools.com/tags/ref_attributes.asp)) that are good at SEO ("search engine optimization", which is methods to get your content to rank highly in Google's index) but not as good at content. The documents from Mozilla at [https://developer.mozilla.org/](https://developer.mozilla.org/) are the best I know of. You'll also get very helpful answers, and code snippets, to most HTML questions from ChatGPT (e.g., [``html for purple text''](https://poe.com/s/nPVyy4WygFG5h47MWjWp)).
 
 6. **Understanding commitments.** 
 
-Once you've made the edits you want to the web page, go back to the top-level page for your repository in github (`https://github.com/_username_/_username_.github.io`). Near the top right (below the Green `Code` button), you should see a link that has the number of commits to the repository. The number will vary depending on how many times you did `Commit Changes`, but should be something like `5 Commits`. Click on this and you'll see a list of all the commits to the repository:
+Once you've made the edits you want to the web page, go back to the top-level page for your repository in github (<span class="code">https://</span><span class="code">github.com/_username_/_username_.github.io</span>). Near the top right (below the Green `Code` button), you should see a link that has the number of commits to the repository. The number will vary depending on how many times you did `Commit Changes`, but should be something like `5 Commits`. Click on this and you'll see a list of all the commits to the repository:
 
 For example, here's what I see for the example site:
 
@@ -167,11 +167,11 @@ Find a web page that has some interesting styling and use the inspection tools t
 
 A single web page is probably not enough to solve all the world's problems, so you'll need to create some more pages.
 
-At your repository page (`https://github.com/_username_/_username_.github.io`), click the `+` to `+ Create new file` (or just visit `https://github.com/_username_/_username_.github.io/new/main`). You can select any name you want for the new page, but it should end with a `.html` extension.
+At your repository page (<span class="code">https://</span><span class="code">github.com/_username_/_username_.github.io</span>), click the `+` to `+ Create new file` (or just visit <span class="code">https://</span><span class="code">github.com/_username_/_username_.github.io/new/main</span>). You can select any name you want for the new page, but it should end with a `.html` extension.
 
-Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at `https://_username_.github.io/_pagename_` and `https://_username_.github.io/_pagename_.html`. For example, [https://devansuva.github.io/pickles](https://devansuva.github.io/pickles) and [https://devansuva.github.io/pickles.html](https://devansuva.github.io/pickles.html). 
+Commit your changes, and visit the new wepage in your browser (it should exist, after a short delay, at <span class="code">https://</span><span class="code">_username_.github.io/_pagename_</span> and <span class="code">https://</span><span class="code">_username_.github.io/_pagename_.html</span>. For example, [https://devansuva.github.io/pickles](https://devansuva.github.io/pickles) and [https://devansuva.github.io/pickles.html](https://devansuva.github.io/pickles.html). 
 
-You probably also want to include some pictures on your web site. You can do this by uploading an image file to your repository by selecting the `+` and `Upload Files` (or just visiting `https://github.com/_username_/_username_.github.io/upload/main`) and selecting some images to upload.
+You probably also want to include some pictures on your web site. You can do this by uploading an image file to your repository by selecting the `+` and `Upload Files` (or just visiting <span class="code">https://</span><span class="code">github.com/_username_/_username_.github.io/upload/main</span>) and selecting some images to upload.
 
 Then, you can embed the picture directly in your webage by using an `img` tag. For example (where `pic1.jpg` would be the name of the image you uploaded):
 ```html
@@ -235,7 +235,7 @@ Follow the directions at [https://code.visualstudio.com/](https://code.visualstu
 
 You can manually connect to your github repository, but if you want things to be easy, also install the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
 
-Follow the directions on [https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github) and Sign In to your github account and then clone your repository (`https://github.com/_username_/_username_.github.io`). 
+Follow the directions on [https://code.visualstudio.com/docs/sourcecontrol/github](https://code.visualstudio.com/docs/sourcecontrol/github) and Sign In to your github account and then clone your repository (<span class="code">https://</span><span class="code">github.com/_username_/_username_.github.io</span>). 
 
 **10. Edit your website locally, and push the changes.**
 
@@ -258,7 +258,7 @@ Hopefully your website already is very stylish from the work you did for Problem
 
 **11. Creating your own style.**
 
-Create a new file, `_style_.css` in your local repository. (The `.css` extension should be used, but you can change the name `_style_` to something more descriptive and personal of your choosing.)
+Create a new file, <span class="code">_style_.css</span> in your local repository. (The `.css` extension should be used, but you can change the name <span class="code">_style_</span> to something more descriptive and personal of your choosing.)
 
 To use this in your web pages, add the line
 ```html
@@ -266,7 +266,7 @@ To use this in your web pages, add the line
 ```
 to each of your `.html` files in the `<head>` section. This instructs the browser to use the linked CSS file.
 
-Now you can modify your `_style_.css` file in a way that changes the style of all of the pages on your site.
+Now you can modify your <span class="code">_style_.css</span> file in a way that changes the style of all of the pages on your site.
 
 The CSS format allows you to specify web elements using a _select_, followed by styling attributes that apply to any element the rendered page that matches the selector.
 
@@ -323,7 +323,7 @@ Here's the text of the problem, which will now appear in the green box style def
 
 <div class="problem">
 
-**Problem 6.** Add some styles to your `_style_.css` file, and use them in your HTML files. When you've got things looking how you want locally, commit and push the changes to your github repository. Find the commit on your github repository site, and submit the URL to it. If you ran into any problems or make any interesting discoveries about how to use style sheets, include them in your answer.
+**Problem 6.** Add some styles to your <span class="code">_style_.css</span> file, and use them in your HTML files. When you've got things looking how you want locally, commit and push the changes to your github repository. Find the commit on your github repository site, and submit the URL to it. If you ran into any problems or make any interesting discoveries about how to use style sheets, include them in your answer.
 </div>
 
 Now you're done with the expected web site development for this project. Of course, a website is never really done! We hope you'll find your website useful and fun to work on, and will keep improving and adding to it for the rest of the semester and beyond this course.
@@ -353,11 +353,11 @@ The next problem will require some investigation on your part to answer well, bu
 
 <div class="problem">
 
-**Problem 8.** The following subquestions are about the `https://_username_.github.io/` website you built for Part 1. For each sub-part, find the best answer you can, and explain what you did to get it.
+**Problem 8.** The following subquestions are about the <span class="code">https://</span><span class="code">_username_.github.io/</span> website you built for Part 1. For each sub-part, find the best answer you can, and explain what you did to get it.
 <ol type='a'>
 <li> Where (physically) is the machine that is hosting your web site? 
 <li> How long does it take to get a response from your web site?
-<li> How many bits are sent over the Internet when you request `https://_username_.github.io/` in your browser?
+<li> How many bits are sent over the Internet when you request the main page of your web site in your browser?
 </div>
 
 Finally, an optional search engine challenge!
