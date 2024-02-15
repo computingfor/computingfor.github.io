@@ -12,9 +12,9 @@ The first part of [Project 2](/project2) is due on Monday, 19 February (the full
 
 ### Links
 
-- [Live map of Starlink Satellites](https://satellitemap.space/)
-- Vannevar Bush, [_As We May Think_](/docs/aswemaythink.pdf), Atlantic Monthly, July 1945.
-- Tim Berners-Lee, [_Information Management: A Proposal_](https://www.w3.org/History/1989/proposal-msw.html), 1989.
+- PageRank paper: Sergey Brin and Lawrence Page, [_The Anatomy of a Large-Scale Hypertextual Web Search Engine](/docs/pagerank.pdf), 1998.
+- [Undersea Cables Map](https://www.submarinecablemap.com/)
+
 
 ### Slides
 
