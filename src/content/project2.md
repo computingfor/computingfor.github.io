@@ -229,6 +229,7 @@ To do this, you need to make a local _clone_ of your git repository. This will a
 
 There are lots of different ways to do this, and to edit files on your local machine. But, to try and make things as similar as possible between MacOS and Windows users, and to give you the experience of using a powerful (but free) editing tool, we will provide instructions for how to do it using Microsoft's [Visual Studio Code](https://code.visualstudio.com/).
 
+
 **9. Set up your Local Editing**
 
 Follow the directions at [https://code.visualstudio.com/](https://code.visualstudio.com) to download and install the latest stable version of Visual Studio Code to your machine (this is available for MacOS, Windows, and Linux, which should cover everyone in the class). (If you do this on the machine you want to work on, the website should automatically determine the correct version to download with the big blue button there.)
@@ -244,6 +245,12 @@ Once you've done this, you can start editing the code in the Visual Studio Code 
 Make some edits to improve your website. In addition to modifying the current files, you can add additional files, make folders, and do anything else you want to change the site locally.
 
 When you are ready, select the git menu on the left size of Visual Studio Code , and "Commit &amp; Push" from the "Commit" menu. Commit by itself would give you a local commit, but the "Push" is what updates the content in your github repository and makes the changes propagate to your publicly-visible website.
+
+<div class="yellownote">
+
+Note: If you get stuck setting up things to work locally, you can skip ahead to and continue to the remaining problems editing your website using the github web interface. Things work differently depending on your machine setup and other software that might be installed, so it might be necessary to do some extra steps to get Visual Studio Code working with github for you. You can ask questions in the Canvas discussion, and we'll try to help there, but go ahead with the remaining problems and you can get back to setting up the local repository and editing later.
+
+</div>
 
 <div class="problem">
 
