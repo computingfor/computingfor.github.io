@@ -12,3 +12,4 @@ This post has links to some of the most awesome websites ever created, and we ho
 - [Supper Club](https://rgieryn.github.io/)
 - [Tai Lung to the rescue!](https://smithenry.github.io/)
 - [Avocados and Oranges](https://abbyytt.github.io/index.html)
+- [Snoopy and Peanuts](https://akl5mjz.github.io/)

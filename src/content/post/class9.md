@@ -12,7 +12,7 @@ The first part of [Project 2](/project2) is due on Monday, 19 February (the full
 
 ### Links
 
-- PageRank paper: Sergey Brin and Lawrence Page, [_The Anatomy of a Large-Scale Hypertextual Web Search Engine](/docs/pagerank.pdf), 1998.
+- PageRank paper: Sergey Brin and Lawrence Page, [_The Anatomy of a Large-Scale Hypertextual Web Search Engine_](/docs/pagerank.pdf), 1998.
 - [Undersea Cables Map](https://www.submarinecablemap.com/)
 
 
