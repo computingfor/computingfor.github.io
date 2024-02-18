@@ -6,136 +6,91 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class 9: PageRank and Packet Pathways</title>
       <link>https://computingfor.github.io/post/class8/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class8/</guid>
-      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.
-Links PageRank paper: Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998. Undersea Cables Map Slides Class 9: PageRank and Packet Pathways</description>
+      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links PageRank paper: Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998. Undersea Cables Map Slides Class 9: PageRank and Packet Pathways</description>
     </item>
-    
     <item>
       <title>Class 8: The Internet and the World Wide Web</title>
       <link>https://computingfor.github.io/post/class8/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class8/</guid>
-      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.
-Links Live map of Starlink Satellites Vannevar Bush, As We May Think, Atlantic Monthly, July 1945. Tim Berners-Lee, Information Management: A Proposal, 1989. Slides Class 8: The Internet and the World Wide Web.</description>
+      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links Live map of Starlink Satellites Vannevar Bush, As We May Think, Atlantic Monthly, July 1945. Tim Berners-Lee, Information Management: A Proposal, 1989. Slides Class 8: The Internet and the World Wide Web.</description>
     </item>
-    
     <item>
       <title>The Most Awesome Websites Ever!</title>
       <link>https://computingfor.github.io/post/websites/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/websites/</guid>
-      <description>This post has links to some of the most awesome websites ever created, and we hope you and any crawler that happens to visit this page will enjoy them!
-Watermelons and Capybaras Supper Club Tai Lung to the rescue! Anna&amp;rsquo;s Awesome Website Avocados and Oranges Snoopy and Peanuts For Wahoo Fanatics Welcome to Nashville! </description>
+      <description>This post has links to some of the most awesome websites ever created, and we hope you and any crawler that happens to visit this page will enjoy them!&#xA;Watermelons and Capybaras Supper Club Tai Lung to the rescue! Anna&amp;rsquo;s Awesome Website Avocados and Oranges Snoopy and Peanuts For Wahoo Fanatics Welcome to Nashville! Angry Cats! </description>
     </item>
-    
     <item>
       <title>Class 7: Finding Needles on the Web</title>
       <link>https://computingfor.github.io/post/class7/</link>
       <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class7/</guid>
-      <description>Slides The slides are here: Class 7: Finding Needles on the Web.
-ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
+      <description>Slides The slides are here: Class 7: Finding Needles on the Web.&#xA;ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
     </item>
-    
     <item>
       <title>Class 6: Search</title>
       <link>https://computingfor.github.io/post/class6/</link>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class6/</guid>
-      <description>Slides The slides are here: Class 6: Search.
-Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
+      <description>Slides The slides are here: Class 6: Search.&#xA;Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
     </item>
-    
     <item>
       <title>Class 5: Computing on Binary Data</title>
       <link>https://computingfor.github.io/post/class5/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class5/</guid>
-      <description>Slides The slides are here: Class 5: Computing on Binary Data.
-Addition Algorithms What is an algorithm? Binary Addition Algorithms Multiplcation 0.010101010101010&amp;hellip; </description>
+      <description>Slides The slides are here: Class 5: Computing on Binary Data.&#xA;Addition Algorithms What is an algorithm? Binary Addition Algorithms Multiplcation 0.010101010101010&amp;hellip; </description>
     </item>
-    
     <item>
       <title>Class 4: Continuous Binary Representations</title>
       <link>https://computingfor.github.io/post/class4/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class4/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.
-The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.
-Slides The slides are here: Class 4: Continuous Binary Representations.
-Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) </description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.&#xA;Slides The slides are here: Class 4: Continuous Binary Representations.&#xA;Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) </description>
     </item>
-    
     <item>
       <title>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</title>
       <link>https://computingfor.github.io/post/class3/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class3/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.
-Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.
-16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:
-WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
     </item>
-    
     <item>
       <title>Class 2: The Digital Abstraction</title>
       <link>https://computingfor.github.io/post/class2/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class2/</guid>
-      <description>Charge Project 1 is now posted, and is due at the beginning of class on Thursday, 1 February 2024.
-Slides The slides are here: Class 2: The Digital Abstraction.
-Beginning of Course Survey Analog/Digital Digital Music </description>
+      <description>Charge Project 1 is now posted, and is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 2: The Digital Abstraction.&#xA;Beginning of Course Survey Analog/Digital Digital Music </description>
     </item>
-    
     <item>
       <title>Class 1: Introduction</title>
       <link>https://computingfor.github.io/post/class1/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/class1/</guid>
-      <description>Charge Before 8:59pm Friday (Jan 19), read the syllabus and submit the Beginning of Course Survey.
-Sometime next week (but earlier is better), contribute to the Computing in the News Week 1 discussion.
-Slides The slides are here: Class 1: Introduction.
-Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog </description>
+      <description>Charge Before 8:59pm Friday (Jan 19), read the syllabus and submit the Beginning of Course Survey.&#xA;Sometime next week (but earlier is better), contribute to the Computing in the News Week 1 discussion.&#xA;Slides The slides are here: Class 1: Introduction.&#xA;Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog </description>
     </item>
-    
     <item>
       <title>Starting this week</title>
       <link>https://computingfor.github.io/post/start/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/start/</guid>
-      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).
-A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.
-If you want to get an early start on the class, please fill out the Beginning of Course Survey (which is due at 6:59pm Friday).</description>
+      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.&#xA;If you want to get an early start on the class, please fill out the Beginning of Course Survey (which is due at 6:59pm Friday).</description>
     </item>
-    
     <item>
       <title>Welcome to cs1010!</title>
       <link>https://computingfor.github.io/post/welcome/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://computingfor.github.io/post/welcome/</guid>
-      <description>Welcome to cs1010!
-This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.
-Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).
-More material will be posted here as the beginning of the semester approaches.</description>
+      <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
     </item>
-    
   </channel>
 </rss>
