@@ -17,3 +17,7 @@ This post has links to some of the most awesome websites ever created, and we ho
 - [For Wahoo Fanatics](https://uvathomas.github.io/index.html)
 - [Welcome to Nashville!](https://soniamistry.github.io/)
 - [Angry Cats!](https://alicehann.github.io/)
+- [UVA Basketball Photos!](https://jadenhawkins14.github.io/)
+- [Hello!](https://dkoberg.github.io/)
+- [TBD](https://lgr3qa.github.io/)
+- [Cats and Chill Study Vibes](https://uvapcs.github.io/)
