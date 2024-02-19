@@ -3,7 +3,7 @@ date = "15 Feb 2024"
 draft = false
 title = "Class 9: PageRank and Packet Pathways"
 author = "David Evans"
-slug = "class8"
+slug = "class9"
 +++
 
 ### Schedule

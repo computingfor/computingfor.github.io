@@ -10,9 +10,9 @@
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class 9: PageRank and Packet Pathways</title>
-      <link>https://computingfor.github.io/post/class8/</link>
+      <link>https://computingfor.github.io/post/class9/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/class8/</guid>
+      <guid>https://computingfor.github.io/post/class9/</guid>
       <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links PageRank paper: Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998. Undersea Cables Map Slides Class 9: PageRank and Packet Pathways</description>
     </item>
     <item>
@@ -126,6 +126,13 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/project2/</guid>
       <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://computingfor.github.io/post/class10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class10/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

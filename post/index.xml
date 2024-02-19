@@ -10,9 +10,9 @@
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class 9: PageRank and Packet Pathways</title>
-      <link>https://computingfor.github.io/post/class8/</link>
+      <link>https://computingfor.github.io/post/class9/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/class8/</guid>
+      <guid>https://computingfor.github.io/post/class9/</guid>
       <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links PageRank paper: Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998. Undersea Cables Map Slides Class 9: PageRank and Packet Pathways</description>
     </item>
     <item>
@@ -91,6 +91,13 @@
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://computingfor.github.io/post/class10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class10/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
