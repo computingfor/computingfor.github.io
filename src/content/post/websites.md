@@ -21,5 +21,6 @@ This post has links to some of the most awesome websites ever created, and we ho
 - [Hello!](https://dkoberg.github.io/)
 - [TBD](https://lgr3qa.github.io/)
 - [Cats and Chill Study Vibes](https://uvapcs.github.io/)
+- [Macy's Favorite Things](https://macyperrins.github.io/style.html)
 - [Cinnamoroll](https://xinyih116.github.io/)
 - [Carley's Page](https://carleykeurajian.github.io/)
