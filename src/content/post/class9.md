@@ -18,7 +18,7 @@ The first part of [Project 2](/project2) is due on Monday, 19 February (the full
 
 ### Slides
 
-[Class 9: PageRank and Packet Pathways]()
+[Class 9: PageRank and Packet Pathways](https://www.dropbox.com/scl/fi/hhq3fy7wpp33pbev14meq/cs1010-class9.pdf?rlkey=geabl2tgw6kvdd2eh74qbdrnk&dl=0)
 
 - Crawling the Web
 - Finding the "best" web pages
