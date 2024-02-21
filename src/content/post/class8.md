@@ -18,4 +18,10 @@ The first part of [Project 2](/project2) is due on Monday, 19 February (the full
 
 ### Slides
 
-[Class 8: The Internet and the World Wide Web](https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&dl=0).
+[Class 8: The Internet and the World Wide Web](https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&dl=0)
+
+- Networks
+- Developer Tools in Web Browsers
+- Chappe's Semaphore Network
+- Latency and Bandwidth
+- The World Wide Web
