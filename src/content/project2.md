@@ -244,7 +244,7 @@ Once you've done this, you can start editing the code in the Visual Studio Code 
 
 Make some edits to improve your website. In addition to modifying the current files, you can add additional files, make folders, and do anything else you want to change the site locally.
 
-When you are ready, select the git menu on the left size of Visual Studio Code , and "Commit &amp; Push" from the "Commit" menu. Commit by itself would give you a local commit, but the "Push" is what updates the content in your github repository and makes the changes propagate to your publicly-visible website.
+When you are ready, select the git menu on the left side of Visual Studio Code, and "Commit &amp; Push" from the "Commit" menu. Commit by itself would give you a local commit, but the "Push" is what updates the content in your github repository and makes the changes propagate to your publicly-visible website.
 
 <div class="yellownote">
 
