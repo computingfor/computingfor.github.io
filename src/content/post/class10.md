@@ -18,7 +18,7 @@ Submit it by 5:00pm tomorrow (Wednesday, 21 February).
 
 ### Slides
 
-[Class 10: Zombie Packets!](https://www.dropbox.com/scl/fi/ck934w97dx0tmgcqzfckl/cs1010-class10.pdf?rlkey=icmxefp8as2yx8o9tx3lpret9&dl=0) (sorry, didn't save the in-class annotations)
+[Class 10: Zombie Packets!](https://www.dropbox.com/scl/fi/ck934w97dx0tmgcqzfckl/cs1010-class10.pdf?rlkey=icmxefp8as2yx8o9tx3lpret9&dl=0) 
 
 - Routing on the Internet
 - IPv4 vs. IPv6
