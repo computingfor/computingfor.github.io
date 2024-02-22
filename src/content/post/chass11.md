@@ -18,7 +18,7 @@ Check out [https://safetyschool.us/](https://safetyschool.us/) and [http://safet
 
 [Class 11: Owning a Piece of the Internet](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)
 
-- Mid-Course Survey
+- Mid-Course Survey (the [survey will remain up](https://forms.gle/t7SSm8smgwTwGwxN9), please submit any time you want)
 - Owning a Piece of the Internet
 - Buying a Domain Name
 
