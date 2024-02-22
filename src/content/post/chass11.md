@@ -8,7 +8,7 @@ slug = "class11"
 
 ### Our Piece of the Internet
 
-Check out [https://safetyschool.us/](https://safetyschool.us/)!
+Check out [https://safetyschool.us/](https://safetyschool.us/) and [http://safetyschool.us/](http://safetyschool.us/)!
 
 ### Schedule
 
@@ -17,4 +17,8 @@ Check out [https://safetyschool.us/](https://safetyschool.us/)!
 ### Slides
 
 [Class 11: Owning a Piece of the Internet](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)
+
+- Mid-Course Survey
+- Owning a Piece of the Internet
+- Buying a Domain Name
 
