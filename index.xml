@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 11: Owning a Piece of the Internet</title>
+      <link>https://computingfor.github.io/post/class11/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class11/</guid>
+      <description>Our Piece of the Internet Check out https://safetyschool.us/!&#xA;Schedule Project 2 is due on Friday, 23 February. Please try to get the local editing for github working (and the directions with screenshots that Beenish posted on the Canvas site should help), but if you are stuck on this it is okay to skip steps 9 and 10 and Problem 5.&#xA;Slides Class 11: Owning a Piece of the Internet</description>
+    </item>
     <item>
       <title>Class 10: Zombie Packets</title>
       <link>https://computingfor.github.io/post/class10/</link>
