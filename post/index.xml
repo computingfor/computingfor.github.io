@@ -76,7 +76,7 @@
       <link>https://computingfor.github.io/post/class3/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/class3/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 3: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
     </item>
     <item>
       <title>Class 2: The Digital Abstraction</title>
@@ -105,13 +105,6 @@
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://computingfor.github.io/post/sofar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/sofar/</guid>
-      <description>sofar.md</description>
     </item>
   </channel>
 </rss>

@@ -12,7 +12,7 @@ slug = "class3"
 
 ### Slides
 
-The slides are here: [Apple is Lossy, but Microsoft has bigger Megabytes](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0).
+The slides are here: [Class 3: Apple is Lossy, but Microsoft has bigger Megabytes](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0).
 
 - 16 bits
 - What's a "MB"?

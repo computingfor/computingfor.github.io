@@ -83,7 +83,7 @@
       <link>https://computingfor.github.io/post/class3/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/class3/</guid>
-      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 3: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
     </item>
     <item>
       <title>Class 2: The Digital Abstraction</title>
@@ -118,7 +118,7 @@
       <link>https://computingfor.github.io/classes/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/classes/</guid>
-      <description>Materials from class will be posted here.</description>
+      <description>Representing Information Class 1: Introduction [Slides]&#xA;Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog Class 2: The Digital Abstraction [Slides]&#xA;Beginning of Course Survey Analog/Digital Digital Music Class 3: Apple is Lossy, but Microsoft has bigger Megabytes [Slides]&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Class 4: Continuous Binary Representations [Slides]</description>
     </item>
     <item>
       <title>Syllabus</title>
@@ -140,13 +140,6 @@
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/project2/</guid>
       <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://computingfor.github.io/post/sofar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/sofar/</guid>
-      <description>sofar.md</description>
     </item>
   </channel>
 </rss>
