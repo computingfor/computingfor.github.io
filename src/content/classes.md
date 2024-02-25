@@ -66,7 +66,7 @@ title="Classes"
 
 - ChatGPT is not a search engine: "hallucinating" UVA classes
 - Search Strategies
-- Jefferson's Library (see [_Catalogue of the Library of Thomas Jefferson_](https://tile.loc.gov/storage-services/service/rbc/rbc0001/2007/2007jeffcat1/2007jeffcat1.pdf))
+- [Jefferson's Library](https://tile.loc.gov/storage-services/service/rbc/rbc0001/2007/2007jeffcat1/2007jeffcat1.pdf)
 - Index
 - Hashing
 - Grading Philosophy
