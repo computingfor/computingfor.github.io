@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 12: Bootstrapping Trust</title>
+      <link>https://computingfor.github.io/post/class12/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class12/</guid>
+      <description>Slides Class 12: Bootstrapping Trust&#xA;HTTPS Requirements for Transport Layer Security Introduction to Encryption Kerckhoff&amp;rsquo;s Principle Jefferson&amp;rsquo;s Wheel Cipher Key Agreement over an Insecure Channel Signatures </description>
+    </item>
     <item>
       <title>Class 11: Owning a Piece of the Internet</title>
       <link>https://computingfor.github.io/post/class11/</link>
