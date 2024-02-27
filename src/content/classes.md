@@ -102,6 +102,16 @@ title="Classes"
 - Owning a Piece of the Internet
 - Buying a Domain Name
 
+[**Class 12: Bootstrapping Trust**](/class12) [[Slides](https://www.dropbox.com/scl/fi/qny2u7jdzp0otdqksz7vl/cs1010-class12.pdf?rlkey=l1yfovjpyt67zr9bqzoouenzi&dl=0)]
+
+- HTTP<b>S</b>
+- Requirements for Transport Layer Security
+- Introduction to Encryption
+- Kerckhoff's Principle
+- Jefferson's Wheel Cipher
+- Key Agreement over an Insecure Channel
+- Signatures
+
 </div>
 </div>
 </div>
