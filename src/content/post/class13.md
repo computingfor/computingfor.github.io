@@ -6,6 +6,12 @@ author = "David Evans"
 slug = "class13"
 +++
 
+### Schedule
+
+Enjoy Spring Break!
+
+Our next class will be Tuesday, 12 March, and will be an "Ask Anything" day. Think of any questions you want to ask, and I'll try to answer them.
+
 ### Slides
 
 [Class 13: TLS Everywhere!](https://www.dropbox.com/scl/fi/4y3sttsne1eudgadzmwwv/cs1010-class13.pdf?rlkey=459ltq9nxkgprgdq0xw1uluy4&dl=0)
