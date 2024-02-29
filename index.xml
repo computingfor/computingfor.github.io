@@ -148,5 +148,12 @@
       <guid>https://computingfor.github.io/project2/</guid>
       <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://computingfor.github.io/post/class13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class13/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

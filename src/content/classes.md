@@ -112,6 +112,15 @@ title="Classes"
 - Key Agreement over an Insecure Channel
 - Signatures
 
+[**Class 13: TLS Everywhere!**](/class13) [[Slides](https://www.dropbox.com/scl/fi/4y3sttsne1eudgadzmwwv/cs1010-class13.pdf?rlkey=459ltq9nxkgprgdq0xw1uluy4&dl=0)]
+
+- Happy Leap Day!
+- Project 2: Responding to Search Requests
+- Desining Transport Layer Security
+- Certificates
+- How TLS became used everyhwere
+
+
 </div>
 </div>
 </div>
