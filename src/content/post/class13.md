@@ -16,3 +16,12 @@ slug = "class13"
 - Certificates
 - How TLS became used everyhwere
 
+[TLS Worksheet](https://www.dropbox.com/scl/fi/etmzao4wmtkmmah1bpzcg/cs1010-tls.pdf?rlkey=mth371z9bsvs7xa275bjhoyza&dl=0)
+
+### Links
+
+[_Computer Science Grad Stands Watch for Users of Google’s Popular Browser_](https://news.virginia.edu/content/computer-science-grad-stands-watch-users-googles-popular-browser). UVA Today, 7 December 2015.
+
+[_Google's Chrome Hackers Are About to Upend Your Idea of Web_](https://archive.is/EW9JH). Wired, 3 November 2016.
+
+[Let's Encrypt Statistics](https://letsencrypt.org/stats/#percent-pageloads)
