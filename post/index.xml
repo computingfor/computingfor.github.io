@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 13: TLS Everywhere!</title>
+      <link>https://computingfor.github.io/post/class13/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class13/</guid>
+      <description>Slides Class 13: TLS Everywhere!&#xA;Happy Leap Day! [leapday.xlsx] Project 2: Responding to Search Requests Desining Transport Layer Security Certificates How TLS became used everyhwere </description>
+    </item>
     <item>
       <title>Class 12: Bootstrapping Trust</title>
       <link>https://computingfor.github.io/post/class12/</link>
@@ -112,13 +119,6 @@
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://computingfor.github.io/post/class13/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/class13/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
