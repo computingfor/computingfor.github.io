@@ -8,6 +8,11 @@ slug = "sofar"
 
 ## Information
 
+- [**Class 1: Introduction**](/class1) [[Slides](https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&dl=0)]
+
+- [**Class 2: The Digital Abstraction**](/class2) [[Slides](https://www.dropbox.com/scl/fi/sz3pgkdg1ghqvr5vednpu/cs1010-class2.pdf?rlkey=ye1qcpmferifq2ktoq20axzc1&dl=0)]
+
+
 **Information is an abstract mathematical notion.** To store, transmit, and manipulate information, though, it has to be represented in some **physical way**. At some level, everything in the physical world is continuous.
 
 **Analog vs. Digital Data.** We can interpret a physical repesentation of information as either _analog_ or _digitial_ data. Analog data is _continuous_, with no limit on the number of different values (one way to think of this is that between any two values, there is another value). Digital data is _discrete_, where there is a fixed and finite set of possible values. There are gaps between the values.

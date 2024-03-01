@@ -31,3 +31,5 @@ Our next class will be Tuesday, 12 March, and will be an "Ask Anything" day. Thi
 [_Google's Chrome Hackers Are About to Upend Your Idea of Web_](https://archive.is/EW9JH). Wired, 3 November 2016.
 
 [Let's Encrypt Statistics](https://letsencrypt.org/stats/#percent-pageloads)
+
+**Update:** Make sure you fill up your tank before leap day: [_Self-pay gas station pumps break across NZ as software can’t handle Leap Day_](https://arstechnica.com/gadgets/2024/02/leap-year-glitch-broke-self-pay-pumps-across-new-zealand-for-over-10-hours/), Ars Technica, 29 February 2024.
