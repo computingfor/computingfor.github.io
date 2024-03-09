@@ -11,7 +11,7 @@ title="Classes"
 
 ### Representing Information
 
-[**Class 1: Introduction**](/class1) [[Slides](https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&dl=0)]
+[**Class 1: Introduction**](/post/class1) [[Slides](https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&dl=0)]
 
 - Course Objectives
 - _Why do we need to understand computing?_
@@ -20,27 +20,27 @@ title="Classes"
 - Who am I and why am I teaching this course
 - Introducting Digital vs. Analog
 
- [**Class 2: The Digital Abstraction**](/class2) [[Slides](https://www.dropbox.com/scl/fi/sz3pgkdg1ghqvr5vednpu/cs1010-class2.pdf?rlkey=ye1qcpmferifq2ktoq20axzc1&dl=0)]
+ [**Class 2: The Digital Abstraction**](/post/class2) [[Slides](https://www.dropbox.com/scl/fi/sz3pgkdg1ghqvr5vednpu/cs1010-class2.pdf?rlkey=ye1qcpmferifq2ktoq20axzc1&dl=0)]
 
 - Beginning of Course Survey
 - Analog/Digital
 - Digital Music
 
- [**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
+ [**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/post/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
 
 - 16 bits
 - What's a "MB"?
 - Data Compression
 - Why Binary?
 
- [**Class 4:** Continuous Binary Representations](/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
+ [**Class 4:** Continuous Binary Representations](/post/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
 
 - Project 1 Questions
 - Continuous Binary Representations
 - Encryption
 - Leaking DRAM (Cold Boot Attacks)
 
- [**Class 5: Computing on Binary Data**](/class5) [[Slides](https://www.dropbox.com/scl/fi/x904tmp7136f9nj33fy1z/cs1010-class5.pdf?rlkey=kfpdstldfmoubw725tqutuow8&dl=0)]
+ [**Class 5: Computing on Binary Data**](/post/class5) [[Slides](https://www.dropbox.com/scl/fi/x904tmp7136f9nj33fy1z/cs1010-class5.pdf?rlkey=kfpdstldfmoubw725tqutuow8&dl=0)]
 
 - Addition Algorithms
 - What is an _algorithm_?
@@ -53,7 +53,7 @@ title="Classes"
 
 ### The Internet and the Web
 
-[**Class 6: Search**](/class6) [[Slides](https://www.dropbox.com/scl/fi/npm6m3iuvfwehceuczfu2/cs1010-class6.pdf?rlkey=xm47jrjjflhzqkykr6piw1g0b&dl=0)]
+[**Class 6: Search**](/post/class6) [[Slides](https://www.dropbox.com/scl/fi/npm6m3iuvfwehceuczfu2/cs1010-class6.pdf?rlkey=xm47jrjjflhzqkykr6piw1g0b&dl=0)]
 
 - Right-to-left and left-to-right text
 - How computers encode text
@@ -62,7 +62,7 @@ title="Classes"
 - Search Engine Trivia Contest!
 - Introducing Web Search
 
-[**Class 7: Finding Needles on the Web**](/class7) [[Slides](https://www.dropbox.com/scl/fi/96skfcjij4u7eststfwck/cs1010-class7.pdf?rlkey=w73ifanu4ytzcsopv8jhoso3g&dl=0)]
+[**Class 7: Finding Needles on the Web**](/post/class7) [[Slides](https://www.dropbox.com/scl/fi/96skfcjij4u7eststfwck/cs1010-class7.pdf?rlkey=w73ifanu4ytzcsopv8jhoso3g&dl=0)]
 
 - ChatGPT is not a search engine: "hallucinating" UVA classes
 - Search Strategies
@@ -71,7 +71,7 @@ title="Classes"
 - Hashing
 - Grading Philosophy
 
-[**Class 8: The Internet and the World Wide Web**](/class8) [[Slides](https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&dl=0)]
+[**Class 8: The Internet and the World Wide Web**](/post/class8) [[Slides](https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&dl=0)]
 
 - Networks
 - Developer Tools in Web Browsers
@@ -79,7 +79,7 @@ title="Classes"
 - Latency and Bandwidth
 - The World Wide Web
 
-[**Class 9: PageRank and Packet Pathways**](/class9) [[Slides](https://www.dropbox.com/scl/fi/hhq3fy7wpp33pbev14meq/cs1010-class9.pdf?rlkey=geabl2tgw6kvdd2eh74qbdrnk&dl=0)]
+[**Class 9: PageRank and Packet Pathways**](/post/class9) [[Slides](https://www.dropbox.com/scl/fi/hhq3fy7wpp33pbev14meq/cs1010-class9.pdf?rlkey=geabl2tgw6kvdd2eh74qbdrnk&dl=0)]
 
 - Crawling the Web
 - Finding the "best" web pages
@@ -88,7 +88,7 @@ title="Classes"
 - Packets on the Internet: _How does a message travel from Charlottesville to Berkeley?_
 - `ping` and `traceroute` (`tracert` on Windows)
 
-[**Class 10: Zombie Packets!**](/class10) [[Slides](https://www.dropbox.com/scl/fi/ck934w97dx0tmgcqzfckl/cs1010-class10.pdf?rlkey=icmxefp8as2yx8o9tx3lpret9&dl=0)]
+[**Class 10: Zombie Packets!**](/post/class10) [[Slides](https://www.dropbox.com/scl/fi/ck934w97dx0tmgcqzfckl/cs1010-class10.pdf?rlkey=icmxefp8as2yx8o9tx3lpret9&dl=0)]
 
 - Routing on the Internet
 - IPv4 vs. IPv6
@@ -96,13 +96,13 @@ title="Classes"
 - Domain Names
 - Why its good to live in Anguilla
 
-[**Class 11: Owning a Piece of the Internet**](/class11) [[Slides](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)]
+[**Class 11: Owning a Piece of the Internet**](/post/class11) [[Slides](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)]
 
 - Mid-Course Survey (the [survey will remain up](https://forms.gle/t7SSm8smgwTwGwxN9), please submit any time you want)
 - Owning a Piece of the Internet
 - Buying a Domain Name
 
-[**Class 12: Bootstrapping Trust**](/class12) [[Slides](https://www.dropbox.com/scl/fi/qny2u7jdzp0otdqksz7vl/cs1010-class12.pdf?rlkey=l1yfovjpyt67zr9bqzoouenzi&dl=0)]
+[**Class 12: Bootstrapping Trust**](/post/class12) [[Slides](https://www.dropbox.com/scl/fi/qny2u7jdzp0otdqksz7vl/cs1010-class12.pdf?rlkey=l1yfovjpyt67zr9bqzoouenzi&dl=0)]
 
 - HTTP<b>S</b>
 - Requirements for Transport Layer Security
@@ -112,7 +112,7 @@ title="Classes"
 - Key Agreement over an Insecure Channel
 - Signatures
 
-[**Class 13: TLS Everywhere!**](/class13) [[Slides](https://www.dropbox.com/scl/fi/4y3sttsne1eudgadzmwwv/cs1010-class13.pdf?rlkey=459ltq9nxkgprgdq0xw1uluy4&dl=0)]
+[**Class 13: TLS Everywhere!**](/post/class13) [[Slides](https://www.dropbox.com/scl/fi/4y3sttsne1eudgadzmwwv/cs1010-class13.pdf?rlkey=459ltq9nxkgprgdq0xw1uluy4&dl=0)]
 
 - Happy Leap Day!
 - Project 2: Responding to Search Requests
