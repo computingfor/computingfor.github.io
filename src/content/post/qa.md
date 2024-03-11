@@ -1,13 +1,11 @@
 +++
-date = "25 Jan 2024"
-draft = true
+date = "10 Mar 2024"
+draft = false
 title = "Questions and Answers"
 author = "David Evans"
 +++
 
 Here are my responses to your responses to the question "What do you want to know about me or the course?" on the "Beginning of Course Survey". If you think of any new questions you would like answered, or follow-ups on these, feel free to ask them in the Canvas discussion or by email!
-
-
 
 <div class="question">
 In SIS it's called Foundations of IT, so is it the same course with a different name? Or is the SIS description not relevant to this class at all?
@@ -36,9 +34,13 @@ We'll definitely talk about the underlying technologies used in blockchains. I e
 <div class="question">
 why did you choose to teach this class?
 </div>
+<div class="break"></div>
+
 <div class="question">
 What made you want to teach a course like this?
 </div>
+<div class="break"></div>
+
 <div class="question">
 Why did you decide to instruct the course?
 </div>
@@ -69,23 +71,38 @@ What do you find fulfilling about learning/teaching CS?
 </div>
 <div class="answer">
 
+Computer Science is the only subject I know of that offers both the joy of discovery of fundamental truths (e.g., learning about the difference between countable and uncountable infinities, and the nature of universal computation) and the empowerment of being able to build amazing tools using nothing more than your imagination (which I hope you'll experience at least some in this class).
+
 </div>
 
 <div class="question">
 Will we be doing any coding or is the course more conceptual?
 </div>
 
+<div class="break"></div>
+
 <div class="question">
 What interesting things are we going to do with coding in this class?
 </div>
 
 <div class="answer">
+
+The plans for this are still a bit in flux, but you will be doing some concrete programming in Project 3 to explore dynamic web sites. The connection between concepts and coding is strong in the sense that deeply understanding a concept usually required being able to program it, but there are many ways to understand concepts that are still valuable and more easily reached that do not require programming.
+
 </div>
 
 <div class="question">
+
 Maybe a little bit about your background like where you are from and how you got to UVA. 
+
 </div>
-</div class="answer">
+<div class="answer">
+
+I grew up in suburban Detroit, Michigan, and went to a good public school in a pleasant, but very boring, area. I will probably not come as a great surprised to you that I was considered somewhat nerdy growing up. 
+
+I had my first experience with computers around first grade. At that time, my elementary school had a teletype terminal that you would use a phone coupler to call into a central machine, and you could play games like "Football" and "Oregon Trail".  When I was in second grade, my elementary school got Apple II computers, and we could earn time to use them by reading books. I did this as much as I could, and learned to program by looking at the source code for the games on the computer, which was BASIC code that you could easily read and change.
+
+I came to UVA after finishing my PhD at MIT (actually a little bit before finishing, which is another story). I got here by car, driving down from Boston area. 
 
 </div>
 
@@ -93,13 +110,17 @@ Maybe a little bit about your background like where you are from and how you got
 I would just like to get to know you as a professor and genuinely learn the information in the course. I find the curriculum of this course much more interesting than most courses I have taken at college. 
 </div>
 <div class="answer">
-
+Great! Hope it lives up to your expectations.
 </div>
 
-<div class="questions">
+<div class="question">
 hobbies and why you teach cs
 </div>
 <div class="answer">
+
+(I answered about teaching CS above, so will just talk about hobbies here.)
+
+Today, my hobbies are mostly revolve around what my kids are doing (which, perhaps oddly or prehaps unsurprisingly, ends up not that different from what my own hobbies were earlier). My daughter (age 11) is mostly into soccer and especially playing goalkeeper, so most of my weekends is about taking her to travel soccer games and tournaments. I never played above a recreational level (which regrettably ended for me with Covid), but go to world cups when [po](https://www.cs.virginia.edu/~evans/france98/)[ss](https://www.cs.virginia.edu/~evans/pictures/korea2002/)[ible](https://www.cs.virginia.edu/~evans/pictures/za2010/), including New Zealand/Australia last summer. My son (almost 9) is not so much into sports, but loves chess and video games. When I was younger, I was also into music, mostly writing songs on piano and guitar.
 
 </div>
 
@@ -109,7 +130,6 @@ Are the lectures solid?
 <div class="answer">
 I guess you'll form your own opinion on this as the semester goes on, but my answer would be that they are more liquid than solid. I definitely start with some structure in mind and try to design lectures that follow a coherent story, while covering the ideas I think are more worthwhile and interesting, but am also flexible in going off on tangents based on student questions or things that come up, and not worried if I don't finish everything that was planned for a class. 
 </div>
-
 
 
 
