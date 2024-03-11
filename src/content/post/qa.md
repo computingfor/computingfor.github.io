@@ -64,23 +64,44 @@ What to you is the most interesting thing we will learn this semester?
 The honest answer is I don't know yet, and it will probably be different for different people. For me, the most interesting thing I've learned about so far is [how unicode works](/post/class6), but I hope that isn't the most interesting thing you have learned!
 </div>
 
-
-
+<div class="question">
 What do you find fulfilling about learning/teaching CS?
+</div>
+<div class="answer">
 
+</div>
 
+<div class="question">
 Will we be doing any coding or is the course more conceptual?
+</div>
 
+<div class="question">
 What interesting things are we going to do with coding in this class?
+</div>
 
+<div class="answer">
+</div>
 
+<div class="question">
 Maybe a little bit about your background like where you are from and how you got to UVA. 
+</div>
+</div class="answer">
 
+</div>
+
+<div class="question">
 I would just like to get to know you as a professor and genuinely learn the information in the course. I find the curriculum of this course much more interesting than most courses I have taken at college. 
+</div>
+<div class="answer">
 
+</div>
+
+<div class="questions">
 hobbies and why you teach cs
+</div>
+<div class="answer">
 
-
+</div>
 
 <div class="question">
 Are the lectures solid?
