@@ -2,15 +2,18 @@
 <body>
     <h1>Exploring the DOM</h1>
 
-    <h2>I can count: <span name="count">0</span></h2>
+    <h2>I can count: <span id="count">0</span></h2>
+    <button onclick="updateCount()">Next</button>
 
     <script>
-        document.open();
-        countobjs = document.getElementsByName('count');
-        for (countobj in countobjs) {
+        var i = 0
+
+        function updateCount() {
+            i++;
+            countobj = document.getElementById("count");
+            console.log("Updating object: " + countobj)
             countobj.innerHTML = "<b>" + i + "</b>";
         }
-        document.close();
     </script>
 </body>
 </html>
