@@ -20,6 +20,12 @@ Note that the Scheme language used in Chapter 3 is syntactically quite different
 The code examples from class are:
 
 - [jsdemo.html](/jsdemo.html)
+- [jsdom2.html](/jsdom2.html)
 
 ### Slides
 
+[Class 15: Programming](https://www.dropbox.com/s/trt9rxbjwkjuezk/cs1010-class15.pdf?dl=0)
+
+- What is Language?
+- Components of Language: Primitives, Means of Combination, Means of Abstraction
+- JavaScript and the DOM
