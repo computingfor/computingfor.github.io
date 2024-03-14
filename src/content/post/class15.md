@@ -6,6 +6,10 @@ author = "David Evans"
 slug = "class15"
 +++
 
+### Schedule
+
+There is a new [News Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/377720), with a bit more structure than the previous one. For students with an odd number in your UVA ID, the article post should be done before Tuesday's class (March 19).
+
 ### Recommended Readings
 
 These two chapters from my book, [_Introduction to Computing: Explorations in Language, Logic, and Machines_](https://computingbook.org/), are recommended readings that align closely with what we did in class:
@@ -29,3 +33,4 @@ The code examples from class are:
 - What is Language?
 - Components of Language: Primitives, Means of Combination, Means of Abstraction
 - JavaScript and the DOM
+
