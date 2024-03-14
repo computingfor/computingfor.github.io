@@ -6,14 +6,14 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Class 14: Ask Anything</title>
-      <link>https://computingfor.github.io/post/class14/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/class14/</guid>
-      <description>Slides Class 14: Ask Anything</description>
+      <title>Class 15: Programming!</title>
+      <link>https://computingfor.github.io/post/class15/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class15/</guid>
+      <description>Recommended Readings These two chapters from my book, Introduction to Computing: Explorations in Language, Logic, and Machines, are recommended readings that align closely with what we did in class:&#xA;Chapter 2: Language Chapter 3: Programming Note that the Scheme language used in Chapter 3 is syntactically quite different from JavaScript, so don&amp;rsquo;t get confused by the examples there. In other ways, JavaScript is very similar to the Scheme language used in the book — indeed, Brendan Eich&amp;rsquo;s was hired by Netscape to design &amp;ldquo;Scheme for the web&amp;rdquo;, which ended up being branded for marketing reasons as JavaScript.</description>
     </item>
     <item>
       <title>Class 14: Ask Anything</title>

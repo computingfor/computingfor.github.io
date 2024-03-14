@@ -1,0 +1,15 @@
+<html>
+<body>
+    <h1>Exploring the DOM</h1>
+
+    <script>
+        document.open();
+        document.write("<h2>Hi there!</h2>");
+        for (let i = 0; i < 1000; i++) {
+            document.write("I can count: " + i + "<br>");
+        }
+        
+        document.close();
+    </script>
+</body>
+</html>
