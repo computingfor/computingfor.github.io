@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://computingfor.github.io/post/class15/</loc>
-    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+    <loc>https://computingfor.github.io/post/class16/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://computingfor.github.io/</loc>
-    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://computingfor.github.io/post/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://computingfor.github.io/post/class15/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://computingfor.github.io/post/class14/</loc>
@@ -76,6 +79,9 @@
   </url><url>
     <loc>https://computingfor.github.io/post/welcome/</loc>
     <lastmod>2023-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://computingfor.github.io/project3/</loc>
+    <lastmod>2023-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://computingfor.github.io/project2/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>

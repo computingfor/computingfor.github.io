@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 16: Languages and Grammar</title>
+      <link>https://computingfor.github.io/post/class16/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class16/</guid>
+      <description>Schedule For students with even numbers in your UVA ID, the News Discussion response should be done before Thursday&amp;rsquo;s class (March 21).&#xA;Project 3 will be posted tonight, and due on Friday, 29 March.&#xA;Slides Class 16: Languages and Grammar&#xA;Science of Programming? Backus Normal Form Generating Infinite Languages </description>
+    </item>
     <item>
       <title>Class 15: Programming!</title>
       <link>https://computingfor.github.io/post/class15/</link>
@@ -168,6 +175,13 @@
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
+    </item>
+    <item>
+      <title>Project 3</title>
+      <link>https://computingfor.github.io/project3/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/project3/</guid>
+      <description>Project 3: Programming the Web For this project, the main goal is for you to:&#xA;Learning about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars. Getting some experience writing your own JavaScript code. Adding dynamic behavior to your website. For the first part of the assignment, you will replicate and extend the Countdown/Boom application we built in Classes 15 and 16.</description>
     </item>
     <item>
       <title>Project 2</title>
