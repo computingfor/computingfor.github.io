@@ -296,13 +296,65 @@ blockquote::before {
 .yellowbox {
     margin-left: 50px;
     margin-right: 50px;
+    padding: 15px;
     background: #f7f784;
     margin-bottom: 0px;
-    padding: 20px;
+    padding-bottom: 20px;
+ }
+
+ .gap {
+    padding: 0.5rem;
+ }
+ 
+ .padded {
+    padding: 1em;
  }
  
  .code {
     font-family: 'SFMono-Regular','Menlo','Monaco','Consolas',"Liberation Mono","Courier New",monospace;
     color: #e83e8c;
 
+ }
+
+ .bnfgrammar {
+    background: #faf0e6;
+    padding: 1.5rem;
+    margin: 1.2rem;
+ }
+
+ .bnfnonterm {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #23527c;
+ }
+
+ .bnfcomment {
+    font-family: Cambria, 'Times New Roman', serif;
+    font-style: italic;
+    color: #23527cae;
+    margin-left: 3em;
+ }
+
+ .bnfnote {
+    font-family: Cambria, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;
+ }
+
+ .bnfterm{
+    font-weight: 600;
+    font-family: 'SFMono-Regular','Menlo','Monaco','Consolas',"Liberation Mono","Courier New",monospace;
+    color: #e83e8c; 
+ }
+
+ .bnfempty {
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #683ee8; 
+ }
+
+ .bnfsyntax {
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color:black; 
  }
