@@ -96,6 +96,14 @@ title="Classes"
 - Domain Names
 - Why its good to live in Anguilla
 
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 col-sm-8">
+
+### Trust on the Internet 
+
 [**Class 11: Owning a Piece of the Internet**](/post/class11) [[Slides](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)]
 
 - Mid-Course Survey (the [survey will remain up](https://forms.gle/t7SSm8smgwTwGwxN9), please submit any time you want)
@@ -120,14 +128,13 @@ title="Classes"
 - Certificates
 - How TLS became used everyhwere
 
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-6 col-sm-8">
-# Programming 
-
 [**Class 14: Ask Anything**](/post/class14) [[Slides](https://www.dropbox.com/scl/fi/jqzdu00ndbqxp1wwprlkf/cs1010-class14.pdf?rlkey=i8akroso98k3famhaci2wpkml&dl=0)]
+
+</div>
+<div class="col-md-6 col-sm-8">
+
+### Programming 
+
 
 [**Class 15: Programming**](/post/class15) [[Slides](https://www.dropbox.com/s/trt9rxbjwkjuezk/cs1010-class15.pdf?dl=0)]
 
