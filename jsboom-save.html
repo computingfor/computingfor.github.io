@@ -1,0 +1,29 @@
+<html>
+<body>
+    <h1>Exploring the DOM</h1>
+
+    <script>
+        function updateCount() {
+            i = i - 1; // single "=" means assignment (":=") 
+
+            countobj = document.getElementById("count");
+            console.log("Updating i: " + i);
+            countobj.innerHTML = "<b>" + i + "</b>";
+
+            if (i <= 0) { // double "==" is equality comparison
+                countobj.innerHTML = "<b><font size='+5'>BOOM!</b>";
+            }
+
+        }
+    </script>
+
+    <script>
+        var i = 5;
+    </script>
+
+    <h2>Count Down: <span id="count"><script>document.write(i)</script></span></h2>
+    <button onclick="updateCount()">Next</button>
+
+</body>
+</html>
+

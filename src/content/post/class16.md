@@ -10,7 +10,7 @@ slug = "class16"
 
 For students with even numbers in your UVA ID, the [News Discussion](https://canvas.its.virginia.edu/courses/93745/discussion_topics/377720) response should be done before Thursday's class (March 21).
 
-Project 3 will be posted tonight, and due on Friday, 29 March.
+[Project 3](/project3) is now posted, and is due on **Friday, 29 March**.
 
 ### Slides
 
