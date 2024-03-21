@@ -61,6 +61,60 @@
       
       
       <article class="post">
+        <a class="title" href="https://computingfor.github.io/post/class17/"><h2>Class 17: Programming in JavaScript</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;21 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p><a href="https://computingfor.github.io/project3">Project 3</a> is due on Friday, 29 March.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&amp;dl=0">Class 17: JavaScript Programming</a></p>
+<ul>
+<li>Recapping and Extending BNF Grammars</li>
+<li>News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!</li>
+<li>Programming in JavaScript</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>The code we ended up with in class today is below <a href="https://computingfor.github.io/jsboom-class17.html">jsboom-class17.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Exploring</span> <span class="nx">the</span> <span class="nx">DOM</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">function</span> <span class="nx">updateCount</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">i</span> <span class="o">=</span> <span class="nx">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// single &#34;=&#34; means assignment (&#34;:=&#34;) 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;count&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Updating i: &#34;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&#34;</span> <span class="o">+</span> <span class="nx">i</span> <span class="o">+</span> <span class="s2">&#34;&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// double &#34;==&#34; is equality comparison
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&lt;font size=&#39;+5&#39;&gt;BOOM!&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">Count</span> <span class="nx">Down</span><span class="o">:</span> <span class="o">&lt;</span><span class="nx">span</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;count&#34;</span><span class="o">&gt;&lt;</span><span class="nx">script</span><span class="o">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/script&gt;&lt;/span&gt;&lt;/h2&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">onclick</span><span class="o">=</span><span class="s2">&#34;updateCount()&#34;</span><span class="o">&gt;</span><span class="nx">Next</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/body&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/html&gt;</span>
+</span></span></code></pre></div><p>We didn&rsquo;t get to actually changing the color of the background. To do this, you can set a DOM attribute directly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl">        <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">=</span> <span class="nx">color</span><span class="p">;</span>
+</span></span></code></pre></div><p>The value of <code>color</code> could be a string the describes a color for a web browser - for example <code>&quot;red&quot;</code> or <code>&quot;#FF0000</code> (the hexadecimal color encoding with maximum Red, no Green, and no Blue).</p>
+
+        </div>
+      </article>
+    
+      <article class="post">
         <a class="title" href="https://computingfor.github.io/post/class16/"><h2>Class 16: Languages and Grammar</h2></a>
         <div class="mb-3">
         <i class="date-style"></i>&nbsp;19 Mar 2024&nbsp;
@@ -360,35 +414,6 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
         </div>
       </article>
     
-      <article class="post">
-        <a class="title" href="https://computingfor.github.io/post/class8/"><h2>Class 8: The Internet and the World Wide Web</h2></a>
-        <div class="mb-3">
-        <i class="date-style"></i>&nbsp;13 Feb 2024&nbsp;
-        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
-</div>
-
-        <div>
-            <h3 id="schedule">Schedule</h3>
-<p>The first part of <a href="https://computingfor.github.io/project2">Project 2</a> is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.</p>
-<h3 id="links">Links</h3>
-<ul>
-<li><a href="https://satellitemap.space/">Live map of Starlink Satellites</a></li>
-<li>Vannevar Bush, <a href="https://computingfor.github.io/docs/aswemaythink.pdf"><em>As We May Think</em></a>, Atlantic Monthly, July 1945.</li>
-<li>Tim Berners-Lee, <a href="https://www.w3.org/History/1989/proposal-msw.html"><em>Information Management: A Proposal</em></a>, 1989.</li>
-</ul>
-<h3 id="slides">Slides</h3>
-<p><a href="https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&amp;dl=0">Class 8: The Internet and the World Wide Web</a></p>
-<ul>
-<li>Networks</li>
-<li>Developer Tools in Web Browsers</li>
-<li>Chappe&rsquo;s Semaphore Network</li>
-<li>Latency and Bandwidth</li>
-<li>The World Wide Web</li>
-</ul>
-
-        </div>
-      </article>
-    
     <div class="d-flex justify-content-center">
         
     <ul class="pagination pagination-default">
@@ -405,10 +430,13 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
         <a href="https://computingfor.github.io/post/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item">
+        <a href="https://computingfor.github.io/post/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
         <a href="https://computingfor.github.io/post/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="https://computingfor.github.io/post/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="https://computingfor.github.io/post/page/3/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
     </div>
@@ -416,6 +444,8 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
   <div class="sidebar d-print-none d-none d-xl-block">
     <h2 class="mt-4">Recent Posts</h2>
     <nav class="nav flex-column">
+        
+        <a href="https://computingfor.github.io/post/class17/" class="nav-link">Class 17: Programming in JavaScript</a>
         
         <a href="https://computingfor.github.io/post/class16/" class="nav-link">Class 16: Languages and Grammar</a>
         
@@ -430,8 +460,6 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
         <a href="https://computingfor.github.io/post/class12/" class="nav-link">Class 12: Bootstrapping Trust</a>
         
         <a href="https://computingfor.github.io/post/class11/" class="nav-link">Class 11: Owning a Piece of the Internet</a>
-        
-        <a href="https://computingfor.github.io/post/class10/" class="nav-link">Class 10: Zombie Packets</a>
         
     </nav>
 </div>

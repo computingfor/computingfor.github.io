@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Class 17: Programming in JavaScript</title>
+	<link rel="shortcut icon" href="https://computingfor.github.io/images/uva.png">  
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+	        
+        
+        
+        
+
+        <link rel="stylesheet" href="https://computingfor.github.io/css/bundle.min.479c6826ee9744ed691c39135592d864e3a2e6aec38509da72b1b1917084ac93.css" integrity="sha256-R5xoJu6XRO1pHDkTVZLYZOOi5q7DhQnacrGxkXCErJM="  />
+
+        
+    <link rel="icon" type="image/png" href="https://computingfor.github.io/images/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://computingfor.github.io/images/favicon-32x32.png" sizes="32x32">
+
+<link rel="alternate" type="application/rss+xml" href='https://computingfor.github.io/index.xml' />
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="" />
+<meta name="copyright" content="" />
+
+
+<meta name="description" content="Schedule Project 3 is due on Friday, 29 March.
+Slides Class 17: JavaScript Programming
+Recapping and Extending BNF Grammars News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO! Programming in JavaScript Code The code we ended up with in class today is below jsboom-class17.html:
+&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Exploring the DOM&amp;lt;/h1&amp;gt; &amp;lt;script&amp;gt; function updateCount() { i = i - 1; // single &amp;#34;=&amp;#34; means assignment (&amp;#34;:=&amp;#34;) countobj = document.getElementById(&amp;#34;count&amp;#34;); console.log(&amp;#34;Updating i: &amp;#34; &#43; i); countobj.">
+
+
+    
+        
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark py-1 top-nav">
+            <div class="container">
+              <a class="navbar-brand pr-2" href="https://computingfor.github.io/">cs1010: Computing for ...</a>
+
+	      <div style="margin-left: 10px; margin-right: 100px;">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+    <a class="nav-link active" href="https://computingfor.github.io/syllabus/">Syllabus</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="https://computingfor.github.io/classes/">Classes</a>
+</li>
+
+                    </ul>
+                </div>
+		</div>
+            </div>
+        </nav>
+
+        
+<header class="feature-image d-print-none">
+</header>
+
+        
+        <div class="main">
+            
+<div class="container mt-4 post">
+    <h1>Class 17: Programming in JavaScript</h1>
+    <div class="mb-3">
+        <i class="date-style"></i>&nbsp;21 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+
+    <div class="mt-4 mb-4 main-content">
+        <h3 id="schedule">Schedule</h3>
+<p><a href="https://computingfor.github.io/project3">Project 3</a> is due on Friday, 29 March.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&amp;dl=0">Class 17: JavaScript Programming</a></p>
+<ul>
+<li>Recapping and Extending BNF Grammars</li>
+<li>News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!</li>
+<li>Programming in JavaScript</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>The code we ended up with in class today is below <a href="https://computingfor.github.io/jsboom-class17.html">jsboom-class17.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Exploring</span> <span class="nx">the</span> <span class="nx">DOM</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">function</span> <span class="nx">updateCount</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">i</span> <span class="o">=</span> <span class="nx">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// single &#34;=&#34; means assignment (&#34;:=&#34;) 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;count&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Updating i: &#34;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&#34;</span> <span class="o">+</span> <span class="nx">i</span> <span class="o">+</span> <span class="s2">&#34;&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// double &#34;==&#34; is equality comparison
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&lt;font size=&#39;+5&#39;&gt;BOOM!&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">Count</span> <span class="nx">Down</span><span class="o">:</span> <span class="o">&lt;</span><span class="nx">span</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;count&#34;</span><span class="o">&gt;&lt;</span><span class="nx">script</span><span class="o">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/script&gt;&lt;/span&gt;&lt;/h2&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">onclick</span><span class="o">=</span><span class="s2">&#34;updateCount()&#34;</span><span class="o">&gt;</span><span class="nx">Next</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/body&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/html&gt;</span>
+</span></span></code></pre></div><p>We didn&rsquo;t get to actually changing the color of the background. To do this, you can set a DOM attribute directly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl">        <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">=</span> <span class="nx">color</span><span class="p">;</span>
+</span></span></code></pre></div><p>The value of <code>color</code> could be a string the describes a color for a web browser - for example <code>&quot;red&quot;</code> or <code>&quot;#FF0000</code> (the hexadecimal color encoding with maximum Red, no Green, and no Blue).</p>
+
+    </div>
+
+    
+</div>
+<div class="sidebar d-print-none d-none d-xl-block">
+    <h2 class="mt-4">Recent Posts</h2>
+    <nav class="nav flex-column">
+        
+        <a href="https://computingfor.github.io/post/class17/" class="nav-link">Class 17: Programming in JavaScript</a>
+        
+        <a href="https://computingfor.github.io/post/class16/" class="nav-link">Class 16: Languages and Grammar</a>
+        
+        <a href="https://computingfor.github.io/post/class15/" class="nav-link">Class 15: Programming!</a>
+        
+        <a href="https://computingfor.github.io/post/class14/" class="nav-link">Class 14: Ask Anything</a>
+        
+        <a href="https://computingfor.github.io/post/qa/" class="nav-link">Questions and Answers</a>
+        
+        <a href="https://computingfor.github.io/post/class13/" class="nav-link">Class 13: TLS Everywhere!</a>
+        
+        <a href="https://computingfor.github.io/post/class12/" class="nav-link">Class 12: Bootstrapping Trust</a>
+        
+        <a href="https://computingfor.github.io/post/class11/" class="nav-link">Class 11: Owning a Piece of the Internet</a>
+        
+    </nav>
+</div>
+
+
+        </div>
+
+        <footer class="mt-auto footer d-print-none">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <h5><a href="https://computingfor.github.io/">cs1010: Computing for Future Leaders and Citizens</a></h5>
+University of Virginia </br>
+Spring 2024 </br>
+<br></br>
+
+
+                    </div>
+		    <div class="col-md-4 col-xl-3">
+		      &nbsp;
+		      </div>
+                    <div class="col-md-8 col-xl-5">
+                        Except where noted, all content is released under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license.
+<p></p>
+<a href="https://www.cs.virginia.edu/evans">David Evans</a></br>
+<a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

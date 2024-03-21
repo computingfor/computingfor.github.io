@@ -1,5 +1,5 @@
 +++
-date = "23 Mar 2024"
+date = "21 Mar 2024"
 draft = false
 title = "Class 17: Programming in JavaScript"
 author = "David Evans"
@@ -12,7 +12,7 @@ slug = "class17"
 
 ### Slides
 
-[Class 17: ](https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&dl=0)
+[Class 17: JavaScript Programming](https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&dl=0)
 
 - Recapping and Extending BNF Grammars
 - News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!
