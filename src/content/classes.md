@@ -94,6 +94,9 @@ title="Classes"
 </div>
 </div>
 
+<div class="gap"></div>
+<div class="gap"></div>
+
 <div class="row">
 <div class="col-md-6 col-sm-8">
 
