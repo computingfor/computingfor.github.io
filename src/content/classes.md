@@ -81,7 +81,7 @@ title="Classes"
 - Crawling the Web
 - Finding the "best" web pages, PageRank
 - Version Control Systems: git
-- Packets on the Internet: _How does a message travel from Charlottesville to Berkeley?_
+- Packets on the Internet
 - `ping` and `traceroute` (`tracert` on Windows)
 
 [**Class 10: Zombie Packets!**](/post/class10) [[Slides](https://www.dropbox.com/scl/fi/ck934w97dx0tmgcqzfckl/cs1010-class10.pdf?rlkey=icmxefp8as2yx8o9tx3lpret9&dl=0)]
