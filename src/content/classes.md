@@ -55,9 +55,7 @@ title="Classes"
 
 [**Class 6: Search**](/post/class6) [[Slides](https://www.dropbox.com/scl/fi/npm6m3iuvfwehceuczfu2/cs1010-class6.pdf?rlkey=xm47jrjjflhzqkykr6piw1g0b&dl=0)]
 
-- Right-to-left and left-to-right text
-- How computers encode text
-- [Unicode](/unicode)
+- How computers encode text, [Unicode](/unicode)
 - Possible Paths for the Course
 - Search Engine Trivia Contest!
 - Introducing Web Search
@@ -67,8 +65,7 @@ title="Classes"
 - ChatGPT is not a search engine: "hallucinating" UVA classes
 - Search Strategies
 - [Jefferson's Library](https://tile.loc.gov/storage-services/service/rbc/rbc0001/2007/2007jeffcat1/2007jeffcat1.pdf)
-- Index
-- Hashing
+- Index, Hashing
 - Grading Philosophy
 
 [**Class 8: The Internet and the World Wide Web**](/post/class8) [[Slides](https://www.dropbox.com/scl/fi/83k1u1y49ohnt8gy8c0qr/cs1010-class8.pdf?rlkey=5bzwqj9ueaub3l8ws222j0wbv&dl=0)]
@@ -82,8 +79,7 @@ title="Classes"
 [**Class 9: PageRank and Packet Pathways**](/post/class9) [[Slides](https://www.dropbox.com/scl/fi/hhq3fy7wpp33pbev14meq/cs1010-class9.pdf?rlkey=geabl2tgw6kvdd2eh74qbdrnk&dl=0)]
 
 - Crawling the Web
-- Finding the "best" web pages
-- PageRank
+- Finding the "best" web pages, PageRank
 - Version Control Systems: git
 - Packets on the Internet: _How does a message travel from Charlottesville to Berkeley?_
 - `ping` and `traceroute` (`tracert` on Windows)
@@ -93,8 +89,7 @@ title="Classes"
 - Routing on the Internet
 - IPv4 vs. IPv6
 - How traceroute works?
-- Domain Names
-- Why its good to live in Anguilla
+- Domain Names (why its good to live in Anguilla)
 
 </div>
 </div>
