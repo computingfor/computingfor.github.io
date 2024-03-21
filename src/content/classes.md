@@ -120,6 +120,34 @@ title="Classes"
 - Certificates
 - How TLS became used everyhwere
 
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6 col-sm-8">
+# Programming 
+
+[**Class 14: Ask Anything**](/post/class14) [[Slides](https://www.dropbox.com/scl/fi/jqzdu00ndbqxp1wwprlkf/cs1010-class14.pdf?rlkey=i8akroso98k3famhaci2wpkml&dl=0)]
+
+[**Class 15: Programming**](/post/class15) [[Slides](https://www.dropbox.com/s/trt9rxbjwkjuezk/cs1010-class15.pdf?dl=0)]
+
+- What is Language?
+- Components of Language: Primitives, Means of Combination, Means of Abstraction
+- JavaScript and the DOM
+
+
+[**Class 16: Languages and Grammar**](/post/class16) [[Slides](https://www.dropbox.com/scl/fi/1f72jp8foxc4or41qozh3/cs1010-class16.pdf?rlkey=wack4ozezqebphsxruzhrge6q&dl=0)]
+
+- Science of Programming?
+- Backus Normal Form
+- Generating Infinite Languages
+
+
+[**Class 17: JavaScript Programming**](/post/class17) [[Slides](https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&dl=0)]
+
+- Recapping and Extending BNF Grammars
+- News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!
+- Programming in JavaScript
 
 </div>
 </div>
