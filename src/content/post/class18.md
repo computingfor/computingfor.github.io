@@ -21,6 +21,11 @@ There will be an **Exam** in class on **Thursday, 11 April**.
 - How to Learn a Language (this recent study looked at whether a machine can learn language from the same information a baby does: [_Grounded language acquisition through the eyes and ears of a single child_](https://www.science.org/doi/10.1126/science.adi1374) &mdash; we'll probably talk about it in a few weeks)
 - Functions in JavaScript
 
+<center>
+<img width=70% src="https://www.science.org/cms/10.1126/science.adi1374/asset/01c4632e-4a31-417f-b9b0-0be5a2b6e5da/assets/images/large/science.adi1374-f1.jpg">
+CVCL model architecture and evaluation procedure from 
+Wai Keen Vong, Wentao Wang, A. Emin Orhan, and Brenden M. Lake. [_Grounded language acquisition through the eyes and ears of a single child_](https://www.science.org/doi/10.1126/science.adi1374). Science, 1 February 2024.
+</center>
 
 ### Code
 
