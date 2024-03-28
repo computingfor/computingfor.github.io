@@ -154,6 +154,10 @@ title="Classes"
 - News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!
 - Programming in JavaScript
 
+[Class 18: Functions in JavaScript](/post/class18) [[Slides]https://www.dropbox.com/scl/fi/t5izdllpf2a2qp4q6j1dh/cs1010-class18.pdf?rlkey=33qggrrkhxadlhlmir8aitkl7&dl=0)]
+- How to Learn a Language
+- Functions in JavaScript
+
 </div>
 </div>
 </div>
