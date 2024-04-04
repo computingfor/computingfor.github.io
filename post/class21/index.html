@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Class 20: xz and Blackbiirds</title>
+        <title>Class 21: Aliignment</title>
 	<link rel="shortcut icon" href="https://computingfor.github.io/images/uva.png">  
         <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
@@ -28,8 +28,9 @@
 
 <meta name="description" content="Schedule This weeks computing news discussion is now posted, and due before class on Thursday, 4 April for even ids, and by Monday, 8 April for odd ids.
 There will be an Exam in class on Thursday, 11 April.
-Slides Class 20: Reasons for Paranois, Programming with Recursion
-xz backdoor Recursive Definitions and Functions Spelling Correction (Edit Distance) ">
+Slides Class 21: Aliignment
+Edit distance Genome alignment Code Here&amp;rsquo;s the code for editdistance.html:
+function edit_distance(s, t) { // Returns the minimum number of edits (single character insert, // delete, or replace operations) needed to transform s into t.">
 
 
     
@@ -67,9 +68,9 @@ xz backdoor Recursive Definitions and Functions Spelling Correction (Edit Distan
         <div class="main">
             
 <div class="container mt-4 post">
-    <h1>Class 20: xz and Blackbiirds</h1>
+    <h1>Class 21: Aliignment</h1>
     <div class="mb-3">
-        <i class="date-style"></i>&nbsp;2 Apr 2024&nbsp;
+        <i class="date-style"></i>&nbsp;4 Apr 2024&nbsp;
         <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
 </div>
 
@@ -79,13 +80,30 @@ xz backdoor Recursive Definitions and Functions Spelling Correction (Edit Distan
 <p>This weeks computing news discussion is now posted, and due before class on <strong>Thursday, 4 April</strong> for even ids, and by <strong>Monday, 8 April</strong> for odd ids.</p>
 <p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
 <h3 id="slides">Slides</h3>
-<p><a href="https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&amp;dl=0">Class 20: Reasons for Paranois, Programming with Recursion</a></p>
+<p><a href="https://www.dropbox.com/scl/fi/p7n077k5nru8opwdr0kpr/cs1010-class21.pdf?rlkey=x0pxhb4cfhiis7r87n5vphclp&amp;dl=0">Class 21: Aliignment</a></p>
 <ul>
-<li>xz backdoor</li>
-<li>Recursive Definitions and Functions</li>
-<li>Spelling Correction (Edit Distance)</li>
+<li>Edit distance</li>
+<li>Genome alignment</li>
 </ul>
-
+<h3 id="code">Code</h3>
+<p>Here&rsquo;s the code for <a href="https://computingfor.github.io/editdistance.html">editdistance.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Returns the minimum number of edits (single character insert,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// delete, or replace operations) needed to transform s into t.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">s</span> <span class="o">||</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="o">!</span><span class="nx">t</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">t</span> <span class="o">||</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">match</span> <span class="o">=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="nx">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="mi">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">match</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)),</span> <span class="c1">// replace
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">),</span> <span class="c1">// delete first from s (insert first in t)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)));</span> <span class="c1">// delete first from t (insert first in s)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">assert</span><span class="p">(</span><span class="nx">False</span><span class="p">,</span> <span class="s2">&#34;Should not every reach here!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
     </div>
 
     
