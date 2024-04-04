@@ -11,23 +11,48 @@
     </table>
 
     <script>
+        var numcalls = 0
+
         function edit_distance(s, t) {
             // Returns the minimum number of edits (single character insert,
 		    // delete, or replace operations) needed to transform s into t.
 
-            // console.log("Computing edit distance: " + s + " - " + t);
-            
-            if (!s || s.length == 0) {
-                return !t ? 0 : t.length;
-            } else if (!t || t.length == 0) {
-                return s.length;
-            } else {
-                match = s[0] == t[0] ? 0 : 1; 
-                return Math.min(match + edit_distance(s.substr(1), t.substr(1)), // replace
-                           1 + edit_distance(s.substr(1), t), // delete first from s (insert first in t)
-                           1 + edit_distance(s, t.substr(1))); // delete first from t (insert first in s)
+            // console.log("Computing edit distance (" + s + ", " + t + ")");
+            numcalls++;
+
+            // if (s == "" && t == "") {
+            //     return 0
+            // }
+
+            // if (s == t) {
+            //     return 0;
+            // }
+
+            if (!s && !t) {
+                return 0
             }
-            console.assert(False, "Should not ever reach here!");
+
+            if (!s) {
+                return t.length
+            }
+
+            if (!t) {
+                return s.length
+            }
+
+            if (s[0] == t[0]) {
+                score = 0
+            } else {
+                score = 1
+            }
+
+            return Math.min(
+                score + edit_distance(s.substr(1), t.substr(1)), // replace first letter
+                1 + edit_distance(s.substr(1), t),   // delete from s
+                1 + edit_distance(s, t.substr(1)) // delete from t
+            )
+
+
         }
         
         function test_edit() {
@@ -40,7 +65,6 @@
 
             let alls2s = document.getElementsByClassName("s2");
             let s2obj = alls2s[alls2s.length - 1]
-            console.log("Got alls2s: " + alls2s.toString())
             let s2 = s2obj.value
             news2 = document.createElement('td')
             news2.innerHTML = s2;
@@ -57,6 +81,8 @@
             s1td.parentNode.replaceChild(news1, s1td);
             s2td.parentNode.replaceChild(news2, s2td);
 
+            console.log(numcalls)
+            numcalls = 0
             write_entry()
         }
 
@@ -73,6 +99,11 @@
         }
     
     write_entry()
+
+    console.log("test".substr(1));
+    console.log("".substr(1));
+    console.log("t".substr(1));
+    console.log("".substr(1) == "t".substr(1))       
     </script>
 </body>
 </html>
