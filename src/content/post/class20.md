@@ -14,7 +14,7 @@ There will be an **Exam** in class on **Thursday, 11 April**.
 
 ### Slides
 
-[Class 20: Reasons for Paranois, Programming with Recursion](https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&dl=0)
+[Class 20: Reasons for Paranoia, Programming with Recursion](https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&dl=0)
 
 - xz backdoor
 - Recursive Definitions and Functions

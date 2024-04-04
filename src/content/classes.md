@@ -164,6 +164,18 @@ title="Classes"
 - Florida's Social Media ban
 - JavaScript for loops
 
+[**Class 20: Reasons for Paranoia, Programming with Recursion**](/post/class20) [[Slides](https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&dl=0)]
+
+- xz backdoor
+- Recursive Definitions and Functions
+- Spelling Correction (Edit Distance)
+
+[**Class 21: Aliignment**](/post/class21) [[Slides](https://www.dropbox.com/scl/fi/p7n077k5nru8opwdr0kpr/cs1010-class21.pdf?rlkey=x0pxhb4cfhiis7r87n5vphclp&dl=0)]
+
+- Edit distance
+- Genome alignment
+
+
 </div>
 </div>
 </div>
