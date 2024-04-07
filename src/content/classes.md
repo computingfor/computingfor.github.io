@@ -26,14 +26,14 @@ title="Classes"
 - Analog/Digital
 - Digital Music
 
- [**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/post/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
+[**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/post/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
 
 - 16 bits
 - What's a "MB"?
 - Data Compression
 - Why Binary?
 
- [**Class 4:** Continuous Binary Representations](/post/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
+ [**Class 4: Continuous Binary Representations**](/post/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
 
 - Project 1 Questions
 - Continuous Binary Representations

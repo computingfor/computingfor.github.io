@@ -1,0 +1,51 @@
+<html>
+<body>
+    <h1>Funny Functions</h1>
+    <script>
+        function display(text) {
+            div = document.getElementById('container');
+            div.innerHTML = text;
+        }
+
+        function launch(i) {
+            div = document.getElementById('container');            
+            if (i == 0) {
+                // do nothing
+            }
+            else {
+                pic = "https://picsum.photos/seed/" + i.toString();
+                div.innerHTML += '<a href="' + pic + '/500"><img src=' + pic + '/50></img></a>';
+                launch(i - 1);   
+            }
+        }
+
+        function loop(count) {
+            div = document.getElementById('container');
+
+            for (i = 1; i <= count; i = i + 2) { 
+                pic = "https://picsum.photos/seed/" + i.toString();
+                div.innerHTML += '<a href="' + pic + '/500"><img src=' + pic + '/50></img></a>';
+            }
+        }
+
+        function loop2(count) {
+            div = document.getElementById('container');            
+            i = 1
+            while (i <= count) {
+                pic = "https://picsum.photos/seed/" + i.toString();
+                div.innerHTML += '<a href="' + pic + '/500"><img src=' + pic + '/50></img></a>';
+                i = i + 1;
+            }
+        }
+    </script>
+
+    <button onclick="display('Hello!')">Display Hello</button>
+    <button onclick="launch(100)">Launch 100</button>
+    <button onclick="loop(100)">Loop 100</button>
+    <button onclick="loop2(100)">Loop2 100</button>
+    <p></p>
+    <div id="container" bgcolor="#CCCCCC"></div>
+
+</body>
+</html>
+

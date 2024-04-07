@@ -1,0 +1,16 @@
+<html>
+<body>
+    <h1>Exploring the DOM</h1>
+
+    <h2>I can count: <span name="count">0</span></h2>
+
+    <script>
+        document.open();
+        countobjs = document.getElementsByName('count');
+        for (countobj in countobjs) {
+            countobj.innerHTML = "<b>" + i + "</b>";
+        }
+        document.close();
+    </script>
+</body>
+</html>

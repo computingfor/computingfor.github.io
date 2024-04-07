@@ -1,0 +1,38 @@
+<html>
+<body>
+    <h1>Exploring the DOM</h1>
+
+    <script>
+        var count = 5;
+
+        function displayCount(counter) {
+            countobj = document.getElementById("count");
+            countobj.innerHTML = "<em>" + counter.toString() + "</em>";
+        }
+
+        function updateCount() {
+            count = count - 1; // single "=" means assignment (":=") 
+
+            // Correct: Passing the value of 'count' variable
+            displayCount(count);
+
+            // displayCount(i); // Pass the 'i' variable as an argument
+
+            if (count <= 0) { // double "==" is equality comparison
+                countobj.innerHTML = "<b><font size='+5'>BOOM!</b>";
+                document.body.style.backgroundColor = 'blue'; // #FF2258'; // This line was added after class to turn the background red!
+            }
+
+        }
+    </script>
+
+    <h2>Count Down: <span id="count"></span></h2>
+    <button onclick="updateCount()">Next</button>
+
+    <script>
+        displayCount(count);
+    </script>
+
+</body>
+</html>
+

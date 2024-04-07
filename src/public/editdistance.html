@@ -1,0 +1,79 @@
+<html>
+<body>
+    <h1>Edit Distance</h1>
+
+    <table>
+        <thead>
+        <tr><th width="40%">First Word</th><th width="40%">Second Word</th><th width="20%">Edit Distance</th></tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+
+    <script>
+        function edit_distance(s, t) {
+            // Returns the minimum number of edits (single character insert,
+		    // delete, or replace operations) needed to transform s into t.
+
+            // console.log("Computing edit distance: " + s + " - " + t);
+            
+            if (!s || s.length == 0) {
+                return !t ? 0 : t.length;
+            } else if (!t || t.length == 0) {
+                return s.length;
+            } else {
+                match = s[0] == t[0] ? 0 : 1; 
+                return Math.min(match + edit_distance(s.substr(1), t.substr(1)), // replace
+                           1 + edit_distance(s.substr(1), t), // delete first from s (insert first in t)
+                           1 + edit_distance(s, t.substr(1))); // delete first from t (insert first in s)
+            }
+            console.assert(False, "Should not ever reach here!");
+        }
+        
+        function test_edit() {
+            let alls1s = document.getElementsByClassName("s1");
+            let s1obj = alls1s[alls1s.length - 1]
+            console.log("Got alls1s: " + alls1s.toString())
+            let s1 = s1obj.value
+            news1 = document.createElement('td')
+            news1.innerHTML = s1;
+
+            let alls2s = document.getElementsByClassName("s2");
+            let s2obj = alls2s[alls2s.length - 1]
+            console.log("Got alls2s: " + alls2s.toString())
+            let s2 = s2obj.value
+            news2 = document.createElement('td')
+            news2.innerHTML = s2;
+
+            let alldists = document.getElementsByClassName("editdist");
+            let distobj = alldists[alldists.length - 1]
+
+            dist = edit_distance(s1, s2)
+            distobj.innerHTML = "<b>" + dist.toString() + "</b>";
+            console.assert (dist == edit_distance(s2, s1), "Error - edit distance is not symmetric!")
+
+            s1td = s1obj.parentNode;
+            s2td = s2obj.parentNode;
+            s1td.parentNode.replaceChild(news1, s1td);
+            s2td.parentNode.replaceChild(news2, s2td);
+
+            write_entry()
+        }
+
+        function write_entry() {
+            div = document.getElementById('tbody');
+            newrow = document.createElement('tr')
+            newrow.class = 'nextrow';
+            newrow.innerHTML += '<td>s1: <input type="text" maxlength="20" class="s1"></input></td> '
+            newrow.innerHTML += '<td>s2: <input type="text" maxlength="20" class="s2"></input></td> '
+            newrow.innerHTML += '<td><span class="editdist"> ' + 
+                             '<button onclick="test_edit()">Go</button>' +
+                             '</span></td>'
+            div.appendChild(newrow);
+        }
+    
+    write_entry()
+    </script>
+</body>
+</html>
+

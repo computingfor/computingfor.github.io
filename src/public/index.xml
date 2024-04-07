@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cs1010: Computing for Future Leaders</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on cs1010: Computing for Future Leaders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Summary</title>
+      <link>http://localhost:1313/summary/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/summary/</guid>
+      <description>Information Class 1: Introduction [Slides]&#xA;Class 2: The Digital Abstraction [Slides]&#xA;Information is an abstract mathematical notion. To store, transmit, and manipulate information, though, it has to be represented in some physical way. At some level, everything in the physical world is continuous.&#xA;Analog vs. Digital Data. We can interpret a physical repesentation of information as either analog or digitial data. Analog data is continuous, with no limit on the number of different values (one way to think of this is that between any two values, there is another value).</description>
+    </item>
+    <item>
+      <title>Class 21: Aliignment</title>
+      <link>http://localhost:1313/post/class21/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class21/</guid>
+      <description>Schedule This weeks computing news discussion is now posted, and due before class on Thursday, 4 April for even ids, and by Monday, 8 April for odd ids.&#xA;There will be an Exam in class on Thursday, 11 April.&#xA;Slides Class 21: Aliignment&#xA;Edit distance Genome alignment Code Here&amp;rsquo;s the code for editdistance.html:&#xA;function edit_distance(s, t) { // Returns the minimum number of edits (single character insert, // delete, or replace operations) needed to transform s into t.</description>
+    </item>
+    <item>
+      <title>Class 20: xz and Blackbiirds</title>
+      <link>http://localhost:1313/post/class20/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class20/</guid>
+      <description>Schedule This weeks computing news discussion is now posted, and due before class on Thursday, 4 April for even ids, and by Monday, 8 April for odd ids.&#xA;There will be an Exam in class on Thursday, 11 April.&#xA;Slides Class 20: Reasons for Paranoia, Programming with Recursion&#xA;xz backdoor Recursive Definitions and Functions Spelling Correction (Edit Distance) </description>
+    </item>
+    <item>
+      <title>Class 19: Repeating</title>
+      <link>http://localhost:1313/post/class19/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class19/</guid>
+      <description>Schedule Project 3 is due at 7:59pm on Friday, 29 March.&#xA;There will be an Exam in class on Thursday, 11 April.&#xA;Slides Class 19: Repetition&#xA;Questions about BNF grammar and derivations Florida&amp;rsquo;s Social Media ban JavaScript for loops </description>
+    </item>
+    <item>
+      <title>Class 18: Functions</title>
+      <link>http://localhost:1313/post/class18/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class18/</guid>
+      <description>Schedule Project 3 is due at 7:59pm on Friday, 29 March.&#xA;Beenish has office hours on Wednesday, 3-4pm in Rice 442.&#xA;There will be an Exam in class on Thursday, 11 April.&#xA;Slides Class 18: Functions in JavaScript&#xA;How to Learn a Language (this recent study looked at whether a machine can learn language from the same information a baby does: Grounded language acquisition through the eyes and ears of a single child — we&amp;rsquo;ll probably talk about it in a few weeks) Functions in JavaScript Code The code we ended up with in class today is jsboom-class18.</description>
+    </item>
+    <item>
+      <title>Class 17: Programming in JavaScript</title>
+      <link>http://localhost:1313/post/class17/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class17/</guid>
+      <description>Schedule Project 3 is due on Friday, 29 March.&#xA;Slides Class 17: JavaScript Programming&#xA;Recapping and Extending BNF Grammars News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO! Programming in JavaScript Code The code we ended up with in class today is below jsboom-class17.html:&#xA;&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;Exploring the DOM&amp;lt;/h1&amp;gt; &amp;lt;script&amp;gt; function updateCount() { i = i - 1; // single &amp;#34;=&amp;#34; means assignment (&amp;#34;:=&amp;#34;) countobj = document.getElementById(&amp;#34;count&amp;#34;); console.log(&amp;#34;Updating i: &amp;#34; + i); countobj.</description>
+    </item>
+    <item>
+      <title>Class 16: Languages and Grammar</title>
+      <link>http://localhost:1313/post/class16/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class16/</guid>
+      <description>Schedule For students with even numbers in your UVA ID, the News Discussion response should be done before Thursday&amp;rsquo;s class (March 21).&#xA;Project 3 is now posted, and is due on Friday, 29 March.&#xA;Slides Class 16: Languages and Grammar&#xA;Science of Programming? Backus Normal Form Generating Infinite Languages </description>
+    </item>
+    <item>
+      <title>Class 15: Programming!</title>
+      <link>http://localhost:1313/post/class15/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class15/</guid>
+      <description>Schedule There is a new News Discussion, with a bit more structure than the previous one. For students with an odd number in your UVA ID, the article post should be done before Tuesday&amp;rsquo;s class (March 19).&#xA;Recommended Readings These two chapters from my book, Introduction to Computing: Explorations in Language, Logic, and Machines, are recommended readings that align closely with what we did in class:&#xA;Chapter 2: Language Chapter 3: Programming Note that the Scheme language used in Chapter 3 is syntactically quite different from JavaScript, so don&amp;rsquo;t get confused by the examples there.</description>
+    </item>
+    <item>
+      <title>Class 14: Ask Anything</title>
+      <link>http://localhost:1313/post/class14/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class14/</guid>
+      <description>Slides Class 14: Ask Anything</description>
+    </item>
+    <item>
+      <title>Questions and Answers</title>
+      <link>http://localhost:1313/post/qa/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/qa/</guid>
+      <description>Here are my responses to your responses to the question &amp;ldquo;What do you want to know about me or the course?&amp;rdquo; on the &amp;ldquo;Beginning of Course Survey&amp;rdquo;. If you think of any new questions you would like answered, or follow-ups on these, feel free to ask them in the Canvas discussion or by email!&#xA;In SIS it&#39;s called Foundations of IT, so is it the same course with a different name?</description>
+    </item>
+    <item>
+      <title>Class 13: TLS Everywhere!</title>
+      <link>http://localhost:1313/post/class13/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class13/</guid>
+      <description>Schedule Enjoy Spring Break!&#xA;Our next class will be Tuesday, 12 March, and will be an &amp;ldquo;Ask Anything&amp;rdquo; day. Think of any questions you want to ask, and I&amp;rsquo;ll try to answer them.&#xA;Slides Class 13: TLS Everywhere!&#xA;Happy Leap Day! [leapday.xlsx] Project 2: Responding to Search Requests Desining Transport Layer Security Certificates How TLS became used everyhwere TLS Worksheet&#xA;Links Computer Science Grad Stands Watch for Users of Google’s Popular Browser.</description>
+    </item>
+    <item>
+      <title>Class 12: Bootstrapping Trust</title>
+      <link>http://localhost:1313/post/class12/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class12/</guid>
+      <description>Slides Class 12: Bootstrapping Trust&#xA;HTTPS Requirements for Transport Layer Security Introduction to Encryption Kerckhoff&amp;rsquo;s Principle Jefferson&amp;rsquo;s Wheel Cipher Key Agreement over an Insecure Channel Signatures </description>
+    </item>
+    <item>
+      <title>Class 11: Owning a Piece of the Internet</title>
+      <link>http://localhost:1313/post/class11/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class11/</guid>
+      <description>Our Piece of the Internet Check out https://safetyschool.us/ and http://safetyschool.us/!&#xA;Schedule Project 2 is due on Friday, 23 February. Please try to get the local editing for github working (and the directions with screenshots that Beenish posted on the Canvas site should help), but if you are stuck on this it is okay to skip steps 9 and 10 and Problem 5.&#xA;Slides Class 11: Owning a Piece of the Internet</description>
+    </item>
+    <item>
+      <title>Summary of the Course So Far</title>
+      <link>http://localhost:1313/post/sofar/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/sofar/</guid>
+      <description>Information Class 1: Introduction [Slides]&#xA;Class 2: The Digital Abstraction [Slides]&#xA;Information is an abstract mathematical notion. To store, transmit, and manipulate information, though, it has to be represented in some physical way. At some level, everything in the physical world is continuous.&#xA;Analog vs. Digital Data. We can interpret a physical repesentation of information as either analog or digitial data. Analog data is continuous, with no limit on the number of different values (one way to think of this is that between any two values, there is another value).</description>
+    </item>
+    <item>
+      <title>Class 10: Zombie Packets</title>
+      <link>http://localhost:1313/post/class10/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class10/</guid>
+      <description>Survey Here is the survey I talked about in class: https://forms.gle/t7SSm8smgwTwGwxN9&#xA;Submit it by 5:00pm tomorrow (Wednesday, 21 February).&#xA;Schedule Project 2 is due on Friday, 23 February. As mentioned in class, setting up local editing for github is a bit more complicated than expected, so it is okay to skip steps 9 and 10 and Problem 5.&#xA;Slides Class 10: Zombie Packets!&#xA;Routing on the Internet IPv4 vs. IPv6 How traceroute works?</description>
+    </item>
+    <item>
+      <title>Class 9: PageRank and Packet Pathways</title>
+      <link>http://localhost:1313/post/class9/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class9/</guid>
+      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links PageRank paper: Sergey Brin and Lawrence Page, The Anatomy of a Large-Scale Hypertextual Web Search Engine, 1998. Undersea Cables Map Slides Class 9: PageRank and Packet Pathways</description>
+    </item>
+    <item>
+      <title>Class 8: The Internet and the World Wide Web</title>
+      <link>http://localhost:1313/post/class8/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class8/</guid>
+      <description>Schedule The first part of Project 2 is due on Monday, 19 February (the full submission is due on Friday, 23 February). Everyone is strongly encouraged to get started on Project 2 soon so you can ask questions about any problems you run into in class Thursday.&#xA;Links Live map of Starlink Satellites Vannevar Bush, As We May Think, Atlantic Monthly, July 1945. Tim Berners-Lee, Information Management: A Proposal, 1989. Slides Class 8: The Internet and the World Wide Web</description>
+    </item>
+    <item>
+      <title>The Most Awesome Websites Ever!</title>
+      <link>http://localhost:1313/post/websites/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/websites/</guid>
+      <description>This post has links to some of the most awesome websites ever created, and we hope you and any crawler that happens to visit this page will enjoy them!&#xA;Watermelons and Capybaras Supper Club Tai Lung to the rescue! Anna&amp;rsquo;s Awesome Website Avocados and Oranges Snoopy and Peanuts For Wahoo Fanatics Welcome to Nashville! Angry Cats! UVA Basketball Photos! Hello! TBD Cats and Chill Study Vibes Macy&amp;rsquo;s Favorite Things Cinnamoroll Carley&amp;rsquo;s Page Stellar&amp;rsquo;s Yellow Bricks Libraries at UVA Continue if you dare&amp;hellip; The Age of Legends Abby&amp;rsquo;s Web Page Bzywan Floating Market Carley&amp;rsquo;s Pasta Stellar Yellow Athena&amp;rsquo;s Portfolio Rayehadi Alex Hotta Giraffes cha fvv Gigantic Goats Micah Brown </description>
+    </item>
+    <item>
+      <title>Class 7: Finding Needles on the Web</title>
+      <link>http://localhost:1313/post/class7/</link>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class7/</guid>
+      <description>Slides The slides are here: Class 7: Finding Needles on the Web.&#xA;ChatGPT is not a search engine: &amp;ldquo;hallucinating&amp;rdquo; UVA classes Search Strategies Jefferson&amp;rsquo;s Library (see Catalogue of the Library of Thomas Jefferson) Index Hashing Grading Philosophy </description>
+    </item>
+    <item>
+      <title>Class 6: Search</title>
+      <link>http://localhost:1313/post/class6/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class6/</guid>
+      <description>Slides The slides are here: Class 6: Search.&#xA;Right-to-left and left-to-right text How computers encode text Unicode Possible Paths for the Course Search Engine Trivia Contest! Introducing Web Search </description>
+    </item>
+    <item>
+      <title>Unicode</title>
+      <link>http://localhost:1313/unicode/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/unicode/</guid>
+      <description>Some unicode tests:&#xA;ALPHabet!&#xA;鏡&#xA;🤩&#xA;🤪&#xA;🫎&#xA;‮ Apple 1234 ‭ Orange 1234</description>
+    </item>
+    <item>
+      <title>Class 5: Computing on Binary Data</title>
+      <link>http://localhost:1313/post/class5/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class5/</guid>
+      <description>Slides The slides are here: Class 5: Computing on Binary Data.&#xA;Addition Algorithms What is an algorithm? Binary Addition Algorithms Multiplcation 0.010101010101010&amp;hellip; </description>
+    </item>
+    <item>
+      <title>Class 4: Continuous Binary Representations</title>
+      <link>http://localhost:1313/post/class4/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class4/</guid>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;The news discussions are now on a two-week cycle. There is a new discussion post in Canvas, and an expectation that everyone makes a valuable contribution sometime before 9 February.&#xA;Slides The slides are here: Class 4: Continuous Binary Representations.&#xA;Project 1 Questions Continuous Binary Representations Encryption Leaking DRAM (Cold Boot Attacks) </description>
+    </item>
+    <item>
+      <title>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</title>
+      <link>http://localhost:1313/post/class3/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class3/</guid>
+      <description>Charge Project 1 is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 3: Apple is Lossy, but Microsoft has bigger Megabytes.&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Songs Here are the different versions of [Wildest Dreams]:&#xA;WAV file - 38,891,789 bytes High Qualify mp3 - 7,351,137 bytes 128 kbps mp3 - 3,528,681 bytes 64 kbps mp3 - 1,764,475 bytes 32 kbps mp3 - 882,477 bytes I think everyone will hear something wrong with the smallest (32 kbps) version, but try the other ones to see if you can hear the difference between the 1.</description>
+    </item>
+    <item>
+      <title>Class 2: The Digital Abstraction</title>
+      <link>http://localhost:1313/post/class2/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class2/</guid>
+      <description>Charge Project 1 is now posted, and is due at the beginning of class on Thursday, 1 February 2024.&#xA;Slides The slides are here: Class 2: The Digital Abstraction.&#xA;Beginning of Course Survey Analog/Digital Digital Music </description>
+    </item>
+    <item>
+      <title>Class 1: Introduction</title>
+      <link>http://localhost:1313/post/class1/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/class1/</guid>
+      <description>Charge Before 8:59pm Friday (Jan 19), read the syllabus and submit the Beginning of Course Survey.&#xA;Sometime next week (but earlier is better), contribute to the Computing in the News Week 1 discussion.&#xA;Slides The slides are here: Class 1: Introduction.&#xA;Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog </description>
+    </item>
+    <item>
+      <title>Starting this week</title>
+      <link>http://localhost:1313/post/start/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/start/</guid>
+      <description>Welcome back! The semester starts this week and our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;A near-final version of the Syllabus is now posted. We&amp;rsquo;ll talk about the plan for the course in the first class Thursday, but feel free to reach out to me with any questions or concerns you have.&#xA;If you want to get an early start on the class, please fill out the Beginning of Course Survey (which is due at 6:59pm Friday).</description>
+    </item>
+    <item>
+      <title>Course Pledge</title>
+      <link>http://localhost:1313/pledge/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pledge/</guid>
+      <description>Honor Expectations As a student at the University of Virginia, you are trusted to be honorable and expected to behave in ways that merit that trust. We take advantage of this trust to provide a better learning environment for everyone. In particular, students in cs1010 are expected to follow these rules throughout the course:&#xA;I will not lie, cheat or steal. If I am unsure whether something would be considered lying, cheating or stealing, I will ask before doing it.</description>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>http://localhost:1313/classes/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/classes/</guid>
+      <description>Representing Information Class 1: Introduction [Slides]&#xA;Course Objectives Why do we need to understand computing? Expectations What are we curious about Who am I and why am I teaching this course Introducting Digital vs. Analog Class 2: The Digital Abstraction [Slides]&#xA;Beginning of Course Survey Analog/Digital Digital Music Class 3: Apple is Lossy, but Microsoft has bigger Megabytes [Slides]&#xA;16 bits What&amp;rsquo;s a &amp;ldquo;MB&amp;rdquo;? Data Compression Why Binary? Class 4: Continuous Binary Representations [Slides]</description>
+    </item>
+    <item>
+      <title>Syllabus</title>
+      <link>http://localhost:1313/syllabus/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/syllabus/</guid>
+      <description>UVA CS1010 Spring 2024&#xA;Computing for Future Leaders and Citizens&#xA;Course Goals This course has two main objectives:&#xA;Provide you with an understanding of computing that will help you better understand the world today and tomorrow.&#xA;Empower you to use computing better.&#xA;For both of these goals, we will aim to understand how computers work, what computers can and cannot do, the kinds of questions to ask before trusting a computing systems, and the potential risks when computing systems are misused or abused.</description>
+    </item>
+    <item>
+      <title>Welcome to cs1010!</title>
+      <link>http://localhost:1313/post/welcome/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/welcome/</guid>
+      <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
+    </item>
+    <item>
+      <title>Project 3</title>
+      <link>http://localhost:1313/project3/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project3/</guid>
+      <description>Project 3: Programming the Web For this project, the main goal is for you to:&#xA;Learning about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars. Getting some experience writing your own JavaScript code. Adding dynamic behavior to your website. For the first part of the assignment, you will replicate and extend the Countdown/Boom application we built in Class 15 and Class 17 (to be done on Thursday).</description>
+    </item>
+    <item>
+      <title>Project 2</title>
+      <link>http://localhost:1313/project2/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project2/</guid>
+      <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
+    </item>
+  </channel>
+</rss>
