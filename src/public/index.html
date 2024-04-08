@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title></title>
+	<link rel="shortcut icon" href="http://localhost:1313/images/uva.png">  
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+	        
+        
+        
+        
+
+        <link rel="stylesheet" href="http://localhost:1313/css/bundle.min.479c6826ee9744ed691c39135592d864e3a2e6aec38509da72b1b1917084ac93.css" integrity="sha256-R5xoJu6XRO1pHDkTVZLYZOOi5q7DhQnacrGxkXCErJM="  />
+
+        
+  
+    <style type="text/css">
+      .feature-image {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.15), 
+            rgba(0, 0, 0, 0.15)
+          ), url('http://localhost:1313/images/computing-main.jpg');
+          height: 150px;
+      }
+
+      .feature-image-text {
+          margin-top: 20px;
+      }
+
+      @media (min-width: 1200px) {
+        .feature-image {
+            background-position: 0% 30%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .feature-image {
+            height: 250px;
+            background-position: 0% 0%;
+        }
+      }
+    </style>
+  
+        
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark py-1 top-nav">
+            <div class="container">
+              <a class="navbar-brand pr-2" href="http://localhost:1313/">cs1010: Computing for ...</a>
+
+	      <div style="margin-left: 10px; margin-right: 100px;">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+    <a class="nav-link active" href="http://localhost:1313/syllabus/">Syllabus</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="http://localhost:1313/classes/">Classes</a>
+</li>
+
+                    </ul>
+                </div>
+		</div>
+            </div>
+        </nav>
+
+        
+        
+        <div class="main">
+            
+    <div class="container mt-4 mb-4 recent-posts">
+      
+      
+      
+      
+      
+      
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class21/"><h2>Class 21: Aliignment</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;4 Apr 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>This weeks computing news discussion is now posted, and due before class on <strong>Thursday, 4 April</strong> for even ids, and by <strong>Monday, 8 April</strong> for odd ids.</p>
+<p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/p7n077k5nru8opwdr0kpr/cs1010-class21.pdf?rlkey=x0pxhb4cfhiis7r87n5vphclp&amp;dl=0">Class 21: Aliignment</a></p>
+<ul>
+<li>Edit distance</li>
+<li>Genome alignment</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>Here&rsquo;s the code for <a href="http://localhost:1313/editdistance.html">editdistance.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Returns the minimum number of edits (single character insert,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// delete, or replace operations) needed to transform s into t.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">s</span> <span class="o">||</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="o">!</span><span class="nx">t</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">t</span> <span class="o">||</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">match</span> <span class="o">=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="nx">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="mi">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">match</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)),</span> <span class="c1">// replace
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">),</span> <span class="c1">// delete first from s (insert first in t)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)));</span> <span class="c1">// delete first from t (insert first in s)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">assert</span><span class="p">(</span><span class="nx">False</span><span class="p">,</span> <span class="s2">&#34;Should not ever reach here!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>The version from class is <a href="http://localhost:1313/editdistance1.html">editdistance1.html</a>.</p>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class20/"><h2>Class 20: xz and Blackbiirds</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;2 Apr 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>This weeks computing news discussion is now posted, and due before class on <strong>Thursday, 4 April</strong> for even ids, and by <strong>Monday, 8 April</strong> for odd ids.</p>
+<p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&amp;dl=0">Class 20: Reasons for Paranoia, Programming with Recursion</a></p>
+<ul>
+<li>xz backdoor</li>
+<li>Recursive Definitions and Functions</li>
+<li>Spelling Correction (Edit Distance)</li>
+</ul>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class19/"><h2>Class 19: Repeating</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;28 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p><a href="http://localhost:1313/project3">Project 3</a> is due at <strong>7:59pm on Friday, 29 March</strong>.</p>
+<p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/o7jq737a2jjf1fu7ny34q/cs1010-class19.pdf?rlkey=8o5ew7fvdui9tmtnc15zcl1jc&amp;dl=0">Class 19: Repetition</a></p>
+<ul>
+<li>Questions about BNF grammar and derivations</li>
+<li>Florida&rsquo;s Social Media ban</li>
+<li>JavaScript for loops</li>
+</ul>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class18/"><h2>Class 18: Functions</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;26 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p><a href="http://localhost:1313/project3">Project 3</a> is due at <strong>7:59pm on Friday, 29 March</strong>.</p>
+<p>Beenish has office hours on Wednesday, 3-4pm in Rice 442.</p>
+<p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/t5izdllpf2a2qp4q6j1dh/cs1010-class18.pdf?rlkey=33qggrrkhxadlhlmir8aitkl7&amp;dl=0">Class 18: Functions in JavaScript</a></p>
+<ul>
+<li>How to Learn a Language (this recent study looked at whether a machine can learn language from the same information a baby does: <a href="https://www.science.org/doi/10.1126/science.adi1374"><em>Grounded language acquisition through the eyes and ears of a single child</em></a> — we&rsquo;ll probably talk about it in a few weeks)</li>
+<li>Functions in JavaScript</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>The code we ended up with in class today is <a href="http://localhost:1313/jsboom-class18.html">jsboom-class18.html</a>.</p>
+<p>We also started playing with <a href="http://localhost:1313/jsfunctions.html">jsfunctions.html</a> (which we&rsquo;ll look at more on Thursday, but feel free to try and look at before then).</p>
+<center>
+<p><img width=60% src="https://www.science.org/cms/10.1126/science.adi1374/asset/01c4632e-4a31-417f-b9b0-0be5a2b6e5da/assets/images/large/science.adi1374-f1.jpg"></img><br></p>
+<p>Evaluation procedure from Wai Keen Vong, Wentao Wang, A. Emin Orhan, and Brenden M. Lake. <a href="https://www.science.org/doi/10.1126/science.adi1374"><em>Grounded language acquisition through the eyes and ears of a single child</em></a>. Science, 1 February 2024.</p>
+</center>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class17/"><h2>Class 17: Programming in JavaScript</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;21 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p><a href="http://localhost:1313/project3">Project 3</a> is due on Friday, 29 March.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/yoc3j1jo3xeq5kxc031ls/cs1010-class17.pdf?rlkey=6h6galxp9abtzkkiz4szho0et&amp;dl=0">Class 17: JavaScript Programming</a></p>
+<ul>
+<li>Recapping and Extending BNF Grammars</li>
+<li>News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!</li>
+<li>Programming in JavaScript</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>The code we ended up with in class today is below <a href="http://localhost:1313/jsboom-class17.html">jsboom-class17.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">body</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Exploring</span> <span class="nx">the</span> <span class="nx">DOM</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">function</span> <span class="nx">updateCount</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">i</span> <span class="o">=</span> <span class="nx">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// single &#34;=&#34; means assignment (&#34;:=&#34;) 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;count&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Updating i: &#34;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&#34;</span> <span class="o">+</span> <span class="nx">i</span> <span class="o">+</span> <span class="s2">&#34;&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// double &#34;==&#34; is equality comparison
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="nx">countobj</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&#34;&lt;b&gt;&lt;font size=&#39;+5&#39;&gt;BOOM!&lt;/b&gt;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">h2</span><span class="o">&gt;</span><span class="nx">Count</span> <span class="nx">Down</span><span class="o">:</span> <span class="o">&lt;</span><span class="nx">span</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;count&#34;</span><span class="o">&gt;&lt;</span><span class="nx">script</span><span class="o">&gt;</span><span class="nb">document</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/script&gt;&lt;/span&gt;&lt;/h2&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">onclick</span><span class="o">=</span><span class="s2">&#34;updateCount()&#34;</span><span class="o">&gt;</span><span class="nx">Next</span><span class="o">&lt;</span><span class="err">/button&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/body&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/html&gt;</span>
+</span></span></code></pre></div><p>We didn&rsquo;t get to actually changing the color of the background. To do this, you can set a DOM attribute directly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl">        <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">=</span> <span class="nx">color</span><span class="p">;</span>
+</span></span></code></pre></div><p>The value of <code>color</code> could be a string the describes a color for a web browser - for example <code>&quot;red&quot;</code> or <code>&quot;#FF0000</code> (the hexadecimal color encoding with maximum Red, no Green, and no Blue).</p>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class16/"><h2>Class 16: Languages and Grammar</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;19 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>For students with even numbers in your UVA ID, the <a href="https://canvas.its.virginia.edu/courses/93745/discussion_topics/377720">News Discussion</a> response should be done before Thursday&rsquo;s class (March 21).</p>
+<p><a href="http://localhost:1313/project3">Project 3</a> is now posted, and is due on <strong>Friday, 29 March</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/1f72jp8foxc4or41qozh3/cs1010-class16.pdf?rlkey=wack4ozezqebphsxruzhrge6q&amp;dl=0">Class 16: Languages and Grammar</a></p>
+<ul>
+<li>Science of Programming?</li>
+<li>Backus Normal Form</li>
+<li>Generating Infinite Languages</li>
+</ul>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class15/"><h2>Class 15: Programming!</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;14 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>There is a new <a href="https://canvas.its.virginia.edu/courses/93745/discussion_topics/377720">News Discussion</a>, with a bit more structure than the previous one. For students with an odd number in your UVA ID, the article post should be done before Tuesday&rsquo;s class (March 19).</p>
+<h3 id="recommended-readings">Recommended Readings</h3>
+<p>These two chapters from my book, <a href="https://computingbook.org/"><em>Introduction to Computing: Explorations in Language, Logic, and Machines</em></a>, are recommended readings that align closely with what we did in class:</p>
+<ul>
+<li><a href="https://computingbook.org/Language.pdf">Chapter 2: Language</a></li>
+<li><a href="https://computingbook.org/Programming.pdf">Chapter 3: Programming</a></li>
+</ul>
+<p>Note that the Scheme language used in Chapter 3 is syntactically quite different from JavaScript, so don&rsquo;t get confused by the examples there. In other ways, JavaScript is very similar to the Scheme language used in the book — indeed, Brendan Eich&rsquo;s was hired by Netscape to design &ldquo;Scheme for the web&rdquo;, which ended up being branded for marketing reasons as JavaScript.</p>
+<h3 id="code-examples">Code Examples</h3>
+<p>The code examples from class are:</p>
+<ul>
+<li><a href="http://localhost:1313/jsdemo.html">jsdemo.html</a></li>
+<li><a href="http://localhost:1313/jsdom2.html">jsdom2.html</a></li>
+</ul>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/s/trt9rxbjwkjuezk/cs1010-class15.pdf?dl=0">Class 15: Programming</a></p>
+<ul>
+<li>What is Language?</li>
+<li>Components of Language: Primitives, Means of Combination, Means of Abstraction</li>
+<li>JavaScript and the DOM</li>
+</ul>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class14/"><h2>Class 14: Ask Anything</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;12 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/jqzdu00ndbqxp1wwprlkf/cs1010-class14.pdf?rlkey=i8akroso98k3famhaci2wpkml&amp;dl=0">Class 14: Ask Anything</a></p>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/qa/"><h2>Questions and Answers</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;10 Mar 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <p>Here are my responses to your responses to the question &ldquo;What do you want to know about me or the course?&rdquo; on the &ldquo;Beginning of Course Survey&rdquo;. If you think of any new questions you would like answered, or follow-ups on these, feel free to ask them in the Canvas discussion or by email!</p>
+<div class="question">
+In SIS it's called Foundations of IT, so is it the same course with a different name? Or is the SIS description not relevant to this class at all?
+</div>
+<div class="answer">
+<p>Since I had to look it up, the SIS description is here:</p>
+<blockquote>
+<em> 
+How computers create, preserve, manipulate and communicate information and the concepts and tools used to that end. Units include how computers work, web technologies, creating web pages, algorithms and logic, basic programming, and solving problems with spreadsheets. Students will learn to recognize computational problems and develop basic skill sets to solve future problems in their discipline of study. No prior programming experience required. Cannot be taken for credit by students in SEAS.
+</em>
+</blockquote>
+It is actually quite a good description, and overlaps around 80% with what we will do in this course.
+</div>
+<div class="question">
+Will these course cover any of the technology used in blockchains/cryptocurrencies?
+</div>
+<div class="answer">
+<p>We&rsquo;ll definitely talk about the underlying technologies used in blockchains. I expect we&rsquo;ll also have a class on how cryptocurrencies work and fail (and asking this question increases the likelihood!). In 2015, I taught a <a href="https://bitcoin-class.org/">full course on cryptocurrencies</a>, and there are many very interesting technical ideas involve in blockchain and cryptocurrency. I&rsquo;m mostly disappointed, though, in how things have evolved since then.</p>
+</div>
+<div class="question">
+why did you choose to teach this class?
+</div>
+<div class="break"></div>
+<div class="question">
+What made you want to teach a course like this?
+</div>
+<div class="break"></div>
+<div class="question">
+Why did you decide to instruct the course?
+</div>
+<div class="question>
+I'm wondering what is the reason why you are interested in teaching a course for non CS majors compared to CS  majors. (since you told us in class that you were wanting to teach this course already for a long time)
+</div>
+<div class="answer">
+<p>My first general answer is that I like to teach courses where I learn new things, so always try to find opportunities to teach courses in new areas (which this course does qualify for in many ways!). Over recent years, I&rsquo;ve taught classes in <a href="https://computingbiology.github.io/">Computational Biology</a>, <a href="https://uvammm.github.io/post/">Computing and Economics</a>, <a href="https://csethics.github.io/">Ethics</a>, and <a href="https://llmrisks.github.io/">Generative AI and Large Language Models</a> (as well as <a href="https://uvatoc.github.io/">Theory of Computation</a>, which I&rsquo;ve taught several times, but still learn new things each time I teach it). Although you might be surprised by this, this course gives me lots of opportunities to learn new things — as a broad course covering aspects of computing most essential for non-computer scientists, it includes many topics I haven&rsquo;t had much chance to learn about in previous courses.</p>
+<p>The more specific answer for this course is that I do think it is increasingly more important that people embarking on careers in other fields understand computing, than it is for us to produce more computer science majors. (Arguably, we are already producing <em>too many</em> computer scientists, although still not enough ones with deep understanding and relevant expertise in key areas.)</p>
+<p>As a first offering (for me, although cs1010 has been around forever), its great that we can have a relatively small class. I think there are also some pretty strong structural hurdles to this class becoming large at UVA (mostly that it doesn&rsquo;t count for any useful requirements, and doesn&rsquo;t even count as credit for SEAS students). But, I think we should eventually get to a place where every student who isn&rsquo;t majoring in computing would take a course like this one. My hope is that if this course goes well and grows within the current structure, it would lead to opportunities to develop a more widespread computing course for non-majors as well as materials (like a textbook) that could be useful elsewhere.</p>
+</div>
+<div class="question">
+What to you is the most interesting thing we will learn this semester? 
+</div>
+<div class="answer">
+The honest answer is I don't know yet, and it will probably be different for different people. For me, the most interesting thing I've learned about so far is [how unicode works](/post/class6), but I hope that isn't the most interesting thing you have learned!
+</div>
+<div class="question">
+What do you find fulfilling about learning/teaching CS?
+</div>
+<div class="answer">
+<p>Computer Science is the only subject I know of that offers both the joy of discovery of fundamental truths (e.g., learning about the difference between countable and uncountable infinities, and the nature of universal computation) and the empowerment of being able to build amazing tools using nothing more than your imagination (which I hope you&rsquo;ll experience at least some in this class).</p>
+</div>
+<div class="question">
+Will we be doing any coding or is the course more conceptual?
+</div>
+<div class="break"></div>
+<div class="question">
+What interesting things are we going to do with coding in this class?
+</div>
+<div class="answer">
+<p>The plans for this are still a bit in flux, but you will be doing some concrete programming in Project 3 to explore dynamic web sites. The connection between concepts and coding is strong in the sense that deeply understanding a concept usually required being able to program it, but there are many ways to understand concepts that are still valuable and more easily reached that do not require programming.</p>
+</div>
+<div class="question">
+<p>Maybe a little bit about your background like where you are from and how you got to UVA.</p>
+</div>
+<div class="answer">
+<p>I grew up in suburban Detroit, Michigan, and went to a good public school in a pleasant, but very boring, area. I will probably not come as a great surprised to you that I was considered somewhat nerdy growing up.</p>
+<p>I had my first experience with computers around first grade. At that time, my elementary school had a teletype terminal that you would use a phone coupler to call into a central machine, and you could play games like &ldquo;Football&rdquo; and &ldquo;Oregon Trail&rdquo;.  When I was in second grade, my elementary school got Apple II computers, and we could earn time to use them by reading books. I did this as much as I could, and learned to program by looking at the source code for the games on the computer, which was BASIC code that you could easily read and change.</p>
+<p>I came to UVA after finishing my PhD at MIT (actually a little bit before finishing, which is another story). I got here by car, driving down from Boston area.</p>
+</div>
+<div class="question">
+I would just like to get to know you as a professor and genuinely learn the information in the course. I find the curriculum of this course much more interesting than most courses I have taken at college. 
+</div>
+<div class="answer">
+Great! Hope it lives up to your expectations.
+</div>
+<div class="question">
+hobbies and why you teach cs
+</div>
+<div class="answer">
+<p>(I answered about teaching CS above, so will just talk about hobbies here.)</p>
+<p>Today, my hobbies are mostly revolve around what my kids are doing (which, perhaps oddly or prehaps unsurprisingly, ends up not that different from what my own hobbies were earlier). My daughter (age 11) is mostly into soccer and especially playing goalkeeper, so most of my weekends is about taking her to travel soccer games and tournaments. I never played above a recreational level (which regrettably ended for me with Covid), but go to world cups when <a href="https://www.cs.virginia.edu/~evans/france98/">po</a><a href="https://www.cs.virginia.edu/~evans/pictures/korea2002/">ss</a><a href="https://www.cs.virginia.edu/~evans/pictures/za2010/">ible</a>, including New Zealand/Australia last summer. My son (almost 9) is not so much into sports, but loves chess and video games. When I was younger, I was also into music, mostly writing songs on piano and guitar.</p>
+</div>
+<div class="question">
+Are the lectures solid?
+</div>
+<div class="answer">
+I guess you'll form your own opinion on this as the semester goes on, but my answer would be that they are more liquid than solid. I definitely start with some structure in mind and try to design lectures that follow a coherent story, while covering the ideas I think are more worthwhile and interesting, but am also flexible in going off on tangents based on student questions or things that come up, and not worried if I don't finish everything that was planned for a class. 
+</div>
+
+        </div>
+      </article>
+    
+      <article class="post">
+        <a class="title" href="http://localhost:1313/post/class13/"><h2>Class 13: TLS Everywhere!</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;29 Feb 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>Enjoy Spring Break!</p>
+<p>Our next class will be Tuesday, 12 March, and will be an &ldquo;Ask Anything&rdquo; day. Think of any questions you want to ask, and I&rsquo;ll try to answer them.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/4y3sttsne1eudgadzmwwv/cs1010-class13.pdf?rlkey=459ltq9nxkgprgdq0xw1uluy4&amp;dl=0">Class 13: TLS Everywhere!</a></p>
+<ul>
+<li>Happy Leap Day! [<a href="https://www.dropbox.com/scl/fi/p7cwt6n3l8q5ciqyuuowc/leapday.xlsx?rlkey=oi8z53y1yv6u20ds6ghun2jrj&amp;dl=0">leapday.xlsx</a>]</li>
+<li>Project 2: Responding to Search Requests</li>
+<li>Desining Transport Layer Security</li>
+<li>Certificates</li>
+<li>How TLS became used everyhwere</li>
+</ul>
+<p><a href="https://www.dropbox.com/scl/fi/etmzao4wmtkmmah1bpzcg/cs1010-tls.pdf?rlkey=mth371z9bsvs7xa275bjhoyza&amp;dl=0">TLS Worksheet</a></p>
+<h3 id="links">Links</h3>
+<p><a href="https://news.virginia.edu/content/computer-science-grad-stands-watch-users-googles-popular-browser"><em>Computer Science Grad Stands Watch for Users of Google’s Popular Browser</em></a>. UVA Today, 7 December 2015.</p>
+<p><a href="https://archive.is/EW9JH"><em>Google&rsquo;s Chrome Hackers Are About to Upend Your Idea of Web</em></a>. Wired, 3 November 2016.</p>
+<p><a href="https://letsencrypt.org/stats/#percent-pageloads">Let&rsquo;s Encrypt Statistics</a></p>
+<p><strong>Update:</strong> Make sure you fill up your tank before leap day: <a href="https://arstechnica.com/gadgets/2024/02/leap-year-glitch-broke-self-pay-pumps-across-new-zealand-for-over-10-hours/"><em>Self-pay gas station pumps break across NZ as software can’t handle Leap Day</em></a>, Ars Technica, 29 February 2024.</p>
+
+        </div>
+      </article>
+    
+    <div class="d-flex justify-content-center">
+        
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="http://localhost:1313/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="http://localhost:1313/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="http://localhost:1313/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="http://localhost:1313/page/3/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+    </div>
+  </div>
+  <div class="sidebar d-print-none d-none d-xl-block">
+    <h2 class="mt-4">Recent Posts</h2>
+    <nav class="nav flex-column">
+        
+        <a href="http://localhost:1313/post/class21/" class="nav-link">Class 21: Aliignment</a>
+        
+        <a href="http://localhost:1313/post/class20/" class="nav-link">Class 20: xz and Blackbiirds</a>
+        
+        <a href="http://localhost:1313/post/class19/" class="nav-link">Class 19: Repeating</a>
+        
+        <a href="http://localhost:1313/post/class18/" class="nav-link">Class 18: Functions</a>
+        
+        <a href="http://localhost:1313/post/class17/" class="nav-link">Class 17: Programming in JavaScript</a>
+        
+        <a href="http://localhost:1313/post/class16/" class="nav-link">Class 16: Languages and Grammar</a>
+        
+        <a href="http://localhost:1313/post/class15/" class="nav-link">Class 15: Programming!</a>
+        
+        <a href="http://localhost:1313/post/class14/" class="nav-link">Class 14: Ask Anything</a>
+        
+    </nav>
+</div>
+
+
+        </div>
+
+        <footer class="mt-auto footer d-print-none">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <h5><a href="http://localhost:1313/">cs1010: Computing for Future Leaders and Citizens</a></h5>
+University of Virginia </br>
+Spring 2024 </br>
+<br></br>
+
+
+                    </div>
+		    <div class="col-md-4 col-xl-3">
+		      &nbsp;
+		      </div>
+                    <div class="col-md-8 col-xl-5">
+                        Except where noted, all content is released under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license.
+<p></p>
+<a href="https://www.cs.virginia.edu/evans">David Evans</a></br>
+<a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

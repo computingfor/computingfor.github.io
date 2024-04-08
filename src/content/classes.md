@@ -26,14 +26,14 @@ title="Classes"
 - Analog/Digital
 - Digital Music
 
- [**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/post/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
+[**Class 3: Apple is Lossy, but Microsoft has bigger Megabytes**](/post/class3) [[Slides](https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&dl=0)]
 
 - 16 bits
 - What's a "MB"?
 - Data Compression
 - Why Binary?
 
- [**Class 4:** Continuous Binary Representations](/post/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
+ [**Class 4: Continuous Binary Representations**](/post/class4) [[Slides](https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&dl=0)]
 
 - Project 1 Questions
 - Continuous Binary Representations
@@ -154,7 +154,8 @@ title="Classes"
 - News Highlights: Poisoning, Tim Berners-Lee, and the Reddit IPO!
 - Programming in JavaScript
 
-[**Class 18: Functions in JavaScript**](/post/class18) [[Slides]https://www.dropbox.com/scl/fi/t5izdllpf2a2qp4q6j1dh/cs1010-class18.pdf?rlkey=33qggrrkhxadlhlmir8aitkl7&dl=0)]
+[**Class 18: Functions in JavaScript**](/post/class18) [[Slides](https://www.dropbox.com/scl/fi/t5izdllpf2a2qp4q6j1dh/cs1010-class18.pdf?rlkey=33qggrrkhxadlhlmir8aitkl7&dl=0)]
+
 - How to Learn a Language
 - Functions in JavaScript
 
@@ -163,6 +164,18 @@ title="Classes"
 - Questions about BNF grammar and derivations
 - Florida's Social Media ban
 - JavaScript for loops
+
+[**Class 20: Reasons for Paranoia, Programming with Recursion**](/post/class20) [[Slides](https://www.dropbox.com/scl/fi/0smjywgllqy7b2m6gllup/cs1010-class20.pdf?rlkey=vrz9leigeuxoo93t2lruhb3so&dl=0)]
+
+- xz backdoor
+- Recursive Definitions and Functions
+- Spelling Correction (Edit Distance)
+
+[**Class 21: Aliignment**](/post/class21) [[Slides](https://www.dropbox.com/scl/fi/p7n077k5nru8opwdr0kpr/cs1010-class21.pdf?rlkey=x0pxhb4cfhiis7r87n5vphclp&dl=0)]
+
+- Edit distance
+- Genome alignment
+
 
 </div>
 </div>

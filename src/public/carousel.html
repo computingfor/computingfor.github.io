@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Carousel</title>
+  <style>
+    #carousel {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #carousel-image {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="carousel">
+    <img id="carousel-image" src="" alt="Carousel Image">
+    <div>
+      <button id="prev-button">Previous</button>
+      <button id="next-button">Next</button>
+    </div>
+  </div>
+
+  <script>
+    // Array of image URLs
+    var images = [
+      "https://picsum.photos/500/300?random=1",
+      "https://picsum.photos/500/300?random=2",
+      "https://picsum.photos/500/300?random=3",
+      "https://picsum.photos/500/300?random=4",
+      "https://picsum.photos/500/300?random=5"
+    ];
+
+    var currentImageIndex = 0;
+
+    // Function to display the current image
+    function showImage(index) {
+      var carouselImage = document.getElementById("carousel-image");
+      carouselImage.src = images[index];
+    }
+
+    // Function to show the previous image
+    function showPreviousImage() {
+      currentImageIndex--;
+      if (currentImageIndex < 0) {
+        currentImageIndex = images.length - 1;
+      }
+      showImage(currentImageIndex);
+    }
+
+    // Function to show the next image
+    function showNextImage() {
+      currentImageIndex++;
+      if (currentImageIndex >= images.length) {
+        currentImageIndex = 0;
+      }
+      showImage(currentImageIndex);
+    }
+
+    // Event listeners for navigation buttons
+    var prevButton = document.getElementById("prev-button");
+    var nextButton = document.getElementById("next-button");
+    prevButton.addEventListener("click", showPreviousImage);
+    nextButton.addEventListener("click", showNextImage);
+
+    // Display the initial image
+    showImage(currentImageIndex);
+  </script>
+</body>
+</html>

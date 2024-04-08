@@ -38,7 +38,8 @@ function edit_distance(s, t) {
                     1 + edit_distance(s.substr(1), t), // delete first from s (insert first in t)
                     1 + edit_distance(s, t.substr(1))); // delete first from t (insert first in s)
     }
-    console.assert(False, "Should not every reach here!");
+    console.assert(False, "Should not ever reach here!");
 }
-
 ```
+
+The version from class is [editdistance1.html](/editdistance1.html).

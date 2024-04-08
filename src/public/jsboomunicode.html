@@ -1,0 +1,20 @@
+<html>
+<body>
+    <h1>Exploring the DOM</h1>
+
+    <h2>Count Down: <span id="count">20</span></h2>
+    <button onclick="$$ಠ_ಠ$$()">Next</button>
+
+    <script>
+        var i = 20
+
+        function $$ಠ_ಠ$$() {
+            i = i - 1;
+            countobj = document.getElementById("count");
+            console.log("Updating object: " + countobj)
+            countobj.innerHTML = "<b>" + i + "</b>";
+        }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Course Summary</title>
+	<link rel="shortcut icon" href="http://localhost:1313/images/uva.png">  
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+	        
+        
+        
+        
+
+        <link rel="stylesheet" href="http://localhost:1313/css/bundle.min.479c6826ee9744ed691c39135592d864e3a2e6aec38509da72b1b1917084ac93.css" integrity="sha256-R5xoJu6XRO1pHDkTVZLYZOOi5q7DhQnacrGxkXCErJM="  />
+
+                
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark py-1 top-nav">
+            <div class="container">
+              <a class="navbar-brand pr-2" href="http://localhost:1313/">cs1010: Computing for ...</a>
+
+	      <div style="margin-left: 10px; margin-right: 100px;">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+    <a class="nav-link active" href="http://localhost:1313/syllabus/">Syllabus</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link active" href="http://localhost:1313/classes/">Classes</a>
+</li>
+
+                    </ul>
+                </div>
+		</div>
+            </div>
+        </nav>
+
+        
+        
+        <div class="main">
+            
+<article class="container mt-4 post">
+    <center><h1>Course Summary</h1></center>
+    
+    <h2 id="information">Information</h2>
+<p><a href="http://localhost:1313/post/class1"><strong>Class 1: Introduction</strong></a> [<a href="https://www.dropbox.com/scl/fi/v1wetuahawmcf2a7q0h62/cs1010-class1.pdf?rlkey=10axy9myeli2jhlgru02ylgaq&amp;dl=0">Slides</a>]<br>
+<a href="http://localhost:1313/post/class2"><strong>Class 2: The Digital Abstraction</strong></a> [<a href="https://www.dropbox.com/scl/fi/sz3pgkdg1ghqvr5vednpu/cs1010-class2.pdf?rlkey=ye1qcpmferifq2ktoq20axzc1&amp;dl=0">Slides</a>]</p>
+<p><strong>Information is an abstract mathematical notion.</strong> To store, transmit, and manipulate information, though, it has to be represented in some <strong>physical way</strong>. At some level, everything in the physical world is continuous.</p>
+<p><strong>Analog vs. Digital Data.</strong> We can interpret a physical repesentation of information as either <em>analog</em> or <em>digitial</em> data. Analog data is <em>continuous</em>, with no limit on the number of different values (one way to think of this is that between any two values, there is another value). Digital data is <em>discrete</em>, where there is a fixed and finite set of possible values. There are gaps between the values.</p>
+<p><strong>Interpretation of Physical Representations as Analog or Digital.</strong> Although some physical representations are more naturally interpreted as analog or digital, what really matters is if the <em>interpretation</em> of the state of the physical representation is continuous (analog) or discrete (digital). As a concrete example, a clock that ticks is digital, even if it looks like a traditional analog clock. Each tick advances the time by one second, and the physical representation (at least what we can see on the clock face, not the internal state of the springs and gears within the clock) is more naturally interpreted as one of a fixed set of discrete states (for a 12-hour clock, its a large set, but still a fixed and finite one with 60 × 60 × 12 different possible values).</p>
+<p><strong>Why digital?</strong> Although many early computers operated on analog data representations, nearly all data storage and computing today is doing using digital representations. The advantage of digital data representations is that they enable <em>reliable</em> transmission, storage, and manipulation. With an analog represention, whenever data is copied there is some loss (known as <em>generation loss</em>) and this accumulates over time. After a few generations, is it likely that some errors have been introduced. With digital data, we can make <em>exact</em> copies (of course, even with digital copies, there can sometimes be errors, but if there are no errors the copy is exact). We can make copies over and over again and expect to get exactly the same value we started with. Small errors that mean the physical representation is not an exact copy can be automatically corrected when the representation is interpreted as a digital value. This reliability applies not just to copying, but to operating on the data, allowing us to to computations that involve billions of steps without accumulating any errors.</p>
+<p><a href="http://localhost:1313/post/class3"><strong>Class 3: Apple is Lossy, but Microsoft has bigger Megabytes</strong></a> [<a href="https://www.dropbox.com/scl/fi/7yl99l26ghhdvd8n06poz/cs1010-class3.pdf?rlkey=9nstxoa3nyec9l46km1wabrpk&amp;dl=0">Slides</a>]<br>
+<a href="http://localhost:1313/post/class4"><strong>Class 4: Continuous Binary Representations</strong></a> [<a href="https://www.dropbox.com/scl/fi/n5byzf2nofdr38nejh7ru/cs1010-class4.pdf?rlkey=4b4w7fvkepwtqx00v92obb59a&amp;dl=0">Slides</a>]</p>
+<p><strong>Measuring information.</strong> The fundamental unit of information is a <em>bit</em> (binary digit). One bit is the amount of information needed to distinguish between two equally likely possibilities. We can represent a bit using a set of two options such as <code>{0, 1}</code> or <code>{off, on}</code> or <code>{red, blue}</code> or <code>{heads, tails}</code>. To distinguished between more than two possibilities, we need more than one bit. With two bits, we can distinguish four things: <code>{00, 01, 10, 11}</code>. Each additional bit doubles the number of possible values, so if there are <em>k</em> bits we can distinguish 2<sup><em>k</em></sup> different values.</p>
+<p><strong>Bytes, MB, and more.</strong> A <em>nibble</em> is four bits, so can represent 2<sup>4</sup> = 16 different values (e.g., <code>{0000, 0001, 0010, 0011,  0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111}</code>). A <em>byte</em> is the name given to eight bits, which can represent 2<sup>8</sup> = 256 different values (we won&rsquo;t try to list them all, but you can follow the pattern of the 16 above, and combine each nibble with every nibble, getting 16 × 16 = 256 different 8-bit bitstrings). We can use the SI (metric) prefixes to represent larger numbers of bits, but they sometimes are used to mean powers of 2 (kilobyte = 1 kB = 2<sup>10</sup> bytes = 1024 bytes) and sometimes to mean powers of 10 (kilobyte = 1 KB = 10<sup>3</sup> bytes = 1000 bytes). A <em>megabyte</em> is commonly used to mean either 2<sup>20</sup> = 2<sup>10</sup> × 2<sup>10</sup> = 1024 × 1024 = 1,048,576 bytes and 10<sup>6</sup> = 10<sup>3</sup> × 10<sup>3</sup> = 1000 × 1000 = 1,000,000 bytes. (Apple uses MB = 10<sup>6</sup> and Microsoft uses MB = 2<sup>20</sup>.) Similarly, a <em>gigabyte</em> (GB) is either 2<sup>30</sup> bytes or 10<sup>9</sup> bytes (a Billion bytes), and a <em>terabyte</em> (TB) is either 2<sup>40</sup> or 10<sup>12</sup> bytes (a Trillion bytes).</p>
+<p><strong>Data Compression.</strong> Modern computers can store enormous amounts of data (trillions of bytes are common) and our wired and wireless networks can transmit billions of bits per second, but we still want to store and send more information using those bits. We do this by <em>compressing</em> data to make it smaller. Compression involves two functions: <em>compress</em> and <em>uncompress</em>. A <em>function</em> is a mathematical abstraction that maps an <em>input</em> to and <em>output</em>. For a given input, the same output is always produced. The <em>compress</em> function taks as its input a sequence of bits (<em>x</em>), and outputs a compressed representation of the input, <em>y</em>. If the compression is successful, the size of <em>y</em> is much smaller than the size of <em>x</em>. Compression is possible because most data is redundant, and because not all values are equally likely we can find ways to compress most data.</p>
+<p><strong>Lossless vs. Lossy Compression.</strong> Compression is <em>lossless</em> if there is a way to get back exactly the original bits from the compressed representation: for any input <em>x</em>, <em>uncompress</em>(<em>compress</em>(<em>x</em>)) = <em>x</em>.  We would use lossless compression when the data being compressed is text, numbers, code, or some other type of data where exact values are important.  For many kinds of data, obtaining the exact value is not necessary. This is the case for data like images and audio files, where the value of the data is for humans to observe it, and because of the limits of human perception most humans will not be able to tell the difference between many different values. To enable more compression, for these types of data we often use <em>lossy</em> compression. With lossy compression, <em>uncompress</em>(<em>compress</em>(<em>x</em>)) ≈ <em>x</em>. The result of compressing and uncompression is not an exact match to the original data, but is close enough to be good enough for most human uses. Examples of lossy compression are the audio formats used to send data to bluetooth headphones (at least on Apple devices), the <code>jpg</code> image formats, and <code>mp3</code> audio. The <em>compression ratio</em> is the original (uncompressed) size of the data divided by the size of the compressed data. For typical images we can have a compression ratio around 10 before it starts to look bad to most people; for audio files, the amount of compression that can be tolerated depends on the type of audio and the listener, but compression ratios over 10 are common.</p>
+<p><strong>Why binary?</strong> (Make sure you understand <em>Why Digital?</em> above first — that explains what data representations should be interpreted as discrete sets, but not why there should only be two values.) Some phyiscal data representations naturally have two clear states, such as magnetic charge (positive or negative), punch cards (either unpunched or punched), but many physical representations are continuous such as amount of electical charge (which is discrete if we can count individual electrons, but is noromally measured in a continuous way). The reason why we use binary interpretations even when the physical representation is continuous is to minimize the size of error regions. If a continuous representation is mapped to two discrete values, there is one error region (that surrounds the point where the value is interpreted as <code>0</code> and where it is interpreted as <code>1</code>). If we instead represented three discrete values there would be two error regions, and in general, if there are <em>n</em> discrete values we would have <em>n</em> - 1 error regions. Since our goal is to use the continuous storage efficiently, the best solution will be to have only two discrete values and to reduce the amount of contiuous charge needed as much as possible to have an acceptably low error rate.  The other reason to prefer binary representations is because it is easier to compute on binary data than on date with more than two values.</p>
+<p><strong>Algorithms.</strong> An <em>algorithm</em> that solves a problem is a method that</p>
+<ul>
+<li>Project 1 Questions</li>
+<li>Continuous Binary Representations</li>
+<li>Encryption</li>
+<li>Leaking DRAM (Cold Boot Attacks)</li>
+</ul>
+<p><a href="http://localhost:1313/post/class5"><strong>Class 5: Computing on Binary Data</strong></a> [<a href="https://www.dropbox.com/scl/fi/x904tmp7136f9nj33fy1z/cs1010-class5.pdf?rlkey=kfpdstldfmoubw725tqutuow8&amp;dl=0">Slides</a>]</p>
+<ul>
+<li>Addition Algorithms</li>
+<li>What is an <em>algorithm</em>?</li>
+<li>Binary Addition Algorithms</li>
+<li>Multiplcation</li>
+<li>0.010101010101010&hellip;</li>
+</ul>
+
+</article>
+
+        </div>
+
+        <footer class="mt-auto footer d-print-none">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <h5><a href="http://localhost:1313/">cs1010: Computing for Future Leaders and Citizens</a></h5>
+University of Virginia </br>
+Spring 2024 </br>
+<br></br>
+
+
+                    </div>
+		    <div class="col-md-4 col-xl-3">
+		      &nbsp;
+		      </div>
+                    <div class="col-md-8 col-xl-5">
+                        Except where noted, all content is released under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a> license.
+<p></p>
+<a href="https://www.cs.virginia.edu/evans">David Evans</a></br>
+<a href="mailto:evans@virginia.edu"><em>evans@virginia.edu</em></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
