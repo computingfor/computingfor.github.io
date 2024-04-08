@@ -58,10 +58,3 @@ Here's a list of things you should be able to demonstrate on the exam:
 - Understanding of how BNF grammars describe languages, and ability to determine the set of strings in a given BNF grammar, and to define a BNF grammar for a given language. ([Class 16](/post/class16), [Class 19](/post/class19), [Project 3](/project3))
 
 - Understanding of the edit distance algorithm and code, sufficient to answer questions about it. ([Class 20](/post/class20), [Class 21](/post/class21))
-
-
-
-
-)
-
-
