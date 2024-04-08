@@ -15,7 +15,7 @@ My recommendations for preparing for the exam:
 
 3. If you are okay with #1 and #2, don't be stressed about the exam. You should do well.
 
-# Review Topics
+## Review Topics
 
 Here's a list of things you should be able to demonstrate on the exam:
 
