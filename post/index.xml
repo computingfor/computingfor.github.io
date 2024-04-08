@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviewing for Exam</title>
+      <link>https://computingfor.github.io/post/examreview/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/examreview/</guid>
+      <description>There will be an Exam in class on Thursday, 11 April. The exam will be on paper, and mostly short answer questions with a mix of questions that ask for short responses to demonstrate understanding of key concepts and problems that expect you to demonstrate technical skills and understanding.&#xA;My recommendations for preparing for the exam:&#xA;Read the posted comments on Project 1, Project 2, and Project 3 (in Canvas). If there are any topics on the projects that you don&amp;rsquo;t understand after reading the comments, prioritize understanding those (and bring questions you have to the review class Tuesday).</description>
+    </item>
     <item>
       <title>Class 21: Aliignment</title>
       <link>https://computingfor.github.io/post/class21/</link>
