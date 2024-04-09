@@ -15,6 +15,8 @@ My recommendations for preparing for the exam:
 
 3. If you are okay with #1 and #2, don't be stressed about the exam. You should do well.
 
+**Notes Page.** You are permitted to bring a one-page (letter-size, single-sided) reference sheet for use during the exam, but all other resources are forbidden (no internet, textbook, other humans, magnification instruments, etc.). 
+
 ## Review Topics
 
 Here's a list of things you should be able to demonstrate on the exam:
