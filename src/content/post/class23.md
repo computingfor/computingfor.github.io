@@ -10,7 +10,7 @@ slug = "class23"
 
 Before Monday, 22 April, you should read and post a response to the discussion questions (in Canvas) this article:
 
-- Ted Chiang, [_ChatGPT Is a Blurry JPEG of the Web_](https://www.dropbox.com/scl/fi/cyqzb7wvcvq8uy9y5i40w/fuzzyjpg.pdf?rlkey=1l8r8gwznqkvk1cbtst5fsd6k&dl=0). The New Yorker, 9 February 2023. [Web link (may be paywalled)](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web) [PDF](https://www.dropbox.com/scl/fi/cyqzb7wvcvq8uy9y5i40w/fuzzyjpg.pdf?rlkey=1l8r8gwznqkvk1cbtst5fsd6k&dl=0)
+- Ted Chiang, [_ChatGPT Is a Blurry JPEG of the Web_](https://www.dropbox.com/scl/fi/cyqzb7wvcvq8uy9y5i40w/fuzzyjpg.pdf?rlkey=1l8r8gwznqkvk1cbtst5fsd6k&dl=0). The New Yorker, 9 February 2023. [[Web link (may be paywalled)](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web)] [[PDF](https://www.dropbox.com/scl/fi/cyqzb7wvcvq8uy9y5i40w/fuzzyjpg.pdf?rlkey=1l8r8gwznqkvk1cbtst5fsd6k&dl=0)]
 
 ### Slides
 
