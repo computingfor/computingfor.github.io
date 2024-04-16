@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 23: Artificial Intelligence</title>
+      <link>https://computingfor.github.io/post/class23/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class23/</guid>
+      <description>Schedule Before Monday, 22 April, you should read and post a response to the discussion questions (in Canvas) this article:&#xA;Ted Chiang, ChatGPT Is a Blurry JPEG of the Web. The New Yorker, 9 February 2023. Web link (may be paywalled) PDF Slides Class 23: Artificial Intelligence&#xA;Optional additional readings:&#xA;Claude Shannon, Programming a Computer for Playing Chess. Philosophical Magazine, March 1950. Alan M. Turing, Computing Machinery and Intelligence. Mind, October 1950.</description>
+    </item>
     <item>
       <title>Class 22: Exam Review</title>
       <link>https://computingfor.github.io/post/class22/</link>
