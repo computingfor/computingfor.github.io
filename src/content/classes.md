@@ -188,6 +188,11 @@ title="Classes"
 - Exam Questions Discussion
 - Is it AI?
 
+[**Class 24: Artificial Intelligence!**](/post/class24) [[Slides](https://www.dropbox.com/scl/fi/osiwija9ofcn1d5evc4rp/cs1010-class24.pdf?rlkey=03m9qc4fpyyoejz4501gvicv2&dl=0)]
+
+- Brief History of "Artificial Intelligence"
+- Introduction to Machine Learning
+
 </div>
 </div>
 </div>
