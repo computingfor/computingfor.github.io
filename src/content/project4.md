@@ -64,7 +64,7 @@ Image generation can produce artistic (at least to my eyes!) and sometimes usefu
 **Problem 4.** (Challenging!) Use an AI image generation tool to produce an image that contains exactly eight people. They can be doing anything you want and in any setting, but there has to be exactly eight people in the image.
 </div>
 
-(If you don't succeed at this, its okay to give up once you've made enough attempts to be convinced this is really difficulty. I've tried quite a bit but have not succeeded at getting an image with exactly 8 people in it. If you do find it too easy to satisfy this challenge, try to generate an image with a correct chess board, a soccer player taking a penalty kick, [a correct image of the Rotunda](https://dailyprogress.com/news/local/education/uva-shares-error-riddled-ai-generated-art-of-its-own-campus-to-promote-eclipse-watch/article_5ffb9838-f5f2-11ee-b15d-b77259468870.html), or any other specific thing you would like.)
+(If you don't succeed at this, its okay to give up once you've made enough attempts to be convinced this is really difficulty. I've tried quite a bit but have not succeeded at getting an image with exactly 8 people in it. If you do find it too easy to satisfy this challenge, try to generate an image showing [a soccer player taking a penalty kick](https://poe.com/s/xkPCoUAREHqawHGhiUNx), [a correct chess board](https://poe.com/s/LWs0L1vWeQl3hfHPGy63), [a correct image of the Rotunda](https://dailyprogress.com/news/local/education/uva-shares-error-riddled-ai-generated-art-of-its-own-campus-to-promote-eclipse-watch/article_5ffb9838-f5f2-11ee-b15d-b77259468870.html), or any other specific thing you would like.)
 
 <center><img src="/images/airotundaimage.webp" width="80%"><br>
 [Image from invitation to President Ryan's eclipse watch party](https://twitter.com/presjimryan/status/1777066473355182116?ref_src=twsrc%5Etfw)
@@ -81,9 +81,12 @@ Then, to create your bot you will need to provide an instruction Prompt and Know
 <div class="problem">
 
 **Problem 5.** Create an interesting augmented chat bot. Your bot should be able to do something that cannot be done as well with a good unaugmented model. 
-
-To submit this problem, you can either *demo* your bot in class on May 2 and submit a link to your bot, or you can provide a written dscription of your bot and how you built it.
 </div>
+
+To submit this problem, you can either *demo* your bot in class on May 2 and, or you can provide a written dscription of your bot and how you built it. 
+
+In addition, you should make your bot public and submit a link to your bot (in the Canvas discussion for this project), unless you have a reason to want to keep your bot private in which case you should explain why you want to keep your bot private and provide a few transcripts showing its behavior.
+
 
 
 
