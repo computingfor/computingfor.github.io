@@ -72,7 +72,7 @@ Then, to create your bot you will need to provide an instruction Prompt and Know
 <div class="problem">
 **Problem 5.** Create an interesting augmented chat bot. Your bot should be able to do something that cannot be done as well with a good unaugmented model. 
 
-To submit this problem, you can either *demo* your bot in class on May 2 and submit a link to your bot, or you can provide a written dscription of your bot and how you built it.
+To submit this problem, you can either *demo* your bot in class on Tuesday, 30 April and submit a link to your bot, or you can provide a written dscription of your bot and how you built it.
 </div>
 
 
