@@ -66,7 +66,7 @@ Image generation can produce artistic (at least to my eyes!) and sometimes usefu
 
 (If you don't succeed at this, its okay to give up once you've made enough attempts to be convinced this is really difficulty. I've tried quite a bit but have not succeeded at getting an image with exactly 8 people in it. If you do find it too easy to satisfy this challenge, try to generate an image with a correct chess board, a soccer player taking a penalty kick, [a correct image of the Rotunda](https://dailyprogress.com/news/local/education/uva-shares-error-riddled-ai-generated-art-of-its-own-campus-to-promote-eclipse-watch/article_5ffb9838-f5f2-11ee-b15d-b77259468870.html), or any other specific thing you would like.)
 
-<center><img src="/images/airoduntaimage.webp" width="80%"></center>
+<center><img src="/images/airotundaimage.webp" width="80%"></center>
 
 ## Making an Augmented Chat Bot
 
