@@ -6,8 +6,15 @@
     <description>Recent content on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 4: Generative AI</title>
+      <link>https://computingfor.github.io/project4/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/project4/</guid>
+      <description>The main goals of this project are for you to:&#xA;Gain some experience using generative AI tools and learn about their capabilities and limitations. Develop a chat bot for a domain of your choice. Collaboration and Resources. For this assignment, you may work on your own or in a team of up to three people. If you work with others, your team should turn in one assignment with all team members names on it and every team member should be fully involved and completely understand everything you submit.</description>
+    </item>
     <item>
       <title>Class 23: Artificial Intelligence</title>
       <link>https://computingfor.github.io/post/class23/</link>
@@ -121,6 +128,13 @@
       <description>Survey Here is the survey I talked about in class: https://forms.gle/t7SSm8smgwTwGwxN9&#xA;Submit it by 5:00pm tomorrow (Wednesday, 21 February).&#xA;Schedule Project 2 is due on Friday, 23 February. As mentioned in class, setting up local editing for github is a bit more complicated than expected, so it is okay to skip steps 9 and 10 and Problem 5.&#xA;Slides Class 10: Zombie Packets!&#xA;Routing on the Internet IPv4 vs. IPv6 How traceroute works?</description>
     </item>
     <item>
+      <title>Project 3</title>
+      <link>https://computingfor.github.io/project3/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/project3/</guid>
+      <description>Project 3: Programming the Web The main goals for this project are for you to:&#xA;Learn about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars. Get some experience writing your own JavaScript code. Add dynamic behavior to your website. For the first part of the assignment, you will replicate and extend the Countdown/Boom application we built in Class 15 and Class 17 (to be done on Thursday).</description>
+    </item>
+    <item>
       <title>Class 9: PageRank and Packet Pathways</title>
       <link>https://computingfor.github.io/post/class9/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
@@ -140,6 +154,13 @@
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/websites/</guid>
       <description>This post has links to some of the most awesome websites ever created, and we hope you and any crawler that happens to visit this page will enjoy them!&#xA;Watermelons and Capybaras Supper Club Tai Lung to the rescue! Anna&amp;rsquo;s Awesome Website Avocados and Oranges Snoopy and Peanuts For Wahoo Fanatics Welcome to Nashville! Angry Cats! UVA Basketball Photos! Hello! TBD Cats and Chill Study Vibes Macy&amp;rsquo;s Favorite Things Cinnamoroll Carley&amp;rsquo;s Page Stellar&amp;rsquo;s Yellow Bricks Libraries at UVA Continue if you dare&amp;hellip; The Age of Legends Abby&amp;rsquo;s Web Page Bzywan Floating Market Carley&amp;rsquo;s Pasta Stellar Yellow Athena&amp;rsquo;s Portfolio Rayehadi Alex Hotta Giraffes cha fvv Gigantic Goats Micah Brown </description>
+    </item>
+    <item>
+      <title>Project 2</title>
+      <link>https://computingfor.github.io/project2/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/project2/</guid>
+      <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
     </item>
     <item>
       <title>Class 7: Finding Needles on the Web</title>
@@ -231,20 +252,6 @@
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/welcome/</guid>
       <description>Welcome to cs1010!&#xA;This is the public course website for UVA&amp;rsquo;s cs1010 Spring 2024 course.&#xA;Our first class meeting will be on Thursday, January 18 (11:00am in Olsson Hall 009).&#xA;More material will be posted here as the beginning of the semester approaches.</description>
-    </item>
-    <item>
-      <title>Project 3</title>
-      <link>https://computingfor.github.io/project3/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/project3/</guid>
-      <description>Project 3: Programming the Web For this project, the main goal is for you to:&#xA;Learning about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars. Getting some experience writing your own JavaScript code. Adding dynamic behavior to your website. For the first part of the assignment, you will replicate and extend the Countdown/Boom application we built in Class 15 and Class 17 (to be done on Thursday).</description>
-    </item>
-    <item>
-      <title>Project 2</title>
-      <link>https://computingfor.github.io/project2/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/project2/</guid>
-      <description>Project 2: Building the Web For this project, the main goal is for you to:&#xA;Develop a good basic understanding of how the web works and how search engines find content on the web. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css). The first part of this assignment focuses on the second goal, and walks you through the steps to build your own website.</description>
     </item>
   </channel>
 </rss>

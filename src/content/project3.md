@@ -1,17 +1,17 @@
 +++
 author="David Evans"
-date= "2023-02-19"
+date= "2024-02-19"
 linktitle="project3"
 title="Project 3"
 +++
 
 # Project 3: Programming the Web
 
-For this project, the main goal is for you to:
+The main goals for this project are for you to:
 
-1. Learning about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars.
-2. Getting some experience writing your own JavaScript code.
-3. Adding dynamic behavior to your website.
+1. Learn about how computers are programmed, how programming languages are defined, and being able to read and write BNF grammars.
+2. Get some experience writing your own JavaScript code.
+3. Add dynamic behavior to your website.
 
 For the first part of the assignment, you will replicate and extend the Countdown/Boom application we built in [Class 15](/post/class15) and [Class 17](/post/class17) (to be done on Thursday). The second part is some questions about language, BNF grammar, and JavaScript programming. For the third part, you will add a photo carousel to the website you build for [Project 2](/project2). The questions part is in the middle to encourage you not to leave this until the end, but you can do Part 2 in any order.
 
