@@ -7,7 +7,7 @@ title="Project 2"
 
 # Project 2: Building the Web
 
-For this project, the main goal is for you to:
+For this project, the main goals are for you to:
 
 1. Develop a good basic understanding of how the web works and how search engines find content on the web.
 2. Create your own website, learning to use raw HTML, version control systems (github), and style sheets (css).
