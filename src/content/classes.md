@@ -193,6 +193,12 @@ title="Classes"
 - Brief History of "Artificial Intelligence"
 - Introduction to Machine Learning
 
+[**Class 25: Universal Machines and Learning Machines**] (/post/class25) [[Slides](https://www.dropbox.com/scl/fi/vhq5kqubkltd4l6yzf37k/cs1010-class25.pdf?rlkey=qujz3kajjsj71r22wgczrlzxh&dl=0)]
+
+- Turing's Machine Model
+- Universal Machines
+- Machine Learning by Modeling Neurons
+
 </div>
 </div>
 </div>

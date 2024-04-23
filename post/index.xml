@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class 25: Universal Machines and Learning Machines</title>
+      <link>https://computingfor.github.io/post/class24/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/class24/</guid>
+      <description>Schedule Project 4 is now posted and is due before the last class (10:59am, Tuesday, April 30).&#xA;Slides Class 25: Universal Machines and Learning Machines&#xA;Turing&amp;rsquo;s Machine Model Universal Machines ([Dori-Mic and the Universal Machine!(https://dori-mic.org/)]) Machine Learning by Modeling Neurons </description>
+    </item>
     <item>
       <title>Class 24: Artificial Intelligence!</title>
       <link>https://computingfor.github.io/post/class24/</link>
