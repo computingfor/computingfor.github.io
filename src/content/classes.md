@@ -48,9 +48,6 @@ title="Classes"
 - Multiplcation
 - 0.010101010101010...
 
-</div>
-<div class="col-md-6 col-sm-8">
-
 ### The Internet and the Web
 
 [**Class 6: Search**](/post/class6) [[Slides](https://www.dropbox.com/scl/fi/npm6m3iuvfwehceuczfu2/cs1010-class6.pdf?rlkey=xm47jrjjflhzqkykr6piw1g0b&dl=0)]
@@ -92,12 +89,6 @@ title="Classes"
 - Domain Names (why its good to live in Anguilla)
 
 </div>
-</div>
-
-<div class="gap"></div>
-<div class="gap"></div>
-
-<div class="row">
 <div class="col-md-6 col-sm-8">
 
 ### Trust on the Internet 
@@ -193,7 +184,7 @@ title="Classes"
 - Brief History of "Artificial Intelligence"
 - Introduction to Machine Learning
 
-[**Class 25: Universal Machines and Learning Machines**] (/post/class25) [[Slides](https://www.dropbox.com/scl/fi/vhq5kqubkltd4l6yzf37k/cs1010-class25.pdf?rlkey=qujz3kajjsj71r22wgczrlzxh&dl=0)]
+[**Class 25: Universal Machines and Learning Machines**](/post/class25) [[Slides](https://www.dropbox.com/scl/fi/vhq5kqubkltd4l6yzf37k/cs1010-class25.pdf?rlkey=qujz3kajjsj71r22wgczrlzxh&dl=0)]
 
 - Turing's Machine Model
 - Universal Machines
