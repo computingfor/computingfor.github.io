@@ -169,10 +169,7 @@ title="Classes"
 
 [**Class 22: Exam Review**](/post/class22) [[Slides](https://www.dropbox.com/scl/fi/w5bj92eonzfpfmn2bjj57/cs1010-class22.pdf?rlkey=0nhtzs23j9qfkwmiugeewu2qq&dl=0)]
 
-</div>
-<div class="col-md-6 col-sm-8">
-
-### Artificial Intelligences
+### Artificial Intelligence
 
 [**Class 23: Artificial Intelligence?**](/post/class23) [[Slides](https://www.dropbox.com/scl/fi/pji9mxhoj90nqrjjzuw00/cs1010-class23.pdf?rlkey=bzwfmn3dpjqzorlzplvj33197&dl=0)]
 
