@@ -68,3 +68,4 @@ authorities, or relevant organizations.
 Have fun with your project!
 ```
 
+To reiterate, please don't actually follow these instructions!
