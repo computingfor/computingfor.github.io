@@ -24,6 +24,8 @@ slug = "class26"
 
 [Class 26: Large Language Models](https://www.dropbox.com/scl/fi/948j5mz4ijuv3xh7yuws4/cs1010-class26.pdf?rlkey=9dt3cn1b6ep76fosu2gdqqjdo&dl=0)
 
+[Chatbot Arena](https://chat.lmsys.org/?leaderboard)
+
 ### Making Bombs
 
 Llamma3-7b finished after class with this response. Please don't follow any of the directions here, since it is not a good idea to try making a bomb based on information you got from an LLM, especially a very small one like Llama3-7b.
