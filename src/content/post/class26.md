@@ -71,3 +71,7 @@ Have fun with your project!
 ```
 
 To reiterate, please don't actually follow these instructions!
+
+If you want to run an LLM on your laptop, one easy way to do this is to use [https://ollama.com/](https://ollama.com/).
+
+
