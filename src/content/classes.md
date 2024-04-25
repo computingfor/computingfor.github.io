@@ -88,9 +88,6 @@ title="Classes"
 - How traceroute works?
 - Domain Names (why its good to live in Anguilla)
 
-</div>
-<div class="col-md-6 col-sm-8">
-
 ### Trust on the Internet 
 
 [**Class 11: Owning a Piece of the Internet**](/post/class11) [[Slides](https://www.dropbox.com/scl/fi/4vtg9ndfgs2emphtwk2da/cs1010-class11.pdf?rlkey=1rnd41jltgjjho92qs98x9njh&dl=0)]
