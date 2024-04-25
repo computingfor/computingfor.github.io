@@ -199,6 +199,10 @@ title="Classes"
 - Universal Machines
 - Machine Learning by Modeling Neurons
 
+
+[**Class 26: Large Language Models**](/post/class26) [[Slides](https://www.dropbox.com/scl/fi/948j5mz4ijuv3xh7yuws4/cs1010-class26.pdf?rlkey=9dt3cn1b6ep76fosu2gdqqjdo&dl=0)]
+
+
 </div>
 </div>
 </div>
