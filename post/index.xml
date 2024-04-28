@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviewing for Final Exam</title>
+      <link>https://computingfor.github.io/post/finalexamreview/</link>
+      <pubDate>Sun, 28 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/finalexamreview/</guid>
+      <description>This updates the Review Topics that were posted before the first exam. The first part is identical to what was posted before, with a new section added to reflect what we have done in Class 22, Class 23, Class 24, Class 25, and Class 26.&#xA;Representing Information Understanding of the different between analog and digital data interpretations, and be able to explain why nearly all computing is done on digital data.</description>
+    </item>
     <item>
       <title>Class 26: Large Language Models</title>
       <link>https://computingfor.github.io/post/class26/</link>

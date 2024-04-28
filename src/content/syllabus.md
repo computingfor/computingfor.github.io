@@ -8,7 +8,7 @@ title="Syllabus"
 <center>
 
 **UVA CS1010 Spring 2024**  
-_Computing for Future Leaders and Citizens_
+_Computing for Future Leaders and Global Citizens_
 </center>
 
 ### Course Goals
@@ -57,23 +57,17 @@ The **Course Calendar** will be maintained in Canvas to keep track of deadlines 
 
 **On-Line Discussion (including weekly news article).**  I hope the class with have a vibrant on-line discussion forum, and expect all students in the class to contribute to an engaging, respectful, and intellectually and personally rewarding discussion.  As part of this, each student in the class is expected to contribute at least once each week by either (a) posting a link to a news article that has some relevance to computing, with a comment that (1) briefly summarizes the main point of the article, (2) explains explains why you found the article interesting, and (3) asks a question you have about something in the article (good questions will be about some technical aspect or term in the article, or questioning the validity of some statement in article) or (b) respond in a meaningful way to an article that another student has posted, including an attempt to answer the question they asked. 
 
-**Projects.** There will be six or seven projects during the semester (due approximately every two weeks) that include answering questions (based on readings and classes) and doing activities to learn about and demonstrate knowledge of computing systems. Projects will combine developing foundational understanding with learning practical skills and building awareness of issues that impact users of computing systems.
+**Projects.** There will be four projects (updated from the [original syllabus](https://github.com/computingfor/computingfor.github.io/blob/db2c7390457207b79704f9ed62454e81e67f8680/src/content/syllabus.md)) during the semester that include answering questions (based on readings and classes) and doing activities to learn about and demonstrate knowledge of computing systems. Projects will combine developing foundational understanding with learning practical skills and building awareness of issues that impact users of computing systems.
 
-The details and topics of the projects will evolve during the semester, but the initial plan is below:
+The course includes these four projects:
 
-- **Project 1: Information** - how do computers store data and how is that data communicated between computers and between computers and humans.
+- [**Project 1: Information**](/project1) - how do computers store data and how is that data communicated between computers and between computers and humans.
 
-- **Project 2: Search** - how do search engines (like Google) work, and why are they sometimes so good (but sometimes very bad) at finding what we are looking for? 
+- [**Project 2: Building the Web**](/project2) - creating a website using HTML, how do search engines (like Google) work, and why are they sometimes so good (but sometimes very bad) at finding what we are looking for? 
 
-- **Project 3: Logic and Computing** - how do we make computers do what we want? 
+- [**Project 3: Programming the Web**](/project3) - programming in JavaScript to make a webpage dynamic, understanding BNF grammars
 
-- **Project 4: Interaction** - how do computers communicate and interoperate? (including using APIs to control and access computing services)
-
-- **Project 5: Security and Privacy** - security and privacy risks on the Internet, methods for protecting users and data
-
-- **Project 6: Machine Learning and Generative AI** - computing systems that learn from data, how to generative AI tools work, and how should we use them?
-
-- **Project 7: Open Curiousity** - learn or do something interesting with something you are curious about. The topic for this project will be largely open and up to students to decide.
+- [**Project 4: Generative AI**](/project4) - using LLMs and generative AI tools, building a retrieval-augmented generation bot
 
 **Exams.** There will be exams in class on **Thursday, 27 February** and **Tuesday, 9 April**.
 
