@@ -2,7 +2,7 @@
 author="David Evans"
 date= "2024-03-28"
 linktitle="projects"
-title="projects"
+title="Projects"
 +++
 
 <div class="container">
