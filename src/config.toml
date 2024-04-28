@@ -18,8 +18,8 @@ unsafe= true
 [params]
 author = ""
 shortTitle = "cs1010: Computing for ..."
-introDescription = "cs1010: Computing for Future Leaders and Citizens"
-fullTitle = "cs1010: Computing for Future Leaders and Citizens"
+introDescription = "cs1010: Computing for Future Leaders and Global Citizens"
+fullTitle = "cs1010: Computing for Future Leaders and Global Citizens"
 university = "University of Virginia"
 semester = "Spring 2024"
 
