@@ -3,7 +3,7 @@ date = "22 Apr 2024"
 draft = false
 title = "Class 25: Universal Machines and Learning Machines"
 author = "David Evans"
-slug = "class24"
+slug = "class25"
 +++
 
 ### Schedule

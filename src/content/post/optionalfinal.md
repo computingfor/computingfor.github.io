@@ -1,11 +1,9 @@
 +++
 date = "29 Apr 2024"
 draft = false
-title = "Pre-Final"
+title = "Pre-Final Exam"
 author = "David Evans"
 +++
-
-### Optional Final Information
 
 The pre-final exam is here: [prefinal.pdf](/docs/prefinal.pdf). 
 

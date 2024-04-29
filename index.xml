@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pre-Final</title>
+      <title>Pre-Final Exam</title>
       <link>https://computingfor.github.io/post/optionalfinal/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://computingfor.github.io/post/optionalfinal/</guid>
-      <description>Optional Final Information The pre-final exam is here: prefinal.pdf.&#xA;To schedule an optional final exam, select one of the open slots here: Thursday, 2 May or Friday, 3 May. You need to sign up to take a final by 4:59pm on Wednesday, 1 May.&#xA;If none of the remaining slots work for you, send me email (before 5pm on Wednesday, 1 May) with your scheduling constraints to find another time.</description>
+      <description>The pre-final exam is here: prefinal.pdf.&#xA;To schedule an optional final exam, select one of the open slots here: Thursday, 2 May or Friday, 3 May. You need to sign up to take a final by 4:59pm on Wednesday, 1 May.&#xA;If none of the remaining slots work for you, send me email (before 5pm on Wednesday, 1 May) with your scheduling constraints to find another time.&#xA;If you choose to take final, you should come with your written answers to the pre-final questions.</description>
     </item>
     <item>
       <title>Reviewing for Final Exam</title>
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>Class 25: Universal Machines and Learning Machines</title>
-      <link>https://computingfor.github.io/post/class24/</link>
+      <link>https://computingfor.github.io/post/class25/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://computingfor.github.io/post/class24/</guid>
+      <guid>https://computingfor.github.io/post/class25/</guid>
       <description>Schedule Project 4 is now posted and is due before the last class (10:59am, Tuesday, April 30).&#xA;Slides Class 25: Universal Machines and Learning Machines&#xA;Turing&amp;rsquo;s Machine Model Universal Machines ([Dori-Mic and the Universal Machine!(https://dori-mic.org/)]) Machine Learning by Modeling Neurons </description>
     </item>
     <item>
