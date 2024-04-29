@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pre-Final</title>
+      <link>https://computingfor.github.io/post/optionalfinal/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/optionalfinal/</guid>
+      <description>Optional Final Information The pre-final exam is here: prefinal.pdf.&#xA;To schedule an optional final exam, select one of the open slots here: Thursday, 2 May or Friday, 3 May. You need to sign up to take a final by 4:59pm on Wednesday, 1 May.&#xA;If none of the remaining slots work for you, send me email (before 5pm on Wednesday, 1 May) with your scheduling constraints to find another time.</description>
+    </item>
     <item>
       <title>Reviewing for Final Exam</title>
       <link>https://computingfor.github.io/post/finalexamreview/</link>
