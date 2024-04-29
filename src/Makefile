@@ -16,7 +16,7 @@ develop:
 
 github: html
 	cp -r ./public/* ../
-	cp -r docs ../docs
+	cp -r docs/* ../docs/
 	cp -r assets/images/ ../images/
 	rm -r ./public
 	git add -A :/; git commit -m "Rebuilt site" ; git push
