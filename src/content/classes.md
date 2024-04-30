@@ -187,6 +187,16 @@ title="Classes"
 
 [**Class 26: Large Language Models**](/post/class26) [[Slides](https://www.dropbox.com/scl/fi/948j5mz4ijuv3xh7yuws4/cs1010-class26.pdf?rlkey=9dt3cn1b6ep76fosu2gdqqjdo&dl=0)]
 
+- Training a Language Model
+- Tuning and RLHF
+- Limitations of Generative AI
+- Retrieval-Augmented Generation
+
+[**Class 27: Invent the Future!**](/post/class27) [[Slides](https://www.dropbox.com/scl/fi/yolep17vglo44c9rfo8v4/cs1010-class27.pdf?rlkey=k5px5azek1takxpu6tdnriojc&dl=0)]
+
+- Predicting the Future
+- Exponential Progress
+- Jobs for Human Beings
 
 </div>
 </div>
