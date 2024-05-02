@@ -15,5 +15,5 @@ slug = "class25"
 [Class 25: Universal Machines and Learning Machines](https://www.dropbox.com/scl/fi/vhq5kqubkltd4l6yzf37k/cs1010-class25.pdf?rlkey=qujz3kajjsj71r22wgczrlzxh&dl=0)
 
 - Turing's Machine Model
-- Universal Machines ([_Dori-Mic and the Universal Machine!_](https://dori-mic.org/)])
+- Universal Machines ([_Dori-Mic and the Universal Machine!_](https://dori-mic.org/))
 - Machine Learning by Modeling Neurons
