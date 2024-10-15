@@ -86,6 +86,46 @@
       
       
       <article class="post">
+        <a class="title" href="https://computingfor.github.io/post/class21/"><h2>Class 21: Aliignment</h2></a>
+        <div class="mb-3">
+        <i class="date-style"></i>&nbsp;4 Apr 2024&nbsp;
+        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+</div>
+
+        <div>
+            <h3 id="schedule">Schedule</h3>
+<p>This weeks computing news discussion is now posted, and due before class on <strong>Thursday, 4 April</strong> for even ids, and by <strong>Monday, 8 April</strong> for odd ids.</p>
+<p>There will be an <strong>Exam</strong> in class on <strong>Thursday, 11 April</strong>.</p>
+<h3 id="slides">Slides</h3>
+<p><a href="https://www.dropbox.com/scl/fi/p7n077k5nru8opwdr0kpr/cs1010-class21.pdf?rlkey=x0pxhb4cfhiis7r87n5vphclp&amp;dl=0">Class 21: Aliignment</a></p>
+<ul>
+<li>Edit distance</li>
+<li>Genome alignment</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>Here&rsquo;s the code for <a href="https://computingfor.github.io/editdistance.html">editdistance.html</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Returns the minimum number of edits (single character insert,
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// delete, or replace operations) needed to transform s into t.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">s</span> <span class="o">||</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="o">!</span><span class="nx">t</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">t</span> <span class="o">||</span> <span class="nx">t</span><span class="p">.</span><span class="nx">length</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nx">s</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">match</span> <span class="o">=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="nx">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">?</span> <span class="mi">0</span> <span class="o">:</span> <span class="mi">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">(</span><span class="nx">match</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)),</span> <span class="c1">// replace
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nx">t</span><span class="p">),</span> <span class="c1">// delete first from s (insert first in t)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                    <span class="mi">1</span> <span class="o">+</span> <span class="nx">edit_distance</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="nx">t</span><span class="p">.</span><span class="nx">substr</span><span class="p">(</span><span class="mi">1</span><span class="p">)));</span> <span class="c1">// delete first from t (insert first in s)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">assert</span><span class="p">(</span><span class="nx">False</span><span class="p">,</span> <span class="s2">&#34;Should not ever reach here!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>The version from class is <a href="https://computingfor.github.io/editdistance1.html">editdistance1.html</a>.</p>
+
+        </div>
+      </article>
+    
+      <article class="post">
         <a class="title" href="https://computingfor.github.io/post/class20/"><h2>Class 20: xz and Blackbiirds</h2></a>
         <div class="mb-3">
         <i class="date-style"></i>&nbsp;2 Apr 2024&nbsp;
@@ -411,29 +451,6 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
         </div>
       </article>
     
-      <article class="post">
-        <a class="title" href="https://computingfor.github.io/post/class12/"><h2>Class 12: Bootstrapping Trust</h2></a>
-        <div class="mb-3">
-        <i class="date-style"></i>&nbsp;27 Feb 2024&nbsp;
-        <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
-</div>
-
-        <div>
-            <h3 id="slides">Slides</h3>
-<p><a href="https://www.dropbox.com/scl/fi/qny2u7jdzp0otdqksz7vl/cs1010-class12.pdf?rlkey=l1yfovjpyt67zr9bqzoouenzi&amp;dl=0">Class 12: Bootstrapping Trust</a></p>
-<ul>
-<li>HTTP<b>S</b></li>
-<li>Requirements for Transport Layer Security</li>
-<li>Introduction to Encryption</li>
-<li>Kerckhoff&rsquo;s Principle</li>
-<li>Jefferson&rsquo;s Wheel Cipher</li>
-<li>Key Agreement over an Insecure Channel</li>
-<li>Signatures</li>
-</ul>
-
-        </div>
-      </article>
-    
     <div class="d-flex justify-content-center">
         
     <ul class="pagination pagination-default">
@@ -468,6 +485,8 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
     <h2 class="mt-4">Recent Posts</h2>
     <nav class="nav flex-column">
         
+        <a href="https://computingfor.github.io/post/spring25/" class="nav-link">Spring 2025 Class</a>
+        
         <a href="https://computingfor.github.io/post/class27/" class="nav-link">Class 27: Invent the Future!</a>
         
         <a href="https://computingfor.github.io/post/optionalfinal/" class="nav-link">Pre-Final Exam</a>
@@ -481,8 +500,6 @@ I guess you'll form your own opinion on this as the semester goes on, but my ans
         <a href="https://computingfor.github.io/post/class24/" class="nav-link">Class 24: Artificial Intelligence!</a>
         
         <a href="https://computingfor.github.io/post/class23/" class="nav-link">Class 23: Artificial Intelligence?</a>
-        
-        <a href="https://computingfor.github.io/post/class22/" class="nav-link">Class 22: Exam Review</a>
         
     </nav>
 </div>

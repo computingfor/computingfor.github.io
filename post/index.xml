@@ -6,8 +6,15 @@
     <description>Recent content in Posts on cs1010: Computing for Future Leaders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://computingfor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2025 Class</title>
+      <link>https://computingfor.github.io/post/spring25/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://computingfor.github.io/post/spring25/</guid>
+      <description>Spring 2025 Course A new version of cs1010: Computing for Future Leaders and Global Citizens will be offered in Spring 2025.&#xA;You can get an idea of what the course will be like from last year&amp;rsquo;s course website here. The syllabus and other course information will be updated here later, but feel free to reach out to me (evans@virginia.edu) with any questions.</description>
+    </item>
     <item>
       <title>Class 27: Invent the Future!</title>
       <link>https://computingfor.github.io/post/class27/</link>
