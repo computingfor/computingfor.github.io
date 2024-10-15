@@ -6,8 +6,6 @@ author = "David Evans"
 slug = "spring25"
 +++
 
-### Spring 2025 Course
-
 A new version of **cs1010: Computing for Future Leaders and Global Citizens** will be offered in Spring 2025. Meetings are scheduled for
 Tuesdays and Thursdays, 11:00am - 12:15pm in Chemical Engineering 005.
 
